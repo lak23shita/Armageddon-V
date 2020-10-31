@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:kissan_mitra/Screens/dashboard/dashboard_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'Screens/Welcome/welcome_screen.dart';
@@ -28,14 +29,13 @@ class App extends StatelessWidget {
       child: Builder(
         builder: (context) {
           return MaterialApp(
-            title: 'Kisan Mitra',
-            debugShowCheckedModeBanner: false,
-            theme: ThemeData(
-              primaryColor: kPrimaryColor,
-              scaffoldBackgroundColor: Colors.green[300],
-            ),
-            home: AuthWidget(),
-          );
+              title: 'Kisan Mitra',
+              debugShowCheckedModeBanner: false,
+              theme: ThemeData(
+                primaryColor: kPrimaryColor,
+                scaffoldBackgroundColor: Colors.green[300],
+              ),
+              home: AuthWidget());
         },
       ),
     );
