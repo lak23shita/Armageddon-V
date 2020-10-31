@@ -21,9 +21,14 @@ Future<void> main() async {
   getItInit();
   await Firebase.initializeApp();
 
-  runApp(MultiProvider(providers: [
-    Provider<AuthProvider>(create: (_) => AuthProvider()),
-  ], child: App()));
+  runApp(
+    MultiProvider(
+      providers: [
+        Provider<AuthProvider>(create: (_) => AuthProvider()),
+      ],
+      child: App(),
+    ),
+  );
 }
 
 class App extends StatefulWidget {

@@ -26,7 +26,7 @@ class CropSuggestAPI {
       map[cropNames[i]] = doubleList[i];
     }
 
-    final sorted = map.keys.toList()..sort((a, b) => map[a].compareTo(map[b]));
+    final sorted = map.keys.toList()..sort((a, b) => map[b].compareTo(map[a]));
 
     return sorted;
   }

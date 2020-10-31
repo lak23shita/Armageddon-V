@@ -10,6 +10,63 @@ class Mapping {
     "Sandy",
   ];
 
+  static const _season = [
+    "Summer",
+    "Rabi",
+    "Kharif",
+    "Kharif",
+    "Rabi",
+    "Kharif",
+    "Summer",
+    "Kharif",
+    "Summer",
+    "Kharif",
+    "Summer",
+    "Rabi",
+    "Kharif",
+    "Summer",
+    "Summer",
+    "Rabi",
+    "Summer",
+    "Rabi",
+    "Summer",
+    "Kharif",
+    "Rabi",
+    "Kharif",
+    "Kharif",
+    "Rabi",
+    "Rabi",
+    "Kharif",
+    "Summer",
+    "Summer",
+    "Kharif",
+    "Kharif",
+    "Rabi",
+    "Summer",
+    "Rabi",
+    "Kharif",
+    "Kharif",
+    "Rabi",
+    "Rabi",
+    "Kharif",
+    "Rabi",
+    "Kharif",
+    "Rabi",
+    "Rabi",
+    "Rabi",
+    "Kharif",
+    "Kharif",
+    "Kharif",
+    "Rabi",
+    "Rabi",
+    "Summer",
+    "Summer",
+    "Summer",
+    "Kharif",
+    "Summer",
+    "Rabi",
+  ];
+
   static const _state = [
     "Andaman and Nicobar Islands",
     "Andhra Pradesh",
@@ -73,6 +130,10 @@ class Mapping {
 
   int getState(String name) {
     return _state.indexOf(name);
+  }
+
+  int getSeason(String name) {
+    return _season.indexOf(name);
   }
 
   Future<List<String>> _readCSV(String file) async {

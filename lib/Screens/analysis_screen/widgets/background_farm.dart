@@ -22,8 +22,9 @@ class BackgroundFarm extends StatelessWidget {
     return Stack(
       children: [
         Positioned(
-          top: 50,
+          top: 140,
           left: 30,
+          width: 80,
           child: CircleAvatar(
             minRadius: 40,
             backgroundColor: Colors.yellow,
@@ -40,8 +41,6 @@ class BackgroundFarm extends StatelessWidget {
         Positioned(
           right: -100,
           bottom: 150,
-          height: 300,
-          width: 300,
           child: SvgPicture.asset(
             "assets/images/farm.svg",
             height: 300,
@@ -52,7 +51,7 @@ class BackgroundFarm extends StatelessWidget {
           duration: const Duration(seconds: 1),
           curve: Curves.easeOut,
           bottom: 50,
-          left: lerpDouble(-150, 50, index / size),
+          left: lerpDouble(-200, 50, index / size),
           child: SizedBox(
             height: 300,
             width: 300,
@@ -63,19 +62,18 @@ class BackgroundFarm extends StatelessWidget {
           ),
         ),
         Positioned(
-          bottom: -20,
-          height: 300,
-          width: 400,
-          child: SvgPicture.asset(
-            "assets/images/grass.svg",
+          bottom: 0,
+          height: 100,
+          width: MediaQuery.of(context).size.width,
+          child: Container(
+            color: const Color(0xFF72C08E),
           ),
         ),
         Positioned(
-          bottom: 0,
-          height: 100,
-          width: 400,
-          child: Container(
-            color: const Color(0xFF72C08E),
+          bottom: 80,
+          child: Image.asset(
+            "assets/images/grass.png",
+            width: MediaQuery.of(context).size.width,
           ),
         ),
       ],

@@ -12,6 +12,16 @@ const lightRedColor = Color(0xFFAED581);
 const USER_IMAGE =
     'https://images.unsplash.com/photo-1480813895794-e30a9241a0ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80';
 
+const List<String> SEASONS = ["Kharif", "Rabi", "Summer"];
+const List<String> ENERGY_SOURCE = [
+  "Electric Pump",
+  "Diesel Pump",
+  "Wind Pump",
+  "Solar Pump",
+  "Manual/Animal",
+  "Others"
+];
+
 // const greenGradient = LinearGradient(
 //   colors: [Colors.green[300], Colors.green[100]],
 //   // stops: [0.0, 0.5, 1.0],
