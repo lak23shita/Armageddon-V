@@ -3,22 +3,24 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:kissan_mitra/Screens/dashboard/dashboard_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'Screens/Language_selector/language_selector.dart';
-import 'Screens/analysis_screen/analysis_screen.dart';
+import 'Screens/dashboard/dashboard_screen.dart';
 import 'constants.dart';
 import 'localization/demo_localization.dart';
 import 'localization/language_constants.dart';
 import 'providers/auth_provider.dart';
+import 'utils/get_it_init.dart';
 
 Future<void> main() async {
   SystemChrome.setSystemUIOverlayStyle(
     SystemUiOverlayStyle.dark.copyWith(statusBarColor: Colors.transparent),
   );
   WidgetsFlutterBinding.ensureInitialized();
+  getItInit();
   await Firebase.initializeApp();
+
   runApp(MultiProvider(providers: [
     Provider<AuthProvider>(create: (_) => AuthProvider()),
   ], child: App()));
@@ -100,7 +102,7 @@ class AuthWidget extends StatelessWidget {
       stream: Provider.of<AuthProvider>(context, listen: false).user(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.active) {
-          if (snapshot.data != null) return AnalysisScreen();
+          if (snapshot.data != null) return DashboardScreen();
           return Languagepage();
         }
         return Scaffold(

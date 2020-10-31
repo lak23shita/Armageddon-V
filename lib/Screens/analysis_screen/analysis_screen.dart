@@ -2,11 +2,12 @@ import 'dart:ui';
 
 import 'package:flare_flutter/flare_controls.dart';
 import 'package:flutter/material.dart';
-import 'package:kissan_mitra/classes/language.dart';
-import 'package:kissan_mitra/localization/language_constants.dart';
+import 'package:kissan_mitra/services/crop_suggest_api.dart';
 
-import '../../main.dart';
+import '../../localization/language_constants.dart';
+import '../results_screen/results_screen.dart';
 import 'widgets/background_farm.dart';
+import '../../utils/get_it_init.dart';
 
 class AnalysisScreen extends StatefulWidget {
   AnalysisScreen({Key key}) : super(key: key);
@@ -16,20 +17,25 @@ class AnalysisScreen extends StatefulWidget {
 }
 
 class _AnalysisScreenState extends State<AnalysisScreen> {
-    final GlobalKey<FormState> _key = GlobalKey<FormState>();
-    void _changeLanguage(Language language) async {
-    Locale _locale = await setLocale(language.languageCode);
-    App.setLocale(context, _locale);
-    }
-  int index = 0;
+  final GlobalKey<FormState> _key = GlobalKey<FormState>();
+
+  int index = 0, size;
 
   FlareControls _controller;
 
+  static const para = [
+    "Season",
+    "Area",
+    "Last Year production",
+    "Depth of tubewell",
+    "Energy source"
+  ];
 
   @override
   void initState() {
     super.initState();
     _controller = FlareControls();
+    size = para.length;
   }
 
   @override
@@ -43,12 +49,14 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
           children: <Widget>[
             const SizedBox(height: 25),
             Text(
-              getTranslated(context, "analysis"),
-              style: TextStyle(color: Colors.white, fontSize: 60),
+              para[index],
+              textAlign: TextAlign.center,
+              style: TextStyle(color: Colors.white, fontSize: 40),
             ),
             Flexible(
               child: BackgroundFarm(
                 index: index,
+                size: size - 1,
                 controller: _controller,
               ),
             ),
@@ -84,12 +92,50 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
                         child: IconButton(
                           color: Colors.white,
                           icon: Icon(Icons.arrow_forward),
-                          onPressed: () {
-                            if (index < 7) {
+                          onPressed: () async {
+                            if (index < size - 1) {
                               setState(() {
                                 index++;
                               });
                               _controller.play("forward");
+                            } else {
+                              final res =
+                                  await locator<CropSuggestAPI>().getSuggestion(
+                                [
+                                  32,
+                                  127,
+                                  3,
+                                  185.0,
+                                  156.0,
+                                  27.53,
+                                  183.07,
+                                  1188.54,
+                                  105.57,
+                                  10107.61111,
+                                  12544.38889,
+                                  2724.555556,
+                                  1448.055556,
+                                  1051.833333,
+                                  5073.388889,
+                                  22092.66667,
+                                  0.0,
+                                  0.0,
+                                  0.0,
+                                  710.3888889,
+                                  0,
+                                  0.5542,
+                                  0.3393,
+                                  0.0238,
+                                  0.5298
+                                ],
+                              );
+
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => ResultsScreen(result: res),
+                                ),
+                              );
                             }
                           },
                         ),

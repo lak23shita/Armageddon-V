@@ -10,10 +10,11 @@ class BackgroundFarm extends StatelessWidget {
     Key key,
     @required this.index,
     @required FlareControls controller,
+    this.size,
   })  : _controller = controller,
         super(key: key);
 
-  final int index;
+  final int index, size;
   final FlareControls _controller;
 
   @override
@@ -51,7 +52,7 @@ class BackgroundFarm extends StatelessWidget {
           duration: const Duration(seconds: 1),
           curve: Curves.easeOut,
           bottom: 50,
-          left: lerpDouble(-150, 50, index / 7),
+          left: lerpDouble(-150, 50, index / size),
           child: SizedBox(
             height: 300,
             width: 300,

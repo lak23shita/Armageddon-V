@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kissan_mitra/constants.dart';
+
+import '../../constants.dart';
+import '../analysis_screen/analysis_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({Key key}) : super(key: key);
@@ -130,13 +132,21 @@ class _DashboardScreenState extends State<DashboardScreen> {
   Widget _appoinmentCard() {
     return RaisedButton(
       color: Colors.green,
-      onPressed: () {},
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => AnalysisScreen()),
+        );
+      },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-      padding: const EdgeInsets.all(0.0),
-      child: const Text(
-        'Start Analysis',
-        style: TextStyle(
-            fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
+      // padding: const EdgeInsets.all(0.0),
+      child: const Padding(
+        padding: EdgeInsets.all(15.0),
+        child: Text(
+          'Start Analysis',
+          style: TextStyle(
+              fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
+        ),
       ),
     );
   }
