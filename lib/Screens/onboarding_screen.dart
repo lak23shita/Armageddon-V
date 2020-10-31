@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:kissan_mitra/classes/language.dart';
+import 'package:kissan_mitra/localization/language_constants.dart';
 
+import '../main.dart';
 import 'Welcome/welcome_screen.dart';
+
+// import 'Welcome/welcome_screen.dart';
 
 class OnBoardingPage extends StatefulWidget {
   @override
@@ -10,6 +15,11 @@ class OnBoardingPage extends StatefulWidget {
 
 class _OnBoardingPageState extends State<OnBoardingPage> {
   final introKey = GlobalKey<IntroductionScreenState>();
+  final GlobalKey<FormState> _key = GlobalKey<FormState>();
+  void _changeLanguage(Language language) async {
+    Locale _locale = await setLocale(language.languageCode);
+    App.setLocale(context, _locale);
+  }
 
   void _onIntroEnd(context) {
     Navigator.of(context).push(
@@ -39,8 +49,8 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       key: introKey,
       pages: [
         PageViewModel(
-          title: "Planting",
-          body: "Efficient and fruitful strategies of planting.",
+          title: getTranslated(context, 'planting'),
+          body: getTranslated(context, 'first'),
           image: Padding(
             padding: const EdgeInsets.fromLTRB(0.0, 60.0, 0.0, 0.0),
             child: Image.asset("assets/images/rafiki.png",
@@ -59,8 +69,8 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           ),
         ),
         PageViewModel(
-          title: "Harvesting",
-          body: "Improved and tested ways of increasing the harvest.",
+          title: getTranslated(context, 'harvesting'),
+          body:getTranslated(context, 'second') ,
           image: Padding(
             padding: const EdgeInsets.fromLTRB(0.0, 60.0, 0.0, 0.0),
             child: Image.asset("assets/images/amico.png", height: 175.0),
@@ -78,8 +88,8 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           ),
         ),
         PageViewModel(
-          title: "Gardening",
-          body: "Analytical and meticulous schemes of gardening .",
+          title: getTranslated(context, 'gardening'),
+          body: getTranslated(context, 'third'),
           image: Padding(
             padding: const EdgeInsets.fromLTRB(0.0, 60.0, 0.0, 0.0),
             child: Image.asset("assets/images/pana.png", height: 200.0),

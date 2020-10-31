@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:kissan_mitra/classes/language.dart';
+import 'package:kissan_mitra/localization/language_constants.dart';
 import 'package:provider/provider.dart';
 
 import '../../../components/already_have_an_account_acheck.dart';
 import '../../../components/rounded_button.dart';
 import '../../../components/rounded_input_field.dart';
 import '../../../components/rounded_password_field.dart';
+import '../../../main.dart';
 import '../../../providers/auth_provider.dart';
 import '../../Login/login_screen.dart';
 import '../../analysis_screen/analysis_screen.dart';
@@ -17,6 +20,11 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> {
+  final GlobalKey<FormState> _key = GlobalKey<FormState>();
+  void _changeLanguage(Language language) async {
+    Locale _locale = await setLocale(language.languageCode);
+    App.setLocale(context, _locale);
+  }
   String name, email, password;
 
   @override
@@ -25,26 +33,23 @@ class _BodyState extends State<Body> {
     Size size = MediaQuery.of(context).size;
     return Background(
       child: SingleChildScrollView(
+        key: _key,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              "SIGNUP",
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
             SizedBox(height: size.height * 0.03),
             SvgPicture.asset(
               "assets/icons/farm.svg",
               height: size.height * 0.27,
             ),
             RoundedInputField(
-              hintText: "Enter Your Name",
+              hintText: getTranslated(context, "name_hint"),
               onChanged: (value) {
                 name = value;
               },
             ),
             RoundedInputField(
-              hintText: "Enter Your Email ID",
+              hintText: getTranslated(context, "email_hint"),
               onChanged: (value) {
                 email = value;
               },
@@ -55,7 +60,7 @@ class _BodyState extends State<Body> {
               },
             ),
             RoundedButton(
-              text: "SIGNUP",
+              text: getTranslated(context, "sign_up"),
               press: () {
                 _auth.registerWithEmailAndPassword(name, email, password).then(
                   (value) {

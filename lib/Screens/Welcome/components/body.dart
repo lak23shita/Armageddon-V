@@ -1,13 +1,26 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:kissan_mitra/classes/language.dart';
+import 'package:kissan_mitra/localization/language_constants.dart';
 
 import '../../../components/rounded_button.dart';
 import '../../../constants.dart';
+import '../../../main.dart';
 import '../../Login/login_screen.dart';
 import '../../Signup/signup_screen.dart';
 import 'background.dart';
 
-class Body extends StatelessWidget {
+class Body extends StatefulWidget {
+  @override
+  _BodyState createState() => _BodyState();
+}
+
+class _BodyState extends State<Body> {
+  final GlobalKey<FormState> _key = GlobalKey<FormState>();
+  void _changeLanguage(Language language) async {
+    Locale _locale = await setLocale(language.languageCode);
+    App.setLocale(context, _locale);
+  }
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -18,7 +31,7 @@ class Body extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "WELCOME TO KISSAN MITRA",
+              getTranslated(context, "welcome"),
               textAlign: TextAlign.center,
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
             ),
@@ -29,7 +42,7 @@ class Body extends StatelessWidget {
             ),
             SizedBox(height: size.height * 0.05),
             RoundedButton(
-              text: "LOGIN",
+              text:getTranslated(context, "login_page"),
               press: () {
                 Navigator.push(
                   context,
@@ -42,7 +55,7 @@ class Body extends StatelessWidget {
               },
             ),
             RoundedButton(
-              text: "SIGN UP",
+              text: getTranslated(context, "sign_up"),
               color: kPrimaryLightColor,
               textColor: Colors.black,
               press: () {

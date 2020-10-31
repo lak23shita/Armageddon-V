@@ -2,7 +2,10 @@ import 'dart:ui';
 
 import 'package:flare_flutter/flare_controls.dart';
 import 'package:flutter/material.dart';
+import 'package:kissan_mitra/classes/language.dart';
+import 'package:kissan_mitra/localization/language_constants.dart';
 
+import '../../main.dart';
 import 'widgets/background_farm.dart';
 
 class AnalysisScreen extends StatefulWidget {
@@ -13,9 +16,15 @@ class AnalysisScreen extends StatefulWidget {
 }
 
 class _AnalysisScreenState extends State<AnalysisScreen> {
+    final GlobalKey<FormState> _key = GlobalKey<FormState>();
+    void _changeLanguage(Language language) async {
+    Locale _locale = await setLocale(language.languageCode);
+    App.setLocale(context, _locale);
+    }
   int index = 0;
 
   FlareControls _controller;
+
 
   @override
   void initState() {
@@ -28,12 +37,13 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
     return Scaffold(
       backgroundColor: Colors.blue[100],
       body: SafeArea(
+        key: _key,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             const SizedBox(height: 25),
             Text(
-              "Analysis",
+              getTranslated(context, "analysis"),
               style: TextStyle(color: Colors.white, fontSize: 60),
             ),
             Flexible(
