@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "622429485700",
+    "firebase_url": "https://kissan-mitra-135a6.firebaseio.com",
+    "project_id": "kissan-mitra-135a6",
+    "storage_bucket": "kissan-mitra-135a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622429485700:android:0b58397d306e511155a0d1",
+        "android_client_info": {
+          "package_name": "com.av.kissanmitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622429485700-228kdku6094d5litjhus34hplgh5sb38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.av.kissanmitra",
+            "certificate_hash": "378659516c57c689c4a605baed6857726677001e"
+          }
+        },
+        {
+          "client_id": "622429485700-jlnoc5p4siqjbfhfvlg134rm6f6jbf07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8RVTRAJ8clTAGG_spdTPTkKUMvnmXwos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622429485700-jlnoc5p4siqjbfhfvlg134rm6f6jbf07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
