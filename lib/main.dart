@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:kissan_mitra/services/crop_suggest_api.dart';
 import 'package:kissan_mitra/utils/mapping.dart';
 import 'package:provider/provider.dart';
 
@@ -17,7 +18,33 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
 
-  Mapping().getCropName(53);
+  CropSuggestAPI().getSuggestion([
+    32,
+    127,
+    3,
+    185.0,
+    156.0,
+    27.53,
+    183.07,
+    1188.54,
+    105.57,
+    10107.61111,
+    12544.38889,
+    2724.555556,
+    1448.055556,
+    1051.833333,
+    5073.388889,
+    22092.66667,
+    0.0,
+    0.0,
+    0.0,
+    710.3888889,
+    0,
+    0.5542,
+    0.3393,
+    0.0238,
+    0.5298
+  ]);
 
   runApp(App());
 }

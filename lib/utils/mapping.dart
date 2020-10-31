@@ -51,6 +51,11 @@ class Mapping {
     return _cropNames[index];
   }
 
+  Future<List<String>> get crops async {
+    if (_cropNames == null) _cropNames = await _readCSV("assets/csv/crop.csv");
+    return _cropNames;
+  }
+
   Future<int> getCropIndex(String name) async {
     if (_cropNames == null) _cropNames = await _readCSV("assets/csv/crop.csv");
     return _cropNames.indexOf(name);
