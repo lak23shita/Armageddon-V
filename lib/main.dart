@@ -5,16 +5,12 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
-import 'package:kissan_mitra/localization/demo_localization.dart';
 import 'Screens/Language_selector/language_selector.dart';
-import 'Screens/Login/login_screen.dart';
-import 'Screens/Welcome/welcome_screen.dart';
 import 'Screens/analysis_screen/analysis_screen.dart';
 import 'constants.dart';
 import 'localization/demo_localization.dart';
-import 'package:kissan_mitra/localization/language_constants.dart';
+import 'localization/language_constants.dart';
 import 'providers/auth_provider.dart';
-
 
 Future<void> main() async {
   SystemChrome.setSystemUIOverlayStyle(
@@ -22,12 +18,9 @@ Future<void> main() async {
   );
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(
-      MultiProvider(
-        providers: [
-          Provider<AuthProvider>(create: (_) => AuthProvider()),
-        ],
-        child: App()));
+  runApp(MultiProvider(providers: [
+    Provider<AuthProvider>(create: (_) => AuthProvider()),
+  ], child: App()));
 }
 
 class App extends StatefulWidget {
@@ -48,6 +41,7 @@ class _AppState extends State<App> {
       _locale = locale;
     });
   }
+
   @override
   void didChangeDependencies() {
     getLocale().then((locale) {
@@ -57,6 +51,7 @@ class _AppState extends State<App> {
     });
     super.didChangeDependencies();
   }
+
   @override
   Widget build(BuildContext context) {
     if (this._locale == null) {
@@ -66,7 +61,7 @@ class _AppState extends State<App> {
               valueColor: AlwaysStoppedAnimation<Color>(Colors.blue[800])),
         ),
       );
-    }else{
+    } else {
       return MaterialApp(
         title: 'Kisan Mitra',
         debugShowCheckedModeBanner: false,
@@ -75,10 +70,7 @@ class _AppState extends State<App> {
           scaffoldBackgroundColor: Colors.green[300],
         ),
         locale: _locale,
-        supportedLocales: [
-          const Locale('en', 'US'),
-          const Locale('hi', 'IN')
-        ],
+        supportedLocales: [const Locale('en', 'US'), const Locale('hi', 'IN')],
         localizationsDelegates: [
           DemoLocalization.delegate,
           GlobalMaterialLocalizations.delegate,
@@ -96,9 +88,7 @@ class _AppState extends State<App> {
         },
         home: AuthWidget(),
       );
-
     }
-
   }
 }
 
