@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:kissan_mitra/Screens/results_screen/results_screen.dart';
+import 'package:kissan_mitra/utils/mapping.dart';
 import 'package:provider/provider.dart';
 
 import 'Screens/Welcome/welcome_screen.dart';
@@ -16,6 +16,9 @@ Future<void> main() async {
   );
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+
+  Mapping().getCropName(53);
+
   runApp(App());
 }
 
@@ -26,14 +29,18 @@ class App extends StatelessWidget {
       providers: [
         Provider<AuthProvider>(create: (_) => AuthProvider()),
       ],
-      child: MaterialApp(
-        title: 'Kisan Mitra',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primaryColor: kPrimaryColor,
-          scaffoldBackgroundColor: Colors.green[300],
-        ),
-        home: ResultsScreen(),
+      child: Builder(
+        builder: (context) {
+          return MaterialApp(
+            title: 'Kisan Mitra',
+            debugShowCheckedModeBanner: false,
+            theme: ThemeData(
+              primaryColor: kPrimaryColor,
+              scaffoldBackgroundColor: Colors.green[300],
+            ),
+            home: AuthWidget(),
+          );
+        },
       ),
     );
   }
