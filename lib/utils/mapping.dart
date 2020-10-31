@@ -1,7 +1,11 @@
+import 'dart:convert';
+
 import 'package:flutter/services.dart';
+import 'package:kissan_mitra/classes/crop_details/crop_details.dart';
 
 class Mapping {
   List<String> _cropNames, _districtName;
+  List<CropDetails> _cropDetailsList;
   static const _soil = [
     "Alluvial",
     "Black",
@@ -136,8 +140,21 @@ class Mapping {
     return _season.indexOf(name);
   }
 
+  Future<CropDetails> getCropData(int index) async {
+    if (_cropDetailsList == null) _cropDetailsList = await _getCropDetails();
+
+    return _cropDetailsList[index];
+  }
+
   Future<List<String>> _readCSV(String file) async {
     final data = await rootBundle.loadString(file);
     return data.split("\n");
+  }
+
+  Future<List<CropDetails>> _getCropDetails() async {
+    final rawData =
+        await rootBundle.loadString("assets/json/crop_details.json");
+
+    return (jsonDecode(rawData) as List).map((e) => e as CropDetails).toList();
   }
 }
