@@ -19,13 +19,13 @@ class AnalysisScreen extends StatefulWidget {
 }
 
 class _AnalysisScreenState extends State<AnalysisScreen> {
-  int index = 0, size;
+  int index = 0, _carIndex = 0, size;
   Map<InputEnum, dynamic> result = {};
   String _season = SEASONS[0];
   String _energy = ENERGY_SOURCE[0];
   String _prevKharif, _prevRabi, _prevSummer;
   double _slider = 0;
-  List<String> _crops = [];
+  List<String> _crops = [], _oldCrops = List.filled(3, "Arecanut");
 
   TextEditingController _areaController = TextEditingController();
   TextEditingController _prodController = TextEditingController();
@@ -77,7 +77,7 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
           children: <Widget>[
             Positioned.fill(
               child: BackgroundFarm(
-                index: index,
+                index: _carIndex,
                 size: size - 1,
                 controller: _controller,
               ),
@@ -111,8 +111,14 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
                         if (index > 0) {
                           setState(() {
                             index--;
+                            _carIndex--;
                           });
                           _controller.play("reverse");
+                        }
+                        if (_carIndex > size) {
+                          setState(() {
+                            _carIndex = size - 2;
+                          });
                         }
                       },
                     ),
@@ -131,9 +137,14 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
                         if (index < size - 1) {
                           setState(() {
                             index++;
+                            _carIndex++;
                           });
                           _controller.play("forward");
                         } else {
+                          setState(() {
+                            _carIndex = size + 8;
+                          });
+                          _controller.play("forward");
                           // final res =
                           //     await locator<CropSuggestAPI>().getSuggestion(
                           //   [
@@ -168,7 +179,10 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
                           // Navigator.push(
                           //   context,
                           //   MaterialPageRoute(
-                          //     builder: (_) => ResultsScreen(result: res),
+                          //     builder: (_) => ResultsScreen(
+                          //       result: res,
+                          //       oldCrops: _oldCrops,
+                          //     ),
                           //   ),
                           // );
                         }
@@ -197,11 +211,20 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
       case InputEnum.energySource:
         return _energySource();
       case InputEnum.kharifCrop:
-        return _lastCrop(5, _prevKharif, (value) => _prevKharif = value);
+        return _lastCrop(5, _prevKharif, (value) {
+          _prevKharif = value;
+          _oldCrops[0] = value;
+        });
       case InputEnum.rabiCrop:
-        return _lastCrop(6, _prevRabi, (value) => _prevRabi = value);
+        return _lastCrop(6, _prevRabi, (value) {
+          _prevRabi = value;
+          _oldCrops[1] = value;
+        });
       case InputEnum.summerCrop:
-        return _lastCrop(7, _prevSummer, (value) => _prevSummer = value);
+        return _lastCrop(7, _prevSummer, (value) {
+          _prevSummer = value;
+          _oldCrops[3] = value;
+        });
       default:
         return Container();
     }

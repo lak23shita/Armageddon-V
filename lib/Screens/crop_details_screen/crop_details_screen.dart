@@ -1,48 +1,57 @@
 import 'package:flutter/material.dart';
 
+import '../../classes/crop_details/crop_details.dart';
+import '../../utils/get_it_init.dart';
+import '../../utils/mapping.dart';
+
 class CropDetailsScreen extends StatelessWidget {
-  const CropDetailsScreen({Key key, this.name}) : super(key: key);
+  CropDetailsScreen({Key key, this.name}) : super(key: key);
   final String name;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: ListView(
-          padding: const EdgeInsets.all(15.0),
-          children: <Widget>[
-            Text(
-              name,
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 50,
-                color: Colors.white,
-              ),
-            ),
-            const SizedBox(height: 15),
-            buildRow("Area", "1000m"),
-            buildRow("Seed Rate", "10"),
-            buildRow("Spacing", "10m"),
-            buildRow("Time of sowing/planting", "Kharif"),
-            buildRow("Method of sowing", "Test"),
-            buildRow("Manure Application rate", "Go Green"),
-            buildRow("Time of application of water", "Test"),
-            buildRow(
-              "Time and method of application of nutrient",
-              "Test",
-            ),
-            buildRow("Nutrient recommendation", "test"),
-            buildRow("Weed management practice", "test"),
-            buildRow("Intercultural operations if any", "test"),
-            buildRow("Insect management", "test"),
-            buildRow("Disease management", "test"),
-            buildRow("Economic Yield", "test"),
-            buildRow("Straw yield", "test"),
-            buildRow("Cost of cultivation", "test"),
-            buildRow("Net returns", "test"),
-            buildRow("B:C ratio", "test"),
-            buildRow("Source of availability of inputs", "test"),
-            buildRow("Marketing source with price", "test"),
-          ],
+        child: FutureBuilder(
+          future: locator<Mapping>().getCropData(name),
+          builder: (context, snapshot) {
+            if (snapshot.hasError) {
+              return Center(
+                child: Text(snapshot.error.toString()),
+              );
+            } else if (snapshot.hasData) {
+              final CropDetails model = snapshot.data;
+              return ListView(
+                padding: const EdgeInsets.all(15.0),
+                children: <Widget>[
+                  Text(
+                    model.name,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 50,
+                      color: Colors.white,
+                    ),
+                  ),
+                  const SizedBox(height: 15),
+                  buildRow("Area", model.area),
+                  buildRow("Seed Rate", model.seedRate),
+                  buildRow("Spacing", model.spacing),
+                  buildRow("Time of sowing/planting", model.timeOfSowing),
+                  buildRow("Method of sowing", model.methodOfSowing),
+                  buildRow("Time of application of water", model.timeOfWater),
+                  buildRow(
+                    "Nutrient recommendation",
+                    model.nutrientRecommendation,
+                  ),
+                  buildRow("Weed management practice", model.weedManagement),
+                  buildRow("Insect management", model.insectManagement),
+                  buildRow("Disease management", model.diseaseManagement),
+                  buildRow("Straw yield", model.strawYield),
+                ],
+              );
+            }
+            return Center(child: CircularProgressIndicator());
+          },
         ),
       ),
     );
@@ -68,7 +77,7 @@ class CropDetailsScreen extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Text(
             res,
-            textAlign: TextAlign.center,
+            textAlign: TextAlign.justify,
             style: TextStyle(
               fontSize: 20,
               color: Colors.white,

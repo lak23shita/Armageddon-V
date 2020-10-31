@@ -108,17 +108,19 @@ class Mapping {
   ];
 
   Future<String> getCropName(int index) async {
-    if (_cropNames == null) _cropNames = await _readCSV("assets/csv/crop.csv");
+    if (_cropNames == null) _cropNames = await crops;
     return _cropNames[index];
   }
 
   Future<List<String>> get crops async {
     if (_cropNames == null) _cropNames = await _readCSV("assets/csv/crop.csv");
+    _cropNames.forEach((s) => print(s));
+
     return _cropNames;
   }
 
   Future<int> getCropIndex(String name) async {
-    if (_cropNames == null) _cropNames = await _readCSV("assets/csv/crop.csv");
+    if (_cropNames == null) _cropNames = await crops;
     return _cropNames.indexOf(name);
   }
 
@@ -140,9 +142,14 @@ class Mapping {
     return _season.indexOf(name);
   }
 
-  Future<CropDetails> getCropData(int index) async {
+  Future<CropDetails> getCropData(String name) async {
     if (_cropDetailsList == null) _cropDetailsList = await _getCropDetails();
-
+    int index;
+    try {
+      index = await getCropIndex(name);
+    } on RangeError {
+      throw Exception("Cannot find details");
+    }
     return _cropDetailsList[index];
   }
 
@@ -155,6 +162,8 @@ class Mapping {
     final rawData =
         await rootBundle.loadString("assets/json/crop_details.json");
 
-    return (jsonDecode(rawData) as List).map((e) => e as CropDetails).toList();
+    return (jsonDecode(rawData) as List)
+        .map((e) => CropDetails.fromJson(e))
+        .toList();
   }
 }
