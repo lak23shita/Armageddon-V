@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:kissan_mitra/classes/language.dart';
-import 'package:kissan_mitra/localization/language_constants.dart';
 
+import '../classes/language.dart';
+import '../localization/language_constants.dart';
 import '../main.dart';
+import '../utils/get_it_init.dart';
+import '../utils/location_service.dart';
 import 'Welcome/welcome_screen.dart';
 
 // import 'Welcome/welcome_screen.dart';
@@ -32,6 +34,12 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       child: Image.asset('assets/images/$assetName.jpg'),
       alignment: Alignment.bottomCenter,
     );
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    locator<LocationService>().requestLocationPerm();
   }
 
   @override
@@ -70,7 +78,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         ),
         PageViewModel(
           title: getTranslated(context, 'harvesting'),
-          body:getTranslated(context, 'second') ,
+          body: getTranslated(context, 'second'),
           image: Padding(
             padding: const EdgeInsets.fromLTRB(0.0, 60.0, 0.0, 0.0),
             child: Image.asset("assets/images/amico.png", height: 175.0),

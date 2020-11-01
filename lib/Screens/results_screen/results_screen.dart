@@ -30,10 +30,14 @@ class ResultsScreen extends StatelessWidget {
                 itemCount: 3,
                 physics: NeverScrollableScrollPhysics(),
                 itemBuilder: (context, index) => Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      SEASONS[index],
-                      style: TextStyle(color: Colors.white, fontSize: 30),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        SEASONS[index],
+                        style: TextStyle(color: Colors.white, fontSize: 20),
+                      ),
                     ),
                     Card(
                       color: Colors.green[100],
@@ -72,10 +76,14 @@ class ResultsScreen extends StatelessWidget {
                 itemCount: 3,
                 physics: NeverScrollableScrollPhysics(),
                 itemBuilder: (context, index) => Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      SEASONS[index],
-                      style: TextStyle(color: Colors.white, fontSize: 30),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        SEASONS[index],
+                        style: TextStyle(color: Colors.white, fontSize: 20),
+                      ),
                     ),
                     Card(
                       color: Colors.green[100],
@@ -98,6 +106,7 @@ class ResultsScreen extends StatelessWidget {
                   ],
                 ),
               ),
+              const SizedBox(height: 15),
             ],
           ),
         ),

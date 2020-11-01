@@ -4,7 +4,8 @@ part 'soil_type.g.dart';
 
 @JsonSerializable()
 class SoilType {
-  final String district, nitrogen, organicCarbon, phosphorus, potassium;
+  final String district;
+  final double nitrogen, organicCarbon, phosphorus, potassium;
 
   SoilType({
     this.district,

@@ -225,6 +225,42 @@ class Mapping {
     "Rabi",
   ];
 
+  static const _soilType = [
+    "Sandy",
+    "Laterite",
+    "Alluvial",
+    "Alluvial",
+    "Alluvial",
+    "Sandy",
+    "Laterite",
+    "Sandy",
+    "Laterite",
+    "Sandy",
+    "Alluvial",
+    "Alluvial",
+    "Alluvial",
+    "Black",
+    "Red",
+    "Laterite",
+    "Black",
+    "Black",
+    "Alluvial",
+    "Alluvial",
+    "Alluvial",
+    "Alluvial",
+    "Red",
+    "Laterite",
+    "Alluvial",
+    "Sandy",
+    "Alluvial",
+    "Laterite",
+    "Laterite",
+    "Alluvial",
+    "Alluvial",
+    "Alluvial",
+    "Alluvial",
+  ];
+
   String getCropName(int index) {
     return _cropNames[index];
   }
@@ -256,6 +292,9 @@ class Mapping {
   int getSeason(String name) {
     return _season.indexOf(name);
   }
+
+  int getSoilType(String state) =>
+      _soil.indexOf(_soilType[_state.indexOf(state)]);
 
   Future<CropDetails> getCropData(String cropName) async {
     if (_cropDetailsList == null) _cropDetailsList = await _getCropDetails();

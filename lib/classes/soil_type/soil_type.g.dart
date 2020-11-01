@@ -9,10 +9,10 @@ part of 'soil_type.dart';
 SoilType _$SoilTypeFromJson(Map<String, dynamic> json) {
   return SoilType(
     district: json['district'] as String,
-    nitrogen: json['nitrogen'] as String,
-    organicCarbon: json['organicCarbon'] as String,
-    phosphorus: json['phosphorus'] as String,
-    potassium: json['potassium'] as String,
+    nitrogen: (json['nitrogen'] as num)?.toDouble(),
+    organicCarbon: (json['organicCarbon'] as num)?.toDouble(),
+    phosphorus: (json['phosphorus'] as num)?.toDouble(),
+    potassium: (json['potassium'] as num)?.toDouble(),
   );
 }
 

@@ -1,13 +1,15 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:kissan_mitra/utils/mapping.dart';
+
+import '../utils/get_it_init.dart';
+import '../utils/mapping.dart';
 
 const String url =
     "https://b2gy3pmi6h.execute-api.us-east-2.amazonaws.com/prod/crop";
 
 class CropSuggestAPI {
-  Mapping mapping = Mapping();
+  final mapping = locator<Mapping>();
   getSuggestion(List<double> data) async {
     final listString = data.toString();
     final finalData =
@@ -20,7 +22,7 @@ class CropSuggestAPI {
     final listData = json.decode(res.body) as List;
     final doubleList = listData.map((e) => e as double).toList();
 
-    final cropNames = await mapping.crops;
+    final cropNames = mapping.crops;
     Map<String, double> map = {};
     for (int i = 0; i < cropNames.length; i++) {
       map[cropNames[i]] = doubleList[i];

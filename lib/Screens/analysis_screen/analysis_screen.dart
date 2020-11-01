@@ -142,53 +142,7 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
                           });
                           _controller.play("forward");
                         } else {
-                          setState(() {
-                            _carIndex = size + 8;
-                          });
-                          _controller.play("forward");
-                          final res =
-                              await locator<CropSuggestAPI>().getSuggestion(
-                            [
-                              32,
-                              127,
-                              3,
-                              185.0,
-                              156.0,
-                              27.53,
-                              183.07,
-                              1188.54,
-                              105.57,
-                              10107.61111,
-                              12544.38889,
-                              2724.555556,
-                              1448.055556,
-                              1051.833333,
-                              5073.388889,
-                              22092.66667,
-                              0.0,
-                              0.0,
-                              0.0,
-                              710.3888889,
-                              0,
-                              0.5542,
-                              0.3393,
-                              0.0238,
-                              0.5298
-                            ],
-                          );
-
-                          final topCrop = locator<DataModifier>()
-                              .getTopResult(res, _oldCrops);
-
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (_) => ResultsScreen(
-                                result: topCrop,
-                                oldCrops: _oldCrops,
-                              ),
-                            ),
-                          );
+                          await calculateResultNPush(context);
                         }
                       },
                     ),
@@ -197,6 +151,28 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
               ),
             ),
           ],
+        ),
+      ),
+    );
+  }
+
+  Future calculateResultNPush(BuildContext context) async {
+    setState(() {
+      _carIndex = size + 8;
+    });
+    _controller.play("forward");
+    final res = await locator<CropSuggestAPI>().getSuggestion(
+      await locator<DataModifier>().getParameters(result),
+    );
+
+    final topCrop = locator<DataModifier>().getTopResult(res, _oldCrops);
+
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => ResultsScreen(
+          result: topCrop,
+          oldCrops: _oldCrops,
         ),
       ),
     );
