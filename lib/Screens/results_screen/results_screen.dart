@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../constants.dart';
 import '../crop_details_screen/crop_details_screen.dart';
 
 class ResultsScreen extends StatelessWidget {
@@ -28,23 +29,31 @@ class ResultsScreen extends StatelessWidget {
                 shrinkWrap: true,
                 itemCount: 3,
                 physics: NeverScrollableScrollPhysics(),
-                itemBuilder: (context, index) => Card(
-                  color: Colors.green[100],
-                  elevation: 5,
-                  child: ListTile(
-                    onTap: () => Navigator.push(
-                      context,
-                      CupertinoPageRoute(
-                        builder: (_) => CropDetailsScreen(
-                          name: oldCrops[index],
+                itemBuilder: (context, index) => Column(
+                  children: [
+                    Text(
+                      SEASONS[index],
+                      style: TextStyle(color: Colors.white, fontSize: 30),
+                    ),
+                    Card(
+                      color: Colors.green[100],
+                      elevation: 5,
+                      child: ListTile(
+                        onTap: () => Navigator.push(
+                          context,
+                          CupertinoPageRoute(
+                            builder: (_) => CropDetailsScreen(
+                              name: oldCrops[index],
+                            ),
+                          ),
+                        ),
+                        title: Text(
+                          oldCrops[index],
+                          textAlign: TextAlign.center,
                         ),
                       ),
                     ),
-                    title: Text(
-                      oldCrops[index],
-                      textAlign: TextAlign.center,
-                    ),
-                  ),
+                  ],
                 ),
               ),
               Padding(
@@ -62,23 +71,31 @@ class ResultsScreen extends StatelessWidget {
                 shrinkWrap: true,
                 itemCount: 3,
                 physics: NeverScrollableScrollPhysics(),
-                itemBuilder: (context, index) => Card(
-                  color: Colors.green[100],
-                  elevation: 5,
-                  child: ListTile(
-                    onTap: () => Navigator.push(
-                      context,
-                      CupertinoPageRoute(
-                        builder: (_) => CropDetailsScreen(
-                          name: result[index],
+                itemBuilder: (context, index) => Column(
+                  children: [
+                    Text(
+                      SEASONS[index],
+                      style: TextStyle(color: Colors.white, fontSize: 30),
+                    ),
+                    Card(
+                      color: Colors.green[100],
+                      elevation: 5,
+                      child: ListTile(
+                        onTap: () => Navigator.push(
+                          context,
+                          CupertinoPageRoute(
+                            builder: (_) => CropDetailsScreen(
+                              name: result[index],
+                            ),
+                          ),
+                        ),
+                        title: Text(
+                          result[index],
+                          textAlign: TextAlign.center,
                         ),
                       ),
                     ),
-                    title: Text(
-                      result[index],
-                      textAlign: TextAlign.center,
-                    ),
-                  ),
+                  ],
                 ),
               ),
             ],
