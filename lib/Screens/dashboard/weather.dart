@@ -19,7 +19,7 @@ class _WeatherAppState extends State<WeatherApp> {
   String location = 'Mumbai';
   int woeid = 12586539;
   String weather = 'clear';
-  String abbreviation = '';
+  String abbreviation = 'c';
   var abbreviationForecast = new List(7);
   String errorMessage = '';
 
@@ -190,7 +190,7 @@ class _WeatherAppState extends State<WeatherApp> {
                             for (var i = 0; i < 7; i++)
                               forecastElement(
                                   i + 1,
-                                  abbreviationForecast[i],
+                                  abbreviationForecast[i] ?? "c",
                                   minTemperatureForecast[i],
                                   maxTemperatureForecast[i]),
                           ],
