@@ -2,13 +2,15 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-import '../classes/crop_details/crop_details.dart';
 import '../classes/soil_type/soil_type.dart';
+import '../classes/crop_details/crop_details.dart';
+import '../classes/rainfall_details/rainfall_details.dart';
 
 class Mapping {
   List<String> _districtName;
   List<CropDetails> _cropDetailsList;
   List<SoilType> _soilTypeList;
+  List<RainfallDetails> _rainfallList;
 
   static const _soil = [
     "Alluvial",
@@ -304,7 +306,15 @@ class Mapping {
   Future<SoilType> getSoilTypeDetail(String district) async {
     if (_soilTypeList == null) _soilTypeList = await _getSoilDetails();
 
-    return _soilTypeList.firstWhere((soil) => soil.district == district);
+    return _soilTypeList.firstWhere(
+      (soil) => soil.district.toLowerCase() == district.toLowerCase(),
+    );
+  }
+
+  Future<RainfallDetails> getRainFallDetail(String state) async {
+    if (_rainfallList == null) _rainfallList = await _getRailFallDetails();
+
+    return _rainfallList[_state.indexOf(state)];
   }
 
   Future<List<String>> _readCSV(String file) async {
@@ -326,6 +336,14 @@ class Mapping {
 
     return (jsonDecode(rawData) as List)
         .map((e) => SoilType.fromJson(e))
+        .toList();
+  }
+
+  Future<List<RainfallDetails>> _getRailFallDetails() async {
+    final rawData = await rootBundle.loadString("assets/json/rainfall.json");
+
+    return (jsonDecode(rawData) as List)
+        .map((e) => RainfallDetails.fromJson(e))
         .toList();
   }
 }

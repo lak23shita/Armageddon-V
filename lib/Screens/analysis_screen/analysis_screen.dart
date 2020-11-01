@@ -203,7 +203,7 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
       case InputEnum.summerCrop:
         return _lastCrop(7, _prevSummer, (value) {
           _prevSummer = value;
-          _oldCrops[3] = value;
+          _oldCrops[2] = value;
         });
       default:
         return Container();

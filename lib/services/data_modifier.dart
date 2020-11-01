@@ -30,9 +30,12 @@ class DataModifier {
     res[2] = analysis[InputEnum.season].toDouble();
     res[3] = analysis[InputEnum.area].toDouble();
     res[4] = analysis[InputEnum.production].toDouble();
-    final rain = await locator<WeatherData>().getRainFallData();
-    for (int i = 5; i <= 8; i++) res[i] = rain[i - 5];
-
+    // final rain = await locator<WeatherData>().getRainFallData();
+    final rain = await _mapping.getRainFallDetail(state);
+    res[5] = rain.janFeb;
+    res[6] = rain.marMay;
+    res[7] = rain.junSep;
+    res[8] = rain.octDec;
     final depth = analysis[InputEnum.depthOftubeWell];
     for (int i = 9; i <= 13; i++) if (i == depth + 9) res[i] = 1;
     final energy = analysis[InputEnum.energySource];

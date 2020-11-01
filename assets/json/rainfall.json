@@ -1,0 +1,233 @@
+[
+    {
+        "stateName": "Andaman and Nicobar Islands",
+        "janFeb": 106.13,
+        "marMay": 531.89,
+        "junSep": 1794.44,
+        "octDec": 650.92
+    },
+    {
+        "stateName": "Andhra Pradesh",
+        "janFeb": 14.505,
+        "marMay": 86.49,
+        "junSep": 757.87,
+        "octDec": 173.32
+    },
+    {
+        "stateName": "Arunachal Pradesh",
+        "janFeb": 90.48,
+        "marMay": 616.6,
+        "junSep": 1641.61,
+        "octDec": 149.14
+    },
+    {
+        "stateName": "Assam",
+        "janFeb": 29.86,
+        "marMay": 527.39,
+        "junSep": 1574.93,
+        "octDec": 129.54
+    },
+    {
+        "stateName": "Bihar",
+        "janFeb": 19.19,
+        "marMay": 94.56,
+        "junSep": 883.54,
+        "octDec": 52.94
+    },
+    {
+        "stateName": "Chandigarh",
+        "janFeb": 26.5,
+        "marMay": 47.93,
+        "junSep": 378.92,
+        "octDec": 9.56
+    },
+    {
+        "stateName": "Chhattisgarh",
+        "janFeb": 17.29,
+        "marMay": 44.36,
+        "junSep": 1120.31,
+        "octDec": 64.72
+    },
+    {
+        "stateName": "Dadra and Nagar Haveli",
+        "janFeb": 0.67,
+        "marMay": 2.2,
+        "junSep": 631.73,
+        "octDec": 14.47
+    },
+    {
+        "stateName": "Goa",
+        "janFeb": 1.94,
+        "marMay": 41.76,
+        "junSep": 2950.37,
+        "octDec": 176.49
+    },
+    {
+        "stateName": "Gujarat",
+        "janFeb": 0.95,
+        "marMay": 2.47,
+        "junSep": 913.12,
+        "octDec": 18.44
+    },
+    {
+        "stateName": "Haryana",
+        "janFeb": 26.5,
+        "marMay": 47.93,
+        "junSep": 378.92,
+        "octDec": 9.56
+    },
+    {
+        "stateName": "Himachal Pradesh",
+        "janFeb": 164.46,
+        "marMay": 191.05,
+        "junSep": 683.89,
+        "octDec": 68.03
+    },
+    {
+        "stateName": "Jammu and Kashmir",
+        "janFeb": 216.22,
+        "marMay": 255.19,
+        "junSep": 504.21,
+        "octDec": 93.67
+    },
+    {
+        "stateName": "Jharkhand",
+        "janFeb": 22.06,
+        "marMay": 86.74,
+        "junSep": 1000.81,
+        "octDec": 75.08
+    },
+    {
+        "stateName": "Karnataka",
+        "janFeb": 7.823333,
+        "marMay": 153.4367,
+        "junSep": 1466.257,
+        "octDec": 202.41
+    },
+    {
+        "stateName": "Kerala",
+        "janFeb": 22.24,
+        "marMay": 375.61,
+        "junSep": 2042.55,
+        "octDec": 506.14
+    },
+    {
+        "stateName": "Madhya Pradesh",
+        "janFeb": 9.41,
+        "marMay": 31.69,
+        "junSep": 985.9,
+        "octDec": 52.17
+    },
+    {
+        "stateName": "Maharashtra",
+        "janFeb": 4.7075,
+        "marMay": 32.6925,
+        "junSep": 1340.21,
+        "octDec": 94.3925
+    },
+    {
+        "stateName": "Manipur",
+        "janFeb": 23.96,
+        "marMay": 426.59,
+        "junSep": 1297.58,
+        "octDec": 160.5
+    },
+    {
+        "stateName": "Meghalaya",
+        "janFeb": 29.86,
+        "marMay": 527.39,
+        "junSep": 1574.93,
+        "octDec": 129.54
+    },
+    {
+        "stateName": "Mizoram",
+        "janFeb": 23.96,
+        "marMay": 426.59,
+        "junSep": 1297.58,
+        "octDec": 160.5
+    },
+    {
+        "stateName": "Nagaland",
+        "janFeb": 23.96,
+        "marMay": 426.59,
+        "junSep": 1297.58,
+        "octDec": 160.5
+    },
+    {
+        "stateName": "Odisha",
+        "janFeb": 20.51,
+        "marMay": 108.23,
+        "junSep": 1214.91,
+        "octDec": 120.7
+    },
+    {
+        "stateName": "Puducherry",
+        "janFeb": 16.82,
+        "marMay": 148.2,
+        "junSep": 313.6,
+        "octDec": 485.79
+    },
+    {
+        "stateName": "Punjab",
+        "janFeb": 40.16,
+        "marMay": 53.13,
+        "junSep": 433.56,
+        "octDec": 18.28
+    },
+    {
+        "stateName": "Rajasthan",
+        "janFeb": 10.17,
+        "marMay": 23.55,
+        "junSep": 470.12,
+        "octDec": 9.34
+    },
+    {
+        "stateName": "Sikkim",
+        "janFeb": 37.06,
+        "marMay": 453.09,
+        "junSep": 1867.62,
+        "octDec": 124.81
+    },
+    {
+        "stateName": "Tamil Nadu",
+        "janFeb": 16.82,
+        "marMay": 148.2,
+        "junSep": 313.6,
+        "octDec": 485.79
+    },
+    {
+        "stateName": "Telangana",
+        "janFeb": 10.49,
+        "marMay": 68.49,
+        "junSep": 797.64,
+        "octDec": 82.19
+    },
+    {
+        "stateName": "Tripura",
+        "janFeb": 23.96,
+        "marMay": 426.59,
+        "junSep": 1297.58,
+        "octDec": 160.5
+    },
+    {
+        "stateName": "Uttar Pradesh",
+        "janFeb": 29.415,
+        "marMay": 33.915,
+        "junSep": 596.79,
+        "octDec": 29.865
+    },
+    {
+        "stateName": "Uttarakhand",
+        "janFeb": 104.02,
+        "marMay": 150.1,
+        "junSep": 1081.36,
+        "octDec": 44.3
+    },
+    {
+        "stateName": "West Bengal",
+        "janFeb": 27.53,
+        "marMay": 183.07,
+        "junSep": 1188.54,
+        "octDec": 105.57
+    }
+]

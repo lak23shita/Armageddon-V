@@ -1,4573 +1,4573 @@
 [
     {
         "district": "24 Paraganas North",
-        "nitrogen": "0.596",
-        "organicCarbon": "0.5959",
-        "phosphorus": "0",
-        "potassium": "0.0606"
+        "nitrogen": 0.596,
+        "organicCarbon": 0.5959,
+        "phosphorus": 0,
+        "potassium": 0.0606
     },
     {
         "district": "24 Paraganas South",
-        "nitrogen": "0.2752",
-        "organicCarbon": "0.2547",
-        "phosphorus": "0.066",
-        "potassium": "0.2137"
+        "nitrogen": 0.2752,
+        "organicCarbon": 0.2547,
+        "phosphorus": 0.066,
+        "potassium": 0.2137
     },
     {
         "district": "Adilabad",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Agar Malwa",
-        "nitrogen": "0.7815",
-        "organicCarbon": "0.6807",
-        "phosphorus": "0.9075",
-        "potassium": "0.0168"
+        "nitrogen": 0.7815,
+        "organicCarbon": 0.6807,
+        "phosphorus": 0.9075,
+        "potassium": 0.0168
     },
     {
         "district": "Agra",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0.5"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0.5
     },
     {
         "district": "Ahmadabad",
-        "nitrogen": "0.9998",
-        "organicCarbon": "0.329",
-        "phosphorus": "0.3256",
-        "potassium": "0.2002"
+        "nitrogen": 0.9998,
+        "organicCarbon": 0.329,
+        "phosphorus": 0.3256,
+        "potassium": 0.2002
     },
     {
         "district": "Ahmednagar",
-        "nitrogen": "1",
-        "organicCarbon": "0.3091",
-        "phosphorus": "0.2182",
-        "potassium": "0.0364"
+        "nitrogen": 1,
+        "organicCarbon": 0.3091,
+        "phosphorus": 0.2182,
+        "potassium": 0.0364
     },
     {
         "district": "Aizawl",
-        "nitrogen": "0.0108",
-        "organicCarbon": "0.6151",
-        "phosphorus": "0.9968",
-        "potassium": "0.204"
+        "nitrogen": 0.0108,
+        "organicCarbon": 0.6151,
+        "phosphorus": 0.9968,
+        "potassium": 0.204
     },
     {
         "district": "Ajmer",
-        "nitrogen": "1",
-        "organicCarbon": "0.8682",
-        "phosphorus": "0.313",
-        "potassium": "0.0857"
+        "nitrogen": 1,
+        "organicCarbon": 0.8682,
+        "phosphorus": 0.313,
+        "potassium": 0.0857
     },
     {
         "district": "Akola",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Alappuzha",
-        "nitrogen": "0",
-        "organicCarbon": "0.2352",
-        "phosphorus": "0.2353",
-        "potassium": "0.6176"
+        "nitrogen": 0,
+        "organicCarbon": 0.2352,
+        "phosphorus": 0.2353,
+        "potassium": 0.6176
     },
     {
         "district": "Aligarh",
-        "nitrogen": "0.95",
-        "organicCarbon": "1",
-        "phosphorus": "0.9",
-        "potassium": "0.1"
+        "nitrogen": 0.95,
+        "organicCarbon": 1,
+        "phosphorus": 0.9,
+        "potassium": 0.1
     },
     {
         "district": "Alipurduar",
-        "nitrogen": "0.7826",
-        "organicCarbon": "0.2791",
-        "phosphorus": "0.0353",
-        "potassium": "0.4651"
+        "nitrogen": 0.7826,
+        "organicCarbon": 0.2791,
+        "phosphorus": 0.0353,
+        "potassium": 0.4651
     },
     {
         "district": "Alirajpur",
-        "nitrogen": "0",
-        "organicCarbon": "0.0112",
-        "phosphorus": "1",
-        "potassium": "0.324"
+        "nitrogen": 0,
+        "organicCarbon": 0.0112,
+        "phosphorus": 1,
+        "potassium": 0.324
     },
     {
         "district": "Allahabad",
-        "nitrogen": "0.9736",
-        "organicCarbon": "0.9573",
-        "phosphorus": "0.9647",
-        "potassium": "0.054"
+        "nitrogen": 0.9736,
+        "organicCarbon": 0.9573,
+        "phosphorus": 0.9647,
+        "potassium": 0.054
     },
     {
         "district": "Almora",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Alwar",
-        "nitrogen": "1",
-        "organicCarbon": "0.982",
-        "phosphorus": "0.1286",
-        "potassium": "0.193"
+        "nitrogen": 1,
+        "organicCarbon": 0.982,
+        "phosphorus": 0.1286,
+        "potassium": 0.193
     },
     {
         "district": "Ambala",
-        "nitrogen": "0",
-        "organicCarbon": "0.9978",
-        "phosphorus": "0.0353",
-        "potassium": "0.5876"
+        "nitrogen": 0,
+        "organicCarbon": 0.9978,
+        "phosphorus": 0.0353,
+        "potassium": 0.5876
     },
     {
         "district": "Ambedkar Nagar",
-        "nitrogen": "0.9992",
-        "organicCarbon": "0.9819",
-        "phosphorus": "0.9778",
-        "potassium": "0.3796"
+        "nitrogen": 0.9992,
+        "organicCarbon": 0.9819,
+        "phosphorus": 0.9778,
+        "potassium": 0.3796
     },
     {
         "district": "Amethi",
-        "nitrogen": "0.963",
-        "organicCarbon": "0.963",
-        "phosphorus": "1",
-        "potassium": "0.0741"
+        "nitrogen": 0.963,
+        "organicCarbon": 0.963,
+        "phosphorus": 1,
+        "potassium": 0.0741
     },
     {
         "district": "Amravati",
-        "nitrogen": "0.75",
-        "organicCarbon": "0.75",
-        "phosphorus": "0.1667",
-        "potassium": "0.0833"
+        "nitrogen": 0.75,
+        "organicCarbon": 0.75,
+        "phosphorus": 0.1667,
+        "potassium": 0.0833
     },
     {
         "district": "Amreli",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Amritsar",
-        "nitrogen": "1",
-        "organicCarbon": "0.9105",
-        "phosphorus": "0.8152",
-        "potassium": "0.5745"
+        "nitrogen": 1,
+        "organicCarbon": 0.9105,
+        "phosphorus": 0.8152,
+        "potassium": 0.5745
     },
     {
         "district": "Amroha",
-        "nitrogen": "0.9981",
-        "organicCarbon": "0.9116",
-        "phosphorus": "0.9327",
-        "potassium": "0.2408"
+        "nitrogen": 0.9981,
+        "organicCarbon": 0.9116,
+        "phosphorus": 0.9327,
+        "potassium": 0.2408
     },
     {
         "district": "Anand",
-        "nitrogen": "0.6315",
-        "organicCarbon": "0.4769",
-        "phosphorus": "0.0048",
-        "potassium": "0.0463"
+        "nitrogen": 0.6315,
+        "organicCarbon": 0.4769,
+        "phosphorus": 0.0048,
+        "potassium": 0.0463
     },
     {
         "district": "Anantapur",
-        "nitrogen": "1",
-        "organicCarbon": "0.5",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.5,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Anantnag",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0.5"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0.5
     },
     {
         "district": "Anjaw",
-        "nitrogen": "0.0011",
-        "organicCarbon": "0.0017",
-        "phosphorus": "0.9708",
-        "potassium": "0.6048"
+        "nitrogen": 0.0011,
+        "organicCarbon": 0.0017,
+        "phosphorus": 0.9708,
+        "potassium": 0.6048
     },
     {
         "district": "Anugul",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0.6666",
-        "potassium": "0.3333"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0.6666,
+        "potassium": 0.3333
     },
     {
         "district": "Anuppur",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Araria",
-        "nitrogen": "0.7282",
-        "organicCarbon": "0.5825",
-        "phosphorus": "0.7508",
-        "potassium": "0.2362"
+        "nitrogen": 0.7282,
+        "organicCarbon": 0.5825,
+        "phosphorus": 0.7508,
+        "potassium": 0.2362
     },
     {
         "district": "Aravalli",
-        "nitrogen": "1",
-        "organicCarbon": "0.4309",
-        "phosphorus": "0.1656",
-        "potassium": "0.3715"
+        "nitrogen": 1,
+        "organicCarbon": 0.4309,
+        "phosphorus": 0.1656,
+        "potassium": 0.3715
     },
     {
         "district": "Ariyalur",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Arwal",
-        "nitrogen": "0.3542",
-        "organicCarbon": "0.7708",
-        "phosphorus": "0.625",
-        "potassium": "0.0833"
+        "nitrogen": 0.3542,
+        "organicCarbon": 0.7708,
+        "phosphorus": 0.625,
+        "potassium": 0.0833
     },
     {
         "district": "Ashoknagar",
-        "nitrogen": "0.8677",
-        "organicCarbon": "0.1981",
-        "phosphorus": "0.5979",
-        "potassium": "0.1075"
+        "nitrogen": 0.8677,
+        "organicCarbon": 0.1981,
+        "phosphorus": 0.5979,
+        "potassium": 0.1075
     },
     {
         "district": "Auraiya",
-        "nitrogen": "0.9767",
-        "organicCarbon": "0.9768",
-        "phosphorus": "0.9535",
-        "potassium": "0.093"
+        "nitrogen": 0.9767,
+        "organicCarbon": 0.9768,
+        "phosphorus": 0.9535,
+        "potassium": 0.093
     },
     {
         "district": "Aurangabad",
-        "nitrogen": "0.1191",
-        "organicCarbon": "0.2384",
-        "phosphorus": "0.2901",
-        "potassium": "0.0363"
+        "nitrogen": 0.1191,
+        "organicCarbon": 0.2384,
+        "phosphorus": 0.2901,
+        "potassium": 0.0363
     },
     {
         "district": "Aurangabad",
-        "nitrogen": "0.5099",
-        "organicCarbon": "0.625",
-        "phosphorus": "0.4442",
-        "potassium": "0.0366"
+        "nitrogen": 0.5099,
+        "organicCarbon": 0.625,
+        "phosphorus": 0.4442,
+        "potassium": 0.0366
     },
     {
         "district": "Azamgarh",
-        "nitrogen": "0.9983",
-        "organicCarbon": "0.9864",
-        "phosphorus": "0.9887",
-        "potassium": "0.0255"
+        "nitrogen": 0.9983,
+        "organicCarbon": 0.9864,
+        "phosphorus": 0.9887,
+        "potassium": 0.0255
     },
     {
         "district": "Badgam",
-        "nitrogen": "0.2867",
-        "organicCarbon": "0.0578",
-        "phosphorus": "0.3794",
-        "potassium": "0.0997"
+        "nitrogen": 0.2867,
+        "organicCarbon": 0.0578,
+        "phosphorus": 0.3794,
+        "potassium": 0.0997
     },
     {
         "district": "Bagalkot",
-        "nitrogen": "0.416",
-        "organicCarbon": "0.4491",
-        "phosphorus": "0.4896",
-        "potassium": "0.0336"
+        "nitrogen": 0.416,
+        "organicCarbon": 0.4491,
+        "phosphorus": 0.4896,
+        "potassium": 0.0336
     },
     {
         "district": "Bageshwar",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0.125"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0.125
     },
     {
         "district": "Baghpat",
-        "nitrogen": "0.9953",
-        "organicCarbon": "0.8167",
-        "phosphorus": "0.9351",
-        "potassium": "0.3125"
+        "nitrogen": 0.9953,
+        "organicCarbon": 0.8167,
+        "phosphorus": 0.9351,
+        "potassium": 0.3125
     },
     {
         "district": "Bahraich",
-        "nitrogen": "0.9993",
-        "organicCarbon": "0.9411",
-        "phosphorus": "0.9362",
-        "potassium": "0.586"
+        "nitrogen": 0.9993,
+        "organicCarbon": 0.9411,
+        "phosphorus": 0.9362,
+        "potassium": 0.586
     },
     {
         "district": "Baksa",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Balaghat",
-        "nitrogen": "0.3441",
-        "organicCarbon": "0.2263",
-        "phosphorus": "0.5228",
-        "potassium": "0.2187"
+        "nitrogen": 0.3441,
+        "organicCarbon": 0.2263,
+        "phosphorus": 0.5228,
+        "potassium": 0.2187
     },
     {
         "district": "Balangir",
-        "nitrogen": "1",
-        "organicCarbon": "0.1572",
-        "phosphorus": "0.8547",
-        "potassium": "0.1391"
+        "nitrogen": 1,
+        "organicCarbon": 0.1572,
+        "phosphorus": 0.8547,
+        "potassium": 0.1391
     },
     {
         "district": "Baleshwar",
-        "nitrogen": "1",
-        "organicCarbon": "0.972",
-        "phosphorus": "0.8712",
-        "potassium": "0.9348"
+        "nitrogen": 1,
+        "organicCarbon": 0.972,
+        "phosphorus": 0.8712,
+        "potassium": 0.9348
     },
     {
         "district": "Ballia",
-        "nitrogen": "0.999",
-        "organicCarbon": "0.915",
-        "phosphorus": "0.9954",
-        "potassium": "0.0062"
+        "nitrogen": 0.999,
+        "organicCarbon": 0.915,
+        "phosphorus": 0.9954,
+        "potassium": 0.0062
     },
     {
         "district": "Balod",
-        "nitrogen": "0.9874",
-        "organicCarbon": "0.1635",
-        "phosphorus": "0.1635",
-        "potassium": "0.327"
+        "nitrogen": 0.9874,
+        "organicCarbon": 0.1635,
+        "phosphorus": 0.1635,
+        "potassium": 0.327
     },
     {
         "district": "Baloda Bazar",
-        "nitrogen": "0.9167",
-        "organicCarbon": "0.2084",
-        "phosphorus": "0.2917",
-        "potassium": "0.0417"
+        "nitrogen": 0.9167,
+        "organicCarbon": 0.2084,
+        "phosphorus": 0.2917,
+        "potassium": 0.0417
     },
     {
         "district": "Balrampur",
-        "nitrogen": "0.4805",
-        "organicCarbon": "0.5623",
-        "phosphorus": "0.3264",
-        "potassium": "0.0085"
+        "nitrogen": 0.4805,
+        "organicCarbon": 0.5623,
+        "phosphorus": 0.3264,
+        "potassium": 0.0085
     },
     {
         "district": "Balrampur",
-        "nitrogen": "0.8139",
-        "organicCarbon": "0.9535",
-        "phosphorus": "1",
-        "potassium": "0.3721"
+        "nitrogen": 0.8139,
+        "organicCarbon": 0.9535,
+        "phosphorus": 1,
+        "potassium": 0.3721
     },
     {
         "district": "Banas Kantha",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0.2308",
-        "potassium": "0.0385"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0.2308,
+        "potassium": 0.0385
     },
     {
         "district": "Banda",
-        "nitrogen": "0.9973",
-        "organicCarbon": "0.8373",
-        "phosphorus": "0.942",
-        "potassium": "0.4842"
+        "nitrogen": 0.9973,
+        "organicCarbon": 0.8373,
+        "phosphorus": 0.942,
+        "potassium": 0.4842
     },
     {
         "district": "Bandipora",
-        "nitrogen": "1",
-        "organicCarbon": "0.1972",
-        "phosphorus": "0.0142",
-        "potassium": "0.0163"
+        "nitrogen": 1,
+        "organicCarbon": 0.1972,
+        "phosphorus": 0.0142,
+        "potassium": 0.0163
     },
     {
         "district": "Bangalore Rural",
-        "nitrogen": "0.9162",
-        "organicCarbon": "0.8412",
-        "phosphorus": "0.1",
-        "potassium": "0.4882"
+        "nitrogen": 0.9162,
+        "organicCarbon": 0.8412,
+        "phosphorus": 0.1,
+        "potassium": 0.4882
     },
     {
         "district": "Banka",
-        "nitrogen": "0.4157",
-        "organicCarbon": "0.427",
-        "phosphorus": "0",
-        "potassium": "0.5731"
+        "nitrogen": 0.4157,
+        "organicCarbon": 0.427,
+        "phosphorus": 0,
+        "potassium": 0.5731
     },
     {
         "district": "Bankura",
-        "nitrogen": "0.1779",
-        "organicCarbon": "0.1691",
-        "phosphorus": "0.0106",
-        "potassium": "0.0546"
+        "nitrogen": 0.1779,
+        "organicCarbon": 0.1691,
+        "phosphorus": 0.0106,
+        "potassium": 0.0546
     },
     {
         "district": "Banswara",
-        "nitrogen": "0.875",
-        "organicCarbon": "0.58",
-        "phosphorus": "0.2442",
-        "potassium": "0.0881"
+        "nitrogen": 0.875,
+        "organicCarbon": 0.58,
+        "phosphorus": 0.2442,
+        "potassium": 0.0881
     },
     {
         "district": "Barabanki",
-        "nitrogen": "1",
-        "organicCarbon": "0.6667",
-        "phosphorus": "0.6667",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.6667,
+        "phosphorus": 0.6667,
+        "potassium": 0
     },
     {
         "district": "Baramulla",
-        "nitrogen": "0.2182",
-        "organicCarbon": "0.0532",
-        "phosphorus": "0.1658",
-        "potassium": "0.2437"
+        "nitrogen": 0.2182,
+        "organicCarbon": 0.0532,
+        "phosphorus": 0.1658,
+        "potassium": 0.2437
     },
     {
         "district": "Baran",
-        "nitrogen": "0",
-        "organicCarbon": "0.4765",
-        "phosphorus": "0.1924",
-        "potassium": "0.1993"
+        "nitrogen": 0,
+        "organicCarbon": 0.4765,
+        "phosphorus": 0.1924,
+        "potassium": 0.1993
     },
     {
         "district": "Bardhaman",
-        "nitrogen": "0.3693",
-        "organicCarbon": "0.2089",
-        "phosphorus": "0.1473",
-        "potassium": "0.4793"
+        "nitrogen": 0.3693,
+        "organicCarbon": 0.2089,
+        "phosphorus": 0.1473,
+        "potassium": 0.4793
     },
     {
         "district": "Bareilly",
-        "nitrogen": "1",
-        "organicCarbon": "0.9737",
-        "phosphorus": "1",
-        "potassium": "0.8553"
+        "nitrogen": 1,
+        "organicCarbon": 0.9737,
+        "phosphorus": 1,
+        "potassium": 0.8553
     },
     {
         "district": "Bargarh",
-        "nitrogen": "1",
-        "organicCarbon": "0.31",
-        "phosphorus": "0.3889",
-        "potassium": "0.3888"
+        "nitrogen": 1,
+        "organicCarbon": 0.31,
+        "phosphorus": 0.3889,
+        "potassium": 0.3888
     },
     {
         "district": "Barmer",
-        "nitrogen": "0",
-        "organicCarbon": "0.9801",
-        "phosphorus": "0.2009",
-        "potassium": "0.0903"
+        "nitrogen": 0,
+        "organicCarbon": 0.9801,
+        "phosphorus": 0.2009,
+        "potassium": 0.0903
     },
     {
         "district": "Barnala",
-        "nitrogen": "0.5553",
-        "organicCarbon": "0.6133",
-        "phosphorus": "0.8369",
-        "potassium": "0.7532"
+        "nitrogen": 0.5553,
+        "organicCarbon": 0.6133,
+        "phosphorus": 0.8369,
+        "potassium": 0.7532
     },
     {
         "district": "Barpeta",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Barwani",
-        "nitrogen": "0.5897",
-        "organicCarbon": "0.2135",
-        "phosphorus": "0.3349",
-        "potassium": "0.1489"
+        "nitrogen": 0.5897,
+        "organicCarbon": 0.2135,
+        "phosphorus": 0.3349,
+        "potassium": 0.1489
     },
     {
         "district": "Bastar",
-        "nitrogen": "0.4661",
-        "organicCarbon": "0.1179",
-        "phosphorus": "0.1411",
-        "potassium": "0.3715"
+        "nitrogen": 0.4661,
+        "organicCarbon": 0.1179,
+        "phosphorus": 0.1411,
+        "potassium": 0.3715
     },
     {
         "district": "Basti",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Bathinda",
-        "nitrogen": "1",
-        "organicCarbon": "0.1667",
-        "phosphorus": "0.8572",
-        "potassium": "0.4286"
+        "nitrogen": 1,
+        "organicCarbon": 0.1667,
+        "phosphorus": 0.8572,
+        "potassium": 0.4286
     },
     {
         "district": "Beed",
-        "nitrogen": "0.9975",
-        "organicCarbon": "0.9198",
-        "phosphorus": "0.2908",
-        "potassium": "0.032"
+        "nitrogen": 0.9975,
+        "organicCarbon": 0.9198,
+        "phosphorus": 0.2908,
+        "potassium": 0.032
     },
     {
         "district": "Begusarai",
-        "nitrogen": "1",
-        "organicCarbon": "0.0833",
-        "phosphorus": "0.0833",
-        "potassium": "0.1667"
+        "nitrogen": 1,
+        "organicCarbon": 0.0833,
+        "phosphorus": 0.0833,
+        "potassium": 0.1667
     },
     {
         "district": "Belgaum",
-        "nitrogen": "0.7905",
-        "organicCarbon": "0.9087",
-        "phosphorus": "0.9533",
-        "potassium": "0.3665"
+        "nitrogen": 0.7905,
+        "organicCarbon": 0.9087,
+        "phosphorus": 0.9533,
+        "potassium": 0.3665
     },
     {
         "district": "Bellary",
-        "nitrogen": "1",
-        "organicCarbon": "0.4733",
-        "phosphorus": "0.5308",
-        "potassium": "0.4813"
+        "nitrogen": 1,
+        "organicCarbon": 0.4733,
+        "phosphorus": 0.5308,
+        "potassium": 0.4813
     },
     {
         "district": "Bemetara",
-        "nitrogen": "0.8628",
-        "organicCarbon": "0.0451",
-        "phosphorus": "0.0434",
-        "potassium": "0.0104"
+        "nitrogen": 0.8628,
+        "organicCarbon": 0.0451,
+        "phosphorus": 0.0434,
+        "potassium": 0.0104
     },
     {
         "district": "Bengaluru Urban",
-        "nitrogen": "0.9397",
-        "organicCarbon": "0.6757",
-        "phosphorus": "0.2957",
-        "potassium": "0.286"
+        "nitrogen": 0.9397,
+        "organicCarbon": 0.6757,
+        "phosphorus": 0.2957,
+        "potassium": 0.286
     },
     {
         "district": "Betul",
-        "nitrogen": "0.9205",
-        "organicCarbon": "0.2997",
-        "phosphorus": "0.9297",
-        "potassium": "0.0123"
+        "nitrogen": 0.9205,
+        "organicCarbon": 0.2997,
+        "phosphorus": 0.9297,
+        "potassium": 0.0123
     },
     {
         "district": "BHADRADRI KOTHAGUDEM",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0.3333"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0.3333
     },
     {
         "district": "Bhadrak",
-        "nitrogen": "0",
-        "organicCarbon": "0.5998",
-        "phosphorus": "0.6765",
-        "potassium": "0.5345"
+        "nitrogen": 0,
+        "organicCarbon": 0.5998,
+        "phosphorus": 0.6765,
+        "potassium": 0.5345
     },
     {
         "district": "Bhagalpur",
-        "nitrogen": "0.9938",
-        "organicCarbon": "0.9321",
-        "phosphorus": "0",
-        "potassium": "0.0494"
+        "nitrogen": 0.9938,
+        "organicCarbon": 0.9321,
+        "phosphorus": 0,
+        "potassium": 0.0494
     },
     {
         "district": "Bhandara",
-        "nitrogen": "0.3452",
-        "organicCarbon": "0.8928",
-        "phosphorus": "0.0119",
-        "potassium": "0.0357"
+        "nitrogen": 0.3452,
+        "organicCarbon": 0.8928,
+        "phosphorus": 0.0119,
+        "potassium": 0.0357
     },
     {
         "district": "Bharatpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.7719",
-        "phosphorus": "0.3819",
-        "potassium": "0.1036"
+        "nitrogen": 1,
+        "organicCarbon": 0.7719,
+        "phosphorus": 0.3819,
+        "potassium": 0.1036
     },
     {
         "district": "Bharuch",
-        "nitrogen": "0.9986",
-        "organicCarbon": "0.3794",
-        "phosphorus": "0.1751",
-        "potassium": "0.0378"
+        "nitrogen": 0.9986,
+        "organicCarbon": 0.3794,
+        "phosphorus": 0.1751,
+        "potassium": 0.0378
     },
     {
         "district": "Bhavnagar",
-        "nitrogen": "0.9998",
-        "organicCarbon": "0.3266",
-        "phosphorus": "0.1894",
-        "potassium": "0.1015"
+        "nitrogen": 0.9998,
+        "organicCarbon": 0.3266,
+        "phosphorus": 0.1894,
+        "potassium": 0.1015
     },
     {
         "district": "Bhilwara",
-        "nitrogen": "1",
-        "organicCarbon": "0.6313",
-        "phosphorus": "0.2746",
-        "potassium": "0.0141"
+        "nitrogen": 1,
+        "organicCarbon": 0.6313,
+        "phosphorus": 0.2746,
+        "potassium": 0.0141
     },
     {
         "district": "Bhind",
-        "nitrogen": "0.9954",
-        "organicCarbon": "0.9905",
-        "phosphorus": "0.9937",
-        "potassium": "0.0069"
+        "nitrogen": 0.9954,
+        "organicCarbon": 0.9905,
+        "phosphorus": 0.9937,
+        "potassium": 0.0069
     },
     {
         "district": "Bhiwani",
-        "nitrogen": "0",
-        "organicCarbon": "0.98",
-        "phosphorus": "0.9756",
-        "potassium": "0.0303"
+        "nitrogen": 0,
+        "organicCarbon": 0.98,
+        "phosphorus": 0.9756,
+        "potassium": 0.0303
     },
     {
         "district": "Bhojpur",
-        "nitrogen": "0.6548",
-        "organicCarbon": "0.6576",
-        "phosphorus": "0.271",
-        "potassium": "0.1688"
+        "nitrogen": 0.6548,
+        "organicCarbon": 0.6576,
+        "phosphorus": 0.271,
+        "potassium": 0.1688
     },
     {
         "district": "Bhopal",
-        "nitrogen": "0.8572",
-        "organicCarbon": "0.1143",
-        "phosphorus": "0.5428",
-        "potassium": "0.1714"
+        "nitrogen": 0.8572,
+        "organicCarbon": 0.1143,
+        "phosphorus": 0.5428,
+        "potassium": 0.1714
     },
     {
         "district": "Bidar",
-        "nitrogen": "0.8613",
-        "organicCarbon": "0.4716",
-        "phosphorus": "0.686",
-        "potassium": "0.003"
+        "nitrogen": 0.8613,
+        "organicCarbon": 0.4716,
+        "phosphorus": 0.686,
+        "potassium": 0.003
     },
     {
         "district": "Bijapur",
-        "nitrogen": "0.25",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0.25,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Bijapur",
-        "nitrogen": "0.8775",
-        "organicCarbon": "0.4265",
-        "phosphorus": "0.3578",
-        "potassium": "0.0735"
+        "nitrogen": 0.8775,
+        "organicCarbon": 0.4265,
+        "phosphorus": 0.3578,
+        "potassium": 0.0735
     },
     {
         "district": "Bijnor",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Bikaner",
-        "nitrogen": "0",
-        "organicCarbon": "0.9794",
-        "phosphorus": "0.5237",
-        "potassium": "0.0121"
+        "nitrogen": 0,
+        "organicCarbon": 0.9794,
+        "phosphorus": 0.5237,
+        "potassium": 0.0121
     },
     {
         "district": "Bilaspur",
-        "nitrogen": "0.7604",
-        "organicCarbon": "0.5747",
-        "phosphorus": "0.2137",
-        "potassium": "0.0031"
+        "nitrogen": 0.7604,
+        "organicCarbon": 0.5747,
+        "phosphorus": 0.2137,
+        "potassium": 0.0031
     },
     {
         "district": "Bilaspur",
-        "nitrogen": "0.0066",
-        "organicCarbon": "0.0737",
-        "phosphorus": "0.0458",
-        "potassium": "0.0614"
+        "nitrogen": 0.0066,
+        "organicCarbon": 0.0737,
+        "phosphorus": 0.0458,
+        "potassium": 0.0614
     },
     {
         "district": "Birbhum",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Bishnupur",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0.8571",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0.8571,
+        "potassium": 1
     },
     {
         "district": "Biswanath",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Bokaro",
-        "nitrogen": "0.1667",
-        "organicCarbon": "0",
-        "phosphorus": "0.25",
-        "potassium": "0"
+        "nitrogen": 0.1667,
+        "organicCarbon": 0,
+        "phosphorus": 0.25,
+        "potassium": 0
     },
     {
         "district": "Bongaigaon",
-        "nitrogen": "0.6793",
-        "organicCarbon": "0.261",
-        "phosphorus": "0.8449",
-        "potassium": "0.8701"
+        "nitrogen": 0.6793,
+        "organicCarbon": 0.261,
+        "phosphorus": 0.8449,
+        "potassium": 0.8701
     },
     {
         "district": "Botad",
-        "nitrogen": "1",
-        "organicCarbon": "0.4104",
-        "phosphorus": "0.1813",
-        "potassium": "0.0504"
+        "nitrogen": 1,
+        "organicCarbon": 0.4104,
+        "phosphorus": 0.1813,
+        "potassium": 0.0504
     },
     {
         "district": "Boudh",
-        "nitrogen": "0",
-        "organicCarbon": "0.0882",
-        "phosphorus": "0.9706",
-        "potassium": "0.1765"
+        "nitrogen": 0,
+        "organicCarbon": 0.0882,
+        "phosphorus": 0.9706,
+        "potassium": 0.1765
     },
     {
         "district": "Budaun",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0.8572",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0.8572,
+        "potassium": 1
     },
     {
         "district": "Bulandshahr",
-        "nitrogen": "1",
-        "organicCarbon": "0.4486",
-        "phosphorus": "0.7621",
-        "potassium": "0.1892"
+        "nitrogen": 1,
+        "organicCarbon": 0.4486,
+        "phosphorus": 0.7621,
+        "potassium": 0.1892
     },
     {
         "district": "Buldhana",
-        "nitrogen": "0.8",
-        "organicCarbon": "0.2",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0.8,
+        "organicCarbon": 0.2,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Bundi",
-        "nitrogen": "0",
-        "organicCarbon": "0.4362",
-        "phosphorus": "0.0653",
-        "potassium": "0.0323"
+        "nitrogen": 0,
+        "organicCarbon": 0.4362,
+        "phosphorus": 0.0653,
+        "potassium": 0.0323
     },
     {
         "district": "Burhanpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.5131",
-        "phosphorus": "0.9737",
-        "potassium": "0.0263"
+        "nitrogen": 1,
+        "organicCarbon": 0.5131,
+        "phosphorus": 0.9737,
+        "potassium": 0.0263
     },
     {
         "district": "Buxar",
-        "nitrogen": "0.295",
-        "organicCarbon": "0.5409",
-        "phosphorus": "0.1366",
-        "potassium": "0.3251"
+        "nitrogen": 0.295,
+        "organicCarbon": 0.5409,
+        "phosphorus": 0.1366,
+        "potassium": 0.3251
     },
     {
         "district": "Cachar",
-        "nitrogen": "0.0089",
-        "organicCarbon": "0.024",
-        "phosphorus": "0.565",
-        "potassium": "0.7486"
+        "nitrogen": 0.0089,
+        "organicCarbon": 0.024,
+        "phosphorus": 0.565,
+        "potassium": 0.7486
     },
     {
         "district": "Central",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Chamarajanagar",
-        "nitrogen": "0.25",
-        "organicCarbon": "0.6591",
-        "phosphorus": "0.0227",
-        "potassium": "0"
+        "nitrogen": 0.25,
+        "organicCarbon": 0.6591,
+        "phosphorus": 0.0227,
+        "potassium": 0
     },
     {
         "district": "Chamba",
-        "nitrogen": "0.2197",
-        "organicCarbon": "0.0007",
-        "phosphorus": "0.1324",
-        "potassium": "0.0804"
+        "nitrogen": 0.2197,
+        "organicCarbon": 0.0007,
+        "phosphorus": 0.1324,
+        "potassium": 0.0804
     },
     {
         "district": "Chamoli",
-        "nitrogen": "1",
-        "organicCarbon": "0.1026",
-        "phosphorus": "0.066",
-        "potassium": "0.1419"
+        "nitrogen": 1,
+        "organicCarbon": 0.1026,
+        "phosphorus": 0.066,
+        "potassium": 0.1419
     },
     {
         "district": "Champawat",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Champhai",
-        "nitrogen": "0.0351",
-        "organicCarbon": "0.5389",
-        "phosphorus": "0.9949",
-        "potassium": "0.1061"
+        "nitrogen": 0.0351,
+        "organicCarbon": 0.5389,
+        "phosphorus": 0.9949,
+        "potassium": 0.1061
     },
     {
         "district": "Chandauli",
-        "nitrogen": "1",
-        "organicCarbon": "0.9321",
-        "phosphorus": "0.9198",
-        "potassium": "0.1481"
+        "nitrogen": 1,
+        "organicCarbon": 0.9321,
+        "phosphorus": 0.9198,
+        "potassium": 0.1481
     },
     {
         "district": "Chandel",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Chandrapur",
-        "nitrogen": "0.7827",
-        "organicCarbon": "0.8261",
-        "phosphorus": "0.1739",
-        "potassium": "0.0435"
+        "nitrogen": 0.7827,
+        "organicCarbon": 0.8261,
+        "phosphorus": 0.1739,
+        "potassium": 0.0435
     },
     {
         "district": "Changlang",
-        "nitrogen": "0.0728",
-        "organicCarbon": "0.2647",
-        "phosphorus": "0.968",
-        "potassium": "0.2161"
+        "nitrogen": 0.0728,
+        "organicCarbon": 0.2647,
+        "phosphorus": 0.968,
+        "potassium": 0.2161
     },
     {
         "district": "Charaideo",
-        "nitrogen": "1",
-        "organicCarbon": "0.3333",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 0.3333,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Chatra",
-        "nitrogen": "0.4778",
-        "organicCarbon": "0.7181",
-        "phosphorus": "0.5592",
-        "potassium": "0.7259"
+        "nitrogen": 0.4778,
+        "organicCarbon": 0.7181,
+        "phosphorus": 0.5592,
+        "potassium": 0.7259
     },
     {
         "district": "Chhatarpur",
-        "nitrogen": "0.8829",
-        "organicCarbon": "0.4043",
-        "phosphorus": "0.4519",
-        "potassium": "0.0213"
+        "nitrogen": 0.8829,
+        "organicCarbon": 0.4043,
+        "phosphorus": 0.4519,
+        "potassium": 0.0213
     },
     {
         "district": "Chhindwara",
-        "nitrogen": "0.5669",
-        "organicCarbon": "0.1766",
-        "phosphorus": "0.48",
-        "potassium": "0.1684"
+        "nitrogen": 0.5669,
+        "organicCarbon": 0.1766,
+        "phosphorus": 0.48,
+        "potassium": 0.1684
     },
     {
         "district": "Chhotaudepur",
-        "nitrogen": "0.5814",
-        "organicCarbon": "0.5814",
-        "phosphorus": "0.0349",
-        "potassium": "0.3023"
+        "nitrogen": 0.5814,
+        "organicCarbon": 0.5814,
+        "phosphorus": 0.0349,
+        "potassium": 0.3023
     },
     {
         "district": "Chikballapur",
-        "nitrogen": "0.9061",
-        "organicCarbon": "0.4963",
-        "phosphorus": "0.287",
-        "potassium": "0.0814"
+        "nitrogen": 0.9061,
+        "organicCarbon": 0.4963,
+        "phosphorus": 0.287,
+        "potassium": 0.0814
     },
     {
         "district": "Chikmagalur",
-        "nitrogen": "0.8515",
-        "organicCarbon": "0.0335",
-        "phosphorus": "0.2112",
-        "potassium": "0.1966"
+        "nitrogen": 0.8515,
+        "organicCarbon": 0.0335,
+        "phosphorus": 0.2112,
+        "potassium": 0.1966
     },
     {
         "district": "Chirang",
-        "nitrogen": "0.809",
-        "organicCarbon": "0.3767",
-        "phosphorus": "0.9515",
-        "potassium": "0.7617"
+        "nitrogen": 0.809,
+        "organicCarbon": 0.3767,
+        "phosphorus": 0.9515,
+        "potassium": 0.7617
     },
     {
         "district": "Chitradurga",
-        "nitrogen": "0.809",
-        "organicCarbon": "0.7279",
-        "phosphorus": "0.5993",
-        "potassium": "0.0761"
+        "nitrogen": 0.809,
+        "organicCarbon": 0.7279,
+        "phosphorus": 0.5993,
+        "potassium": 0.0761
     },
     {
         "district": "Chitrakoot",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0.2333"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0.2333
     },
     {
         "district": "Chittoor",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Chittorgarh",
-        "nitrogen": "1",
-        "organicCarbon": "0.5",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.5,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Churachandpur",
-        "nitrogen": "0.3409",
-        "organicCarbon": "0.1729",
-        "phosphorus": "0.4511",
-        "potassium": "0.2481"
+        "nitrogen": 0.3409,
+        "organicCarbon": 0.1729,
+        "phosphorus": 0.4511,
+        "potassium": 0.2481
     },
     {
         "district": "Churu",
-        "nitrogen": "0",
-        "organicCarbon": "0.9936",
-        "phosphorus": "0.9603",
-        "potassium": "0.0161"
+        "nitrogen": 0,
+        "organicCarbon": 0.9936,
+        "phosphorus": 0.9603,
+        "potassium": 0.0161
     },
     {
         "district": "Coimbatore",
-        "nitrogen": "1",
-        "organicCarbon": "0.8182",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.8182,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Coochbehar",
-        "nitrogen": "0.5542",
-        "organicCarbon": "0.3393",
-        "phosphorus": "0.0238",
-        "potassium": "0.5298"
+        "nitrogen": 0.5542,
+        "organicCarbon": 0.3393,
+        "phosphorus": 0.0238,
+        "potassium": 0.5298
     },
     {
         "district": "Cuddalore",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Cuttack",
-        "nitrogen": "1",
-        "organicCarbon": "0.5181",
-        "phosphorus": "0.6949",
-        "potassium": "0.4669"
+        "nitrogen": 1,
+        "organicCarbon": 0.5181,
+        "phosphorus": 0.6949,
+        "potassium": 0.4669
     },
     {
         "district": "Dadra And Nagar Haveli",
-        "nitrogen": "0",
-        "organicCarbon": "0.3835",
-        "phosphorus": "0.6995",
-        "potassium": "0.0072"
+        "nitrogen": 0,
+        "organicCarbon": 0.3835,
+        "phosphorus": 0.6995,
+        "potassium": 0.0072
     },
     {
         "district": "Dakshin Kannad",
-        "nitrogen": "0.254",
-        "organicCarbon": "0.0655",
-        "phosphorus": "0.7375",
-        "potassium": "0.7064"
+        "nitrogen": 0.254,
+        "organicCarbon": 0.0655,
+        "phosphorus": 0.7375,
+        "potassium": 0.7064
     },
     {
         "district": "Daman",
-        "nitrogen": "1",
-        "organicCarbon": "0.258",
-        "phosphorus": "0.9908",
-        "potassium": "0.3272"
+        "nitrogen": 1,
+        "organicCarbon": 0.258,
+        "phosphorus": 0.9908,
+        "potassium": 0.3272
     },
     {
         "district": "Damoh",
-        "nitrogen": "0.227",
-        "organicCarbon": "0.1715",
-        "phosphorus": "0.9609",
-        "potassium": "0.1198"
+        "nitrogen": 0.227,
+        "organicCarbon": 0.1715,
+        "phosphorus": 0.9609,
+        "potassium": 0.1198
     },
     {
         "district": "Dang",
-        "nitrogen": "0.9877",
-        "organicCarbon": "0.5189",
-        "phosphorus": "0.0732",
-        "potassium": "0.1331"
+        "nitrogen": 0.9877,
+        "organicCarbon": 0.5189,
+        "phosphorus": 0.0732,
+        "potassium": 0.1331
     },
     {
         "district": "Dantewada",
-        "nitrogen": "0.5556",
-        "organicCarbon": "0.5",
-        "phosphorus": "0.4444",
-        "potassium": "0"
+        "nitrogen": 0.5556,
+        "organicCarbon": 0.5,
+        "phosphorus": 0.4444,
+        "potassium": 0
     },
     {
         "district": "Darbhanga",
-        "nitrogen": "0.6185",
-        "organicCarbon": "0.3669",
-        "phosphorus": "0.5",
-        "potassium": "0.3016"
+        "nitrogen": 0.6185,
+        "organicCarbon": 0.3669,
+        "phosphorus": 0.5,
+        "potassium": 0.3016
     },
     {
         "district": "Darjeeling",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0.2647"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0.2647
     },
     {
         "district": "Darrang",
-        "nitrogen": "0.9173",
-        "organicCarbon": "0.7867",
-        "phosphorus": "0.9544",
-        "potassium": "0.7936"
+        "nitrogen": 0.9173,
+        "organicCarbon": 0.7867,
+        "phosphorus": 0.9544,
+        "potassium": 0.7936
     },
     {
         "district": "Datia",
-        "nitrogen": "0.28",
-        "organicCarbon": "0.0533",
-        "phosphorus": "0.1467",
-        "potassium": "0.0666"
+        "nitrogen": 0.28,
+        "organicCarbon": 0.0533,
+        "phosphorus": 0.1467,
+        "potassium": 0.0666
     },
     {
         "district": "Dausa",
-        "nitrogen": "0",
-        "organicCarbon": "0.9507",
-        "phosphorus": "0.2156",
-        "potassium": "0.0355"
+        "nitrogen": 0,
+        "organicCarbon": 0.9507,
+        "phosphorus": 0.2156,
+        "potassium": 0.0355
     },
     {
         "district": "Davangere",
-        "nitrogen": "0.3108",
-        "organicCarbon": "0.4668",
-        "phosphorus": "0.0919",
-        "potassium": "0.2604"
+        "nitrogen": 0.3108,
+        "organicCarbon": 0.4668,
+        "phosphorus": 0.0919,
+        "potassium": 0.2604
     },
     {
         "district": "Dehradun",
-        "nitrogen": "0.25",
-        "organicCarbon": "0.25",
-        "phosphorus": "0",
-        "potassium": "1"
+        "nitrogen": 0.25,
+        "organicCarbon": 0.25,
+        "phosphorus": 0,
+        "potassium": 1
     },
     {
         "district": "Deogarh",
-        "nitrogen": "0.7728",
-        "organicCarbon": "0.92",
-        "phosphorus": "0.4171",
-        "potassium": "0.1076"
+        "nitrogen": 0.7728,
+        "organicCarbon": 0.92,
+        "phosphorus": 0.4171,
+        "potassium": 0.1076
     },
     {
         "district": "Deoghar",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0.5833",
-        "potassium": "0.6667"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0.5833,
+        "potassium": 0.6667
     },
     {
         "district": "Deoria",
-        "nitrogen": "0.9977",
-        "organicCarbon": "0.7904",
-        "phosphorus": "0.9708",
-        "potassium": "0.4793"
+        "nitrogen": 0.9977,
+        "organicCarbon": 0.7904,
+        "phosphorus": 0.9708,
+        "potassium": 0.4793
     },
     {
         "district": "Devbhumidwarka",
-        "nitrogen": "0.9996",
-        "organicCarbon": "0.1626",
-        "phosphorus": "0.0203",
-        "potassium": "0.1494"
+        "nitrogen": 0.9996,
+        "organicCarbon": 0.1626,
+        "phosphorus": 0.0203,
+        "potassium": 0.1494
     },
     {
         "district": "Dewas",
-        "nitrogen": "0.9342",
-        "organicCarbon": "0.5893",
-        "phosphorus": "0.4043",
-        "potassium": "0.3255"
+        "nitrogen": 0.9342,
+        "organicCarbon": 0.5893,
+        "phosphorus": 0.4043,
+        "potassium": 0.3255
     },
     {
         "district": "Dhalai",
-        "nitrogen": "0.6207",
-        "organicCarbon": "0.3725",
-        "phosphorus": "0.4791",
-        "potassium": "0.75"
+        "nitrogen": 0.6207,
+        "organicCarbon": 0.3725,
+        "phosphorus": 0.4791,
+        "potassium": 0.75
     },
     {
         "district": "Dhamtari",
-        "nitrogen": "0.5548",
-        "organicCarbon": "0.3642",
-        "phosphorus": "0.096",
-        "potassium": "0.1932"
+        "nitrogen": 0.5548,
+        "organicCarbon": 0.3642,
+        "phosphorus": 0.096,
+        "potassium": 0.1932
     },
     {
         "district": "Dhanbad",
-        "nitrogen": "0.8125",
-        "organicCarbon": "0.75",
-        "phosphorus": "0.5",
-        "potassium": "0.8125"
+        "nitrogen": 0.8125,
+        "organicCarbon": 0.75,
+        "phosphorus": 0.5,
+        "potassium": 0.8125
     },
     {
         "district": "Dhar",
-        "nitrogen": "0.9176",
-        "organicCarbon": "0.7529",
-        "phosphorus": "0.4233",
-        "potassium": "0"
+        "nitrogen": 0.9176,
+        "organicCarbon": 0.7529,
+        "phosphorus": 0.4233,
+        "potassium": 0
     },
     {
         "district": "Dharmapuri",
-        "nitrogen": "0.997",
-        "organicCarbon": "0.984",
-        "phosphorus": "0.541",
-        "potassium": "0.3498"
+        "nitrogen": 0.997,
+        "organicCarbon": 0.984,
+        "phosphorus": 0.541,
+        "potassium": 0.3498
     },
     {
         "district": "Dharwad",
-        "nitrogen": "0.8687",
-        "organicCarbon": "0.9216",
-        "phosphorus": "1",
-        "potassium": "0.1382"
+        "nitrogen": 0.8687,
+        "organicCarbon": 0.9216,
+        "phosphorus": 1,
+        "potassium": 0.1382
     },
     {
         "district": "Dhemaji",
-        "nitrogen": "0.8983",
-        "organicCarbon": "0.6667",
-        "phosphorus": "0.6508",
-        "potassium": "0.0556"
+        "nitrogen": 0.8983,
+        "organicCarbon": 0.6667,
+        "phosphorus": 0.6508,
+        "potassium": 0.0556
     },
     {
         "district": "Dhenkanal",
-        "nitrogen": "0",
-        "organicCarbon": "0.9868",
-        "phosphorus": "0.8597",
-        "potassium": "0.25"
+        "nitrogen": 0,
+        "organicCarbon": 0.9868,
+        "phosphorus": 0.8597,
+        "potassium": 0.25
     },
     {
         "district": "Dholpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.9323",
-        "phosphorus": "0.2504",
-        "potassium": "0.2324"
+        "nitrogen": 1,
+        "organicCarbon": 0.9323,
+        "phosphorus": 0.2504,
+        "potassium": 0.2324
     },
     {
         "district": "Dhubri",
-        "nitrogen": "0.0026",
-        "organicCarbon": "0.0119",
-        "phosphorus": "0.1865",
-        "potassium": "0.7811"
+        "nitrogen": 0.0026,
+        "organicCarbon": 0.0119,
+        "phosphorus": 0.1865,
+        "potassium": 0.7811
     },
     {
         "district": "Dhule",
-        "nitrogen": "0.6141",
-        "organicCarbon": "0.4345",
-        "phosphorus": "0.0011",
-        "potassium": "0.0527"
+        "nitrogen": 0.6141,
+        "organicCarbon": 0.4345,
+        "phosphorus": 0.0011,
+        "potassium": 0.0527
     },
     {
         "district": "Dibang Valley",
-        "nitrogen": "0.0048",
-        "organicCarbon": "0.0507",
-        "phosphorus": "0.7985",
-        "potassium": "0.2027"
+        "nitrogen": 0.0048,
+        "organicCarbon": 0.0507,
+        "phosphorus": 0.7985,
+        "potassium": 0.2027
     },
     {
         "district": "Dibrugarh",
-        "nitrogen": "1",
-        "organicCarbon": "0.5",
-        "phosphorus": "0.3333",
-        "potassium": "0.8334"
+        "nitrogen": 1,
+        "organicCarbon": 0.5,
+        "phosphorus": 0.3333,
+        "potassium": 0.8334
     },
     {
         "district": "Dima Hasao",
-        "nitrogen": "0",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Dimapur",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Dinajpur Dakshin",
-        "nitrogen": "0.1698",
-        "organicCarbon": "0.151",
-        "phosphorus": "0.0566",
-        "potassium": "0"
+        "nitrogen": 0.1698,
+        "organicCarbon": 0.151,
+        "phosphorus": 0.0566,
+        "potassium": 0
     },
     {
         "district": "Dinajpur Uttar",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0.25"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0.25
     },
     {
         "district": "Dindigul",
-        "nitrogen": "1",
-        "organicCarbon": "0.9953",
-        "phosphorus": "0.4455",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.9953,
+        "phosphorus": 0.4455,
+        "potassium": 0
     },
     {
         "district": "Dindori",
-        "nitrogen": "0.5385",
-        "organicCarbon": "0.3077",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 0.5385,
+        "organicCarbon": 0.3077,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Diu",
-        "nitrogen": "0.9867",
-        "organicCarbon": "0.3467",
-        "phosphorus": "0.2",
-        "potassium": "0.1333"
+        "nitrogen": 0.9867,
+        "organicCarbon": 0.3467,
+        "phosphorus": 0.2,
+        "potassium": 0.1333
     },
     {
         "district": "Doda",
-        "nitrogen": "0.275",
-        "organicCarbon": "0.3417",
-        "phosphorus": "0.7167",
-        "potassium": "0.25"
+        "nitrogen": 0.275,
+        "organicCarbon": 0.3417,
+        "phosphorus": 0.7167,
+        "potassium": 0.25
     },
     {
         "district": "Dohad",
-        "nitrogen": "0.9974",
-        "organicCarbon": "0.3971",
-        "phosphorus": "0.2963",
-        "potassium": "0.2643"
+        "nitrogen": 0.9974,
+        "organicCarbon": 0.3971,
+        "phosphorus": 0.2963,
+        "potassium": 0.2643
     },
     {
         "district": "Dumka",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Dungarpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.4544",
-        "phosphorus": "0.1203",
-        "potassium": "0.0767"
+        "nitrogen": 1,
+        "organicCarbon": 0.4544,
+        "phosphorus": 0.1203,
+        "potassium": 0.0767
     },
     {
         "district": "Durg",
-        "nitrogen": "0.4216",
-        "organicCarbon": "0.3974",
-        "phosphorus": "0.0765",
-        "potassium": "0.0019"
+        "nitrogen": 0.4216,
+        "organicCarbon": 0.3974,
+        "phosphorus": 0.0765,
+        "potassium": 0.0019
     },
     {
         "district": "East",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "East District",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "East Garo Hills",
-        "nitrogen": "1",
-        "organicCarbon": "0.106",
-        "phosphorus": "0.9441",
-        "potassium": "0.5718"
+        "nitrogen": 1,
+        "organicCarbon": 0.106,
+        "phosphorus": 0.9441,
+        "potassium": 0.5718
     },
     {
         "district": "East Godavari",
-        "nitrogen": "0.9582",
-        "organicCarbon": "0.248",
-        "phosphorus": "0.137",
-        "potassium": "0.1862"
+        "nitrogen": 0.9582,
+        "organicCarbon": 0.248,
+        "phosphorus": 0.137,
+        "potassium": 0.1862
     },
     {
         "district": "East Jaintia Hills",
-        "nitrogen": "1",
-        "organicCarbon": "0.3667",
-        "phosphorus": "0.6286",
-        "potassium": "0.1557"
+        "nitrogen": 1,
+        "organicCarbon": 0.3667,
+        "phosphorus": 0.6286,
+        "potassium": 0.1557
     },
     {
         "district": "East Kameng",
-        "nitrogen": "0.0405",
-        "organicCarbon": "0.0637",
-        "phosphorus": "0.8433",
-        "potassium": "0.1622"
+        "nitrogen": 0.0405,
+        "organicCarbon": 0.0637,
+        "phosphorus": 0.8433,
+        "potassium": 0.1622
     },
     {
         "district": "East Khasi Hills",
-        "nitrogen": "0.1429",
-        "organicCarbon": "0.0432",
-        "phosphorus": "0.5212",
-        "potassium": "0.5734"
+        "nitrogen": 0.1429,
+        "organicCarbon": 0.0432,
+        "phosphorus": 0.5212,
+        "potassium": 0.5734
     },
     {
         "district": "East Nimar",
-        "nitrogen": "0.9923",
-        "organicCarbon": "0.4923",
-        "phosphorus": "0.0534",
-        "potassium": "0.0305"
+        "nitrogen": 0.9923,
+        "organicCarbon": 0.4923,
+        "phosphorus": 0.0534,
+        "potassium": 0.0305
     },
     {
         "district": "East Siang",
-        "nitrogen": "0.007",
-        "organicCarbon": "0",
-        "phosphorus": "0.9359",
-        "potassium": "0.3948"
+        "nitrogen": 0.007,
+        "organicCarbon": 0,
+        "phosphorus": 0.9359,
+        "potassium": 0.3948
     },
     {
         "district": "East Singhbum",
-        "nitrogen": "0.7893",
-        "organicCarbon": "0.6592",
-        "phosphorus": "0.2914",
-        "potassium": "0.6233"
+        "nitrogen": 0.7893,
+        "organicCarbon": 0.6592,
+        "phosphorus": 0.2914,
+        "potassium": 0.6233
     },
     {
         "district": "Ernakulam",
-        "nitrogen": "1",
-        "organicCarbon": "0.6096",
-        "phosphorus": "0.0553",
-        "potassium": "0.6598"
+        "nitrogen": 1,
+        "organicCarbon": 0.6096,
+        "phosphorus": 0.0553,
+        "potassium": 0.6598
     },
     {
         "district": "Erode",
-        "nitrogen": "0.9875",
-        "organicCarbon": "0.8888",
-        "phosphorus": "0.8683",
-        "potassium": "0.2247"
+        "nitrogen": 0.9875,
+        "organicCarbon": 0.8888,
+        "phosphorus": 0.8683,
+        "potassium": 0.2247
     },
     {
         "district": "Etah",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Etawah",
-        "nitrogen": "0.9979",
-        "organicCarbon": "0.9614",
-        "phosphorus": "0.9947",
-        "potassium": "0.0078"
+        "nitrogen": 0.9979,
+        "organicCarbon": 0.9614,
+        "phosphorus": 0.9947,
+        "potassium": 0.0078
     },
     {
         "district": "Faizabad",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0.2619"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0.2619
     },
     {
         "district": "Faridabad",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Faridkot",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Farrukhabad",
-        "nitrogen": "0.9996",
-        "organicCarbon": "0.963",
-        "phosphorus": "0.9444",
-        "potassium": "0.0495"
+        "nitrogen": 0.9996,
+        "organicCarbon": 0.963,
+        "phosphorus": 0.9444,
+        "potassium": 0.0495
     },
     {
         "district": "Fatehabad",
-        "nitrogen": "0.9976",
-        "organicCarbon": "0.9282",
-        "phosphorus": "0.7931",
-        "potassium": "0.5085"
+        "nitrogen": 0.9976,
+        "organicCarbon": 0.9282,
+        "phosphorus": 0.7931,
+        "potassium": 0.5085
     },
     {
         "district": "Fatehgarh Sahib",
-        "nitrogen": "1",
-        "organicCarbon": "0.8125",
-        "phosphorus": "0.5499",
-        "potassium": "0.3153"
+        "nitrogen": 1,
+        "organicCarbon": 0.8125,
+        "phosphorus": 0.5499,
+        "potassium": 0.3153
     },
     {
         "district": "Fatehpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.2564",
-        "phosphorus": "0.1191",
-        "potassium": "0.0036"
+        "nitrogen": 1,
+        "organicCarbon": 0.2564,
+        "phosphorus": 0.1191,
+        "potassium": 0.0036
     },
     {
         "district": "Fazilka",
-        "nitrogen": "1",
-        "organicCarbon": "0.1321",
-        "phosphorus": "0.0189",
-        "potassium": "0.0377"
+        "nitrogen": 1,
+        "organicCarbon": 0.1321,
+        "phosphorus": 0.0189,
+        "potassium": 0.0377
     },
     {
         "district": "Firozabad",
-        "nitrogen": "1",
-        "organicCarbon": "0.8832",
-        "phosphorus": "0.8434",
-        "potassium": "0.2223"
+        "nitrogen": 1,
+        "organicCarbon": 0.8832,
+        "phosphorus": 0.8434,
+        "potassium": 0.2223
     },
     {
         "district": "Firozepur",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Gadag",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Gadchiroli",
-        "nitrogen": "0.1618",
-        "organicCarbon": "0.3297",
-        "phosphorus": "0.0019",
-        "potassium": "0.0322"
+        "nitrogen": 0.1618,
+        "organicCarbon": 0.3297,
+        "phosphorus": 0.0019,
+        "potassium": 0.0322
     },
     {
         "district": "Gajapati",
-        "nitrogen": "0",
-        "organicCarbon": "0.4",
-        "phosphorus": "1",
-        "potassium": "0.18"
+        "nitrogen": 0,
+        "organicCarbon": 0.4,
+        "phosphorus": 1,
+        "potassium": 0.18
     },
     {
         "district": "Ganderbal",
-        "nitrogen": "0.0061",
-        "organicCarbon": "0.0195",
-        "phosphorus": "0.5695",
-        "potassium": "0.0305"
+        "nitrogen": 0.0061,
+        "organicCarbon": 0.0195,
+        "phosphorus": 0.5695,
+        "potassium": 0.0305
     },
     {
         "district": "Gandhinagar",
-        "nitrogen": "0.9999",
-        "organicCarbon": "0.3907",
-        "phosphorus": "0.221",
-        "potassium": "0.0862"
+        "nitrogen": 0.9999,
+        "organicCarbon": 0.3907,
+        "phosphorus": 0.221,
+        "potassium": 0.0862
     },
     {
         "district": "Ganganagar",
-        "nitrogen": "0",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Ganjam",
-        "nitrogen": "1",
-        "organicCarbon": "0.3785",
-        "phosphorus": "0.8481",
-        "potassium": "0.138"
+        "nitrogen": 1,
+        "organicCarbon": 0.3785,
+        "phosphorus": 0.8481,
+        "potassium": 0.138
     },
     {
         "district": "Garhwa",
-        "nitrogen": "1",
-        "organicCarbon": "0.6",
-        "phosphorus": "0.25",
-        "potassium": "0.15"
+        "nitrogen": 1,
+        "organicCarbon": 0.6,
+        "phosphorus": 0.25,
+        "potassium": 0.15
     },
     {
         "district": "Gariyaband",
-        "nitrogen": "0.9152",
-        "organicCarbon": "0.9152",
-        "phosphorus": "0.3041",
-        "potassium": "0"
+        "nitrogen": 0.9152,
+        "organicCarbon": 0.9152,
+        "phosphorus": 0.3041,
+        "potassium": 0
     },
     {
         "district": "Gautam Buddha Nagar",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Gaya",
-        "nitrogen": "0.0156",
-        "organicCarbon": "0.0187",
-        "phosphorus": "0",
-        "potassium": "0.0187"
+        "nitrogen": 0.0156,
+        "organicCarbon": 0.0187,
+        "phosphorus": 0,
+        "potassium": 0.0187
     },
     {
         "district": "Ghaziabad",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Ghazipur",
-        "nitrogen": "0.9984",
-        "organicCarbon": "0.9296",
-        "phosphorus": "0.9716",
-        "potassium": "0.4268"
+        "nitrogen": 0.9984,
+        "organicCarbon": 0.9296,
+        "phosphorus": 0.9716,
+        "potassium": 0.4268
     },
     {
         "district": "Giridih",
-        "nitrogen": "0.6887",
-        "organicCarbon": "0.3162",
-        "phosphorus": "0.7023",
-        "potassium": "0.5072"
+        "nitrogen": 0.6887,
+        "organicCarbon": 0.3162,
+        "phosphorus": 0.7023,
+        "potassium": 0.5072
     },
     {
         "district": "Girsomnath",
-        "nitrogen": "0.9694",
-        "organicCarbon": "0.3564",
-        "phosphorus": "0.1004",
-        "potassium": "0.0295"
+        "nitrogen": 0.9694,
+        "organicCarbon": 0.3564,
+        "phosphorus": 0.1004,
+        "potassium": 0.0295
     },
     {
         "district": "Goalpara",
-        "nitrogen": "0.0512",
-        "organicCarbon": "0.0562",
-        "phosphorus": "0.7266",
-        "potassium": "0.6657"
+        "nitrogen": 0.0512,
+        "organicCarbon": 0.0562,
+        "phosphorus": 0.7266,
+        "potassium": 0.6657
     },
     {
         "district": "Godda",
-        "nitrogen": "0.7989",
-        "organicCarbon": "0.6696",
-        "phosphorus": "0.7342",
-        "potassium": "0.5262"
+        "nitrogen": 0.7989,
+        "organicCarbon": 0.6696,
+        "phosphorus": 0.7342,
+        "potassium": 0.5262
     },
     {
         "district": "Golaghat",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Gomati",
-        "nitrogen": "0.5372",
-        "organicCarbon": "0.4864",
-        "phosphorus": "0.6034",
-        "potassium": "0.9867"
+        "nitrogen": 0.5372,
+        "organicCarbon": 0.4864,
+        "phosphorus": 0.6034,
+        "potassium": 0.9867
     },
     {
         "district": "Gonda",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Gondia",
-        "nitrogen": "0.3333",
-        "organicCarbon": "0.8148",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0.3333,
+        "organicCarbon": 0.8148,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Gopalganj",
-        "nitrogen": "0.9923",
-        "organicCarbon": "0.448",
-        "phosphorus": "0.0745",
-        "potassium": "0.113"
+        "nitrogen": 0.9923,
+        "organicCarbon": 0.448,
+        "phosphorus": 0.0745,
+        "potassium": 0.113
     },
     {
         "district": "Gorakhpur",
-        "nitrogen": "0.9987",
-        "organicCarbon": "0.7873",
-        "phosphorus": "0.9751",
-        "potassium": "0.387"
+        "nitrogen": 0.9987,
+        "organicCarbon": 0.7873,
+        "phosphorus": 0.9751,
+        "potassium": 0.387
     },
     {
         "district": "Gulbarga",
-        "nitrogen": "0.7142",
-        "organicCarbon": "0.3988",
-        "phosphorus": "0.1483",
-        "potassium": "0.0187"
+        "nitrogen": 0.7142,
+        "organicCarbon": 0.3988,
+        "phosphorus": 0.1483,
+        "potassium": 0.0187
     },
     {
         "district": "Gumla",
-        "nitrogen": "0.6814",
-        "organicCarbon": "0.3735",
-        "phosphorus": "0.4599",
-        "potassium": "0.549"
+        "nitrogen": 0.6814,
+        "organicCarbon": 0.3735,
+        "phosphorus": 0.4599,
+        "potassium": 0.549
     },
     {
         "district": "Guna",
-        "nitrogen": "0.6082",
-        "organicCarbon": "0.284",
-        "phosphorus": "0.3049",
-        "potassium": "0.4049"
+        "nitrogen": 0.6082,
+        "organicCarbon": 0.284,
+        "phosphorus": 0.3049,
+        "potassium": 0.4049
     },
     {
         "district": "Guntur",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Gurdaspur",
-        "nitrogen": "0.4838",
-        "organicCarbon": "0.979",
-        "phosphorus": "0.5855",
-        "potassium": "0.3775"
+        "nitrogen": 0.4838,
+        "organicCarbon": 0.979,
+        "phosphorus": 0.5855,
+        "potassium": 0.3775
     },
     {
         "district": "Gurgaon",
-        "nitrogen": "1",
-        "organicCarbon": "0.9992",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.9992,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Gwalior",
-        "nitrogen": "0.9839",
-        "organicCarbon": "0.0968",
-        "phosphorus": "0.0161",
-        "potassium": "0"
+        "nitrogen": 0.9839,
+        "organicCarbon": 0.0968,
+        "phosphorus": 0.0161,
+        "potassium": 0
     },
     {
         "district": "Hailakandi",
-        "nitrogen": "0.0034",
-        "organicCarbon": "0.0127",
-        "phosphorus": "0.9439",
-        "potassium": "0.7736"
+        "nitrogen": 0.0034,
+        "organicCarbon": 0.0127,
+        "phosphorus": 0.9439,
+        "potassium": 0.7736
     },
     {
         "district": "Hamirpur",
-        "nitrogen": "0.2386",
-        "organicCarbon": "0.256",
-        "phosphorus": "0.0363",
-        "potassium": "0.0639"
+        "nitrogen": 0.2386,
+        "organicCarbon": 0.256,
+        "phosphorus": 0.0363,
+        "potassium": 0.0639
     },
     {
         "district": "Hamirpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.9365",
-        "phosphorus": "1",
-        "potassium": "0.3968"
+        "nitrogen": 1,
+        "organicCarbon": 0.9365,
+        "phosphorus": 1,
+        "potassium": 0.3968
     },
     {
         "district": "Hanumangarh",
-        "nitrogen": "1",
-        "organicCarbon": "0.9692",
-        "phosphorus": "0.3183",
-        "potassium": "0.0695"
+        "nitrogen": 1,
+        "organicCarbon": 0.9692,
+        "phosphorus": 0.3183,
+        "potassium": 0.0695
     },
     {
         "district": "Hapur",
-        "nitrogen": "0.9985",
-        "organicCarbon": "0.8667",
-        "phosphorus": "0.8588",
-        "potassium": "0.2963"
+        "nitrogen": 0.9985,
+        "organicCarbon": 0.8667,
+        "phosphorus": 0.8588,
+        "potassium": 0.2963
     },
     {
         "district": "Harda",
-        "nitrogen": "0.6159",
-        "organicCarbon": "0",
-        "phosphorus": "0.0854",
-        "potassium": "0.0671"
+        "nitrogen": 0.6159,
+        "organicCarbon": 0,
+        "phosphorus": 0.0854,
+        "potassium": 0.0671
     },
     {
         "district": "Hardoi",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Haridwar",
-        "nitrogen": "0.9794",
-        "organicCarbon": "0.5831",
-        "phosphorus": "0.1579",
-        "potassium": "0.225"
+        "nitrogen": 0.9794,
+        "organicCarbon": 0.5831,
+        "phosphorus": 0.1579,
+        "potassium": 0.225
     },
     {
         "district": "Hassan",
-        "nitrogen": "0.1982",
-        "organicCarbon": "0.2742",
-        "phosphorus": "0.1989",
-        "potassium": "0.0586"
+        "nitrogen": 0.1982,
+        "organicCarbon": 0.2742,
+        "phosphorus": 0.1989,
+        "potassium": 0.0586
     },
     {
         "district": "Hathras",
-        "nitrogen": "0.9978",
-        "organicCarbon": "0.9527",
-        "phosphorus": "0.9913",
-        "potassium": "0.2348"
+        "nitrogen": 0.9978,
+        "organicCarbon": 0.9527,
+        "phosphorus": 0.9913,
+        "potassium": 0.2348
     },
     {
         "district": "Haveri",
-        "nitrogen": "0.9979",
-        "organicCarbon": "0.9896",
-        "phosphorus": "0.7172",
-        "potassium": "0.6435"
+        "nitrogen": 0.9979,
+        "organicCarbon": 0.9896,
+        "phosphorus": 0.7172,
+        "potassium": 0.6435
     },
     {
         "district": "Hazaribagh",
-        "nitrogen": "0.5636",
-        "organicCarbon": "0.6481",
-        "phosphorus": "0.8363",
-        "potassium": "0.3281"
+        "nitrogen": 0.5636,
+        "organicCarbon": 0.6481,
+        "phosphorus": 0.8363,
+        "potassium": 0.3281
     },
     {
         "district": "Hingoli",
-        "nitrogen": "0.1928",
-        "organicCarbon": "0.3272",
-        "phosphorus": "0",
-        "potassium": "0.006"
+        "nitrogen": 0.1928,
+        "organicCarbon": 0.3272,
+        "phosphorus": 0,
+        "potassium": 0.006
     },
     {
         "district": "Hisar",
-        "nitrogen": "0",
-        "organicCarbon": "0.924",
-        "phosphorus": "0.9494",
-        "potassium": "0.9873"
+        "nitrogen": 0,
+        "organicCarbon": 0.924,
+        "phosphorus": 0.9494,
+        "potassium": 0.9873
     },
     {
         "district": "HOJAI",
-        "nitrogen": "0.915",
-        "organicCarbon": "0.3846",
-        "phosphorus": "0.5769",
-        "potassium": "0.891"
+        "nitrogen": 0.915,
+        "organicCarbon": 0.3846,
+        "phosphorus": 0.5769,
+        "potassium": 0.891
     },
     {
         "district": "Hooghly",
-        "nitrogen": "0.3371",
-        "organicCarbon": "0.2688",
-        "phosphorus": "0.0065",
-        "potassium": "0.012"
+        "nitrogen": 0.3371,
+        "organicCarbon": 0.2688,
+        "phosphorus": 0.0065,
+        "potassium": 0.012
     },
     {
         "district": "Hoshangabad",
-        "nitrogen": "0.8013",
-        "organicCarbon": "0.407",
-        "phosphorus": "0.2333",
-        "potassium": "0.0094"
+        "nitrogen": 0.8013,
+        "organicCarbon": 0.407,
+        "phosphorus": 0.2333,
+        "potassium": 0.0094
     },
     {
         "district": "Hoshiarpur",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Howrah",
-        "nitrogen": "0.1466",
-        "organicCarbon": "0.2666",
-        "phosphorus": "0.7333",
-        "potassium": "0.0533"
+        "nitrogen": 0.1466,
+        "organicCarbon": 0.2666,
+        "phosphorus": 0.7333,
+        "potassium": 0.0533
     },
     {
         "district": "Hyderabad",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Idukki",
-        "nitrogen": "0",
-        "organicCarbon": "0.1176",
-        "phosphorus": "0.4118",
-        "potassium": "0.16"
+        "nitrogen": 0,
+        "organicCarbon": 0.1176,
+        "phosphorus": 0.4118,
+        "potassium": 0.16
     },
     {
         "district": "Imphal East",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Imphal West",
-        "nitrogen": "0.3249",
-        "organicCarbon": "0.0426",
-        "phosphorus": "0.3024",
-        "potassium": "0.3721"
+        "nitrogen": 0.3249,
+        "organicCarbon": 0.0426,
+        "phosphorus": 0.3024,
+        "potassium": 0.3721
     },
     {
         "district": "Indore",
-        "nitrogen": "0.9982",
-        "organicCarbon": "0.768",
-        "phosphorus": "0.9883",
-        "potassium": "0.003"
+        "nitrogen": 0.9982,
+        "organicCarbon": 0.768,
+        "phosphorus": 0.9883,
+        "potassium": 0.003
     },
     {
         "district": "Jabalpur",
-        "nitrogen": "0.6021",
-        "organicCarbon": "0.3001",
-        "phosphorus": "0.4222",
-        "potassium": "0.0473"
+        "nitrogen": 0.6021,
+        "organicCarbon": 0.3001,
+        "phosphorus": 0.4222,
+        "potassium": 0.0473
     },
     {
         "district": "Jagatsinghapur",
-        "nitrogen": "1",
-        "organicCarbon": "0.2914",
-        "phosphorus": "0.8315",
-        "potassium": "0.1932"
+        "nitrogen": 1,
+        "organicCarbon": 0.2914,
+        "phosphorus": 0.8315,
+        "potassium": 0.1932
     },
     {
         "district": "Jaipur",
-        "nitrogen": "1",
-        "organicCarbon": "0.6667",
-        "phosphorus": "0.3333",
-        "potassium": "0.3333"
+        "nitrogen": 1,
+        "organicCarbon": 0.6667,
+        "phosphorus": 0.3333,
+        "potassium": 0.3333
     },
     {
         "district": "Jaisalmer",
-        "nitrogen": "0",
-        "organicCarbon": "0.9977",
-        "phosphorus": "0.0051",
-        "potassium": "0.0103"
+        "nitrogen": 0,
+        "organicCarbon": 0.9977,
+        "phosphorus": 0.0051,
+        "potassium": 0.0103
     },
     {
         "district": "Jajapur",
-        "nitrogen": "0",
-        "organicCarbon": "0.7567",
-        "phosphorus": "0.9459",
-        "potassium": "0.5676"
+        "nitrogen": 0,
+        "organicCarbon": 0.7567,
+        "phosphorus": 0.9459,
+        "potassium": 0.5676
     },
     {
         "district": "Jalandhar",
-        "nitrogen": "1",
-        "organicCarbon": "0.5",
-        "phosphorus": "0.1819",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.5,
+        "phosphorus": 0.1819,
+        "potassium": 0
     },
     {
         "district": "Jalaun",
-        "nitrogen": "0.9949",
-        "organicCarbon": "0.7575",
-        "phosphorus": "0.9811",
-        "potassium": "0.0113"
+        "nitrogen": 0.9949,
+        "organicCarbon": 0.7575,
+        "phosphorus": 0.9811,
+        "potassium": 0.0113
     },
     {
         "district": "Jalgaon",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Jalna",
-        "nitrogen": "0.8374",
-        "organicCarbon": "0.5896",
-        "phosphorus": "0.4276",
-        "potassium": "0.0447"
+        "nitrogen": 0.8374,
+        "organicCarbon": 0.5896,
+        "phosphorus": 0.4276,
+        "potassium": 0.0447
     },
     {
         "district": "Jalore",
-        "nitrogen": "0",
-        "organicCarbon": "0.9155",
-        "phosphorus": "0.1096",
-        "potassium": "0.1155"
+        "nitrogen": 0,
+        "organicCarbon": 0.9155,
+        "phosphorus": 0.1096,
+        "potassium": 0.1155
     },
     {
         "district": "Jalpaiguri",
-        "nitrogen": "0.7808",
-        "organicCarbon": "0.1855",
-        "phosphorus": "0.0528",
-        "potassium": "0.3764"
+        "nitrogen": 0.7808,
+        "organicCarbon": 0.1855,
+        "phosphorus": 0.0528,
+        "potassium": 0.3764
     },
     {
         "district": "Jammu",
-        "nitrogen": "0.5836",
-        "organicCarbon": "0.668",
-        "phosphorus": "0.759",
-        "potassium": "0.2168"
+        "nitrogen": 0.5836,
+        "organicCarbon": 0.668,
+        "phosphorus": 0.759,
+        "potassium": 0.2168
     },
     {
         "district": "Jamnagar",
-        "nitrogen": "0",
-        "organicCarbon": "0.3333",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0.3333,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Jamtara",
-        "nitrogen": "1",
-        "organicCarbon": "0.5714",
-        "phosphorus": "1",
-        "potassium": "0.4286"
+        "nitrogen": 1,
+        "organicCarbon": 0.5714,
+        "phosphorus": 1,
+        "potassium": 0.4286
     },
     {
         "district": "Jamui",
-        "nitrogen": "0.4784",
-        "organicCarbon": "0.4162",
-        "phosphorus": "0.0024",
-        "potassium": "0.256"
+        "nitrogen": 0.4784,
+        "organicCarbon": 0.4162,
+        "phosphorus": 0.0024,
+        "potassium": 0.256
     },
     {
         "district": "Janjgir-Champa",
-        "nitrogen": "0.8532",
-        "organicCarbon": "0.542",
-        "phosphorus": "0.3287",
-        "potassium": "0.014"
+        "nitrogen": 0.8532,
+        "organicCarbon": 0.542,
+        "phosphorus": 0.3287,
+        "potassium": 0.014
     },
     {
         "district": "Jashpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.5",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.5,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Jaunpur",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0.8",
-        "potassium": "0.8"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0.8,
+        "potassium": 0.8
     },
     {
         "district": "Jehanabad",
-        "nitrogen": "0.0471",
-        "organicCarbon": "0.1382",
-        "phosphorus": "0.4853",
-        "potassium": "0.0588"
+        "nitrogen": 0.0471,
+        "organicCarbon": 0.1382,
+        "phosphorus": 0.4853,
+        "potassium": 0.0588
     },
     {
         "district": "Jhabua",
-        "nitrogen": "0.55",
-        "organicCarbon": "0.05",
-        "phosphorus": "0.6",
-        "potassium": "0.05"
+        "nitrogen": 0.55,
+        "organicCarbon": 0.05,
+        "phosphorus": 0.6,
+        "potassium": 0.05
     },
     {
         "district": "Jhajjar",
-        "nitrogen": "0.5",
-        "organicCarbon": "1",
-        "phosphorus": "0.5609",
-        "potassium": "0.298"
+        "nitrogen": 0.5,
+        "organicCarbon": 1,
+        "phosphorus": 0.5609,
+        "potassium": 0.298
     },
     {
         "district": "Jhalawar",
-        "nitrogen": "0",
-        "organicCarbon": "0.651",
-        "phosphorus": "0.1545",
-        "potassium": "0.0502"
+        "nitrogen": 0,
+        "organicCarbon": 0.651,
+        "phosphorus": 0.1545,
+        "potassium": 0.0502
     },
     {
         "district": "Jhansi",
-        "nitrogen": "1",
-        "organicCarbon": "0.921",
-        "phosphorus": "0.6184",
-        "potassium": "0.0026"
+        "nitrogen": 1,
+        "organicCarbon": 0.921,
+        "phosphorus": 0.6184,
+        "potassium": 0.0026
     },
     {
         "district": "Jharsuguda",
-        "nitrogen": "0",
-        "organicCarbon": "0.2534",
-        "phosphorus": "0.3881",
-        "potassium": "0.0606"
+        "nitrogen": 0,
+        "organicCarbon": 0.2534,
+        "phosphorus": 0.3881,
+        "potassium": 0.0606
     },
     {
         "district": "Jhunjhunu",
-        "nitrogen": "0",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0.0701"
+        "nitrogen": 0,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0.0701
     },
     {
         "district": "Jind",
-        "nitrogen": "0.9993",
-        "organicCarbon": "0.9966",
-        "phosphorus": "0.996",
-        "potassium": "0.002"
+        "nitrogen": 0.9993,
+        "organicCarbon": 0.9966,
+        "phosphorus": 0.996,
+        "potassium": 0.002
     },
     {
         "district": "Jodhpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.9453",
-        "phosphorus": "0.0683",
-        "potassium": "0.0556"
+        "nitrogen": 1,
+        "organicCarbon": 0.9453,
+        "phosphorus": 0.0683,
+        "potassium": 0.0556
     },
     {
         "district": "Jorhat",
-        "nitrogen": "0",
-        "organicCarbon": "0.0625",
-        "phosphorus": "1",
-        "potassium": "0.7813"
+        "nitrogen": 0,
+        "organicCarbon": 0.0625,
+        "phosphorus": 1,
+        "potassium": 0.7813
     },
     {
         "district": "Junagadh",
-        "nitrogen": "0.9978",
-        "organicCarbon": "0.4402",
-        "phosphorus": "0.1276",
-        "potassium": "0.0557"
+        "nitrogen": 0.9978,
+        "organicCarbon": 0.4402,
+        "phosphorus": 0.1276,
+        "potassium": 0.0557
     },
     {
         "district": "Kabirdham (Kawardha)",
-        "nitrogen": "1",
-        "organicCarbon": "0.6667",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.6667,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Kachchh",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Kaimur (Bhabua)",
-        "nitrogen": "0.3056",
-        "organicCarbon": "0.5",
-        "phosphorus": "0.3889",
-        "potassium": "0.1389"
+        "nitrogen": 0.3056,
+        "organicCarbon": 0.5,
+        "phosphorus": 0.3889,
+        "potassium": 0.1389
     },
     {
         "district": "Kaithal",
-        "nitrogen": "0",
-        "organicCarbon": "0.9842",
-        "phosphorus": "0.8658",
-        "potassium": "0.2421"
+        "nitrogen": 0,
+        "organicCarbon": 0.9842,
+        "phosphorus": 0.8658,
+        "potassium": 0.2421
     },
     {
         "district": "Kalahandi",
-        "nitrogen": "0.873",
-        "organicCarbon": "0.6011",
-        "phosphorus": "0.7646",
-        "potassium": "0.2099"
+        "nitrogen": 0.873,
+        "organicCarbon": 0.6011,
+        "phosphorus": 0.7646,
+        "potassium": 0.2099
     },
     {
         "district": "KALIMPONG",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 1
     },
     {
         "district": "Kamrup",
-        "nitrogen": "0.0412",
-        "organicCarbon": "0.0512",
-        "phosphorus": "0.7262",
-        "potassium": "0.856"
+        "nitrogen": 0.0412,
+        "organicCarbon": 0.0512,
+        "phosphorus": 0.7262,
+        "potassium": 0.856
     },
     {
         "district": "Kamrup Metro",
-        "nitrogen": "0",
-        "organicCarbon": "0.0323",
-        "phosphorus": "1",
-        "potassium": "0.7419"
+        "nitrogen": 0,
+        "organicCarbon": 0.0323,
+        "phosphorus": 1,
+        "potassium": 0.7419
     },
     {
         "district": "Kanchipuram",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Kandhamal",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Kangra",
-        "nitrogen": "0.1903",
-        "organicCarbon": "0.1507",
-        "phosphorus": "0.1316",
-        "potassium": "0.1431"
+        "nitrogen": 0.1903,
+        "organicCarbon": 0.1507,
+        "phosphorus": 0.1316,
+        "potassium": 0.1431
     },
     {
         "district": "Kanker",
-        "nitrogen": "0.3855",
-        "organicCarbon": "0.5958",
-        "phosphorus": "0.4348",
-        "potassium": "0.391"
+        "nitrogen": 0.3855,
+        "organicCarbon": 0.5958,
+        "phosphorus": 0.4348,
+        "potassium": 0.391
     },
     {
         "district": "Kannauj",
-        "nitrogen": "0.9993",
-        "organicCarbon": "0.9896",
-        "phosphorus": "0.9898",
-        "potassium": "0.0157"
+        "nitrogen": 0.9993,
+        "organicCarbon": 0.9896,
+        "phosphorus": 0.9898,
+        "potassium": 0.0157
     },
     {
         "district": "Kanniyakumari",
-        "nitrogen": "0.9004",
-        "organicCarbon": "0.5643",
-        "phosphorus": "0.083",
-        "potassium": "0.0746"
+        "nitrogen": 0.9004,
+        "organicCarbon": 0.5643,
+        "phosphorus": 0.083,
+        "potassium": 0.0746
     },
     {
         "district": "Kannur",
-        "nitrogen": "0",
-        "organicCarbon": "0.2128",
-        "phosphorus": "0.1489",
-        "potassium": "0.1915"
+        "nitrogen": 0,
+        "organicCarbon": 0.2128,
+        "phosphorus": 0.1489,
+        "potassium": 0.1915
     },
     {
         "district": "Kanpur Dehat",
-        "nitrogen": "0",
-        "organicCarbon": "0.9048",
-        "phosphorus": "1",
-        "potassium": "0.131"
+        "nitrogen": 0,
+        "organicCarbon": 0.9048,
+        "phosphorus": 1,
+        "potassium": 0.131
     },
     {
         "district": "Kanpur Nagar",
-        "nitrogen": "0.9993",
-        "organicCarbon": "0.9161",
-        "phosphorus": "0.9754",
-        "potassium": "0.0183"
+        "nitrogen": 0.9993,
+        "organicCarbon": 0.9161,
+        "phosphorus": 0.9754,
+        "potassium": 0.0183
     },
     {
         "district": "Kapurthala",
-        "nitrogen": "1",
-        "organicCarbon": "0.7853",
-        "phosphorus": "0.643",
-        "potassium": "0.1344"
+        "nitrogen": 1,
+        "organicCarbon": 0.7853,
+        "phosphorus": 0.643,
+        "potassium": 0.1344
     },
     {
         "district": "Karaikal",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0.2817",
-        "potassium": "0.2204"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0.2817,
+        "potassium": 0.2204
     },
     {
         "district": "Karauli",
-        "nitrogen": "0",
-        "organicCarbon": "0.5611",
-        "phosphorus": "0.2003",
-        "potassium": "0.0633"
+        "nitrogen": 0,
+        "organicCarbon": 0.5611,
+        "phosphorus": 0.2003,
+        "potassium": 0.0633
     },
     {
         "district": "Karbi Anglong",
-        "nitrogen": "0.8737",
-        "organicCarbon": "0.5581",
-        "phosphorus": "0.6579",
-        "potassium": "0.0729"
+        "nitrogen": 0.8737,
+        "organicCarbon": 0.5581,
+        "phosphorus": 0.6579,
+        "potassium": 0.0729
     },
     {
         "district": "Kargil",
-        "nitrogen": "0.021",
-        "organicCarbon": "0.1233",
-        "phosphorus": "0.3544",
-        "potassium": "0.3068"
+        "nitrogen": 0.021,
+        "organicCarbon": 0.1233,
+        "phosphorus": 0.3544,
+        "potassium": 0.3068
     },
     {
         "district": "Karimganj",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Karimnagar",
-        "nitrogen": "0.6348",
-        "organicCarbon": "0.7336",
-        "phosphorus": "0.0565",
-        "potassium": "0.0341"
+        "nitrogen": 0.6348,
+        "organicCarbon": 0.7336,
+        "phosphorus": 0.0565,
+        "potassium": 0.0341
     },
     {
         "district": "Karnal",
-        "nitrogen": "1",
-        "organicCarbon": "0.9606",
-        "phosphorus": "0.9167",
-        "potassium": "0.5447"
+        "nitrogen": 1,
+        "organicCarbon": 0.9606,
+        "phosphorus": 0.9167,
+        "potassium": 0.5447
     },
     {
         "district": "Karur",
-        "nitrogen": "1",
-        "organicCarbon": "0.5",
-        "phosphorus": "0.5",
-        "potassium": "0.5"
+        "nitrogen": 1,
+        "organicCarbon": 0.5,
+        "phosphorus": 0.5,
+        "potassium": 0.5
     },
     {
         "district": "Kasaragod",
-        "nitrogen": "0",
-        "organicCarbon": "0.0117",
-        "phosphorus": "0.7578",
-        "potassium": "0.7227"
+        "nitrogen": 0,
+        "organicCarbon": 0.0117,
+        "phosphorus": 0.7578,
+        "potassium": 0.7227
     },
     {
         "district": "Kasganj",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Kathua",
-        "nitrogen": "0.1403",
-        "organicCarbon": "0.1547",
-        "phosphorus": "0.7086",
-        "potassium": "0.5827"
+        "nitrogen": 0.1403,
+        "organicCarbon": 0.1547,
+        "phosphorus": 0.7086,
+        "potassium": 0.5827
     },
     {
         "district": "Katihar",
-        "nitrogen": "0.5058",
-        "organicCarbon": "0.2776",
-        "phosphorus": "0.3599",
-        "potassium": "0.082"
+        "nitrogen": 0.5058,
+        "organicCarbon": 0.2776,
+        "phosphorus": 0.3599,
+        "potassium": 0.082
     },
     {
         "district": "Katni",
-        "nitrogen": "0.619",
-        "organicCarbon": "0.2857",
-        "phosphorus": "0.3393",
-        "potassium": "0.2335"
+        "nitrogen": 0.619,
+        "organicCarbon": 0.2857,
+        "phosphorus": 0.3393,
+        "potassium": 0.2335
     },
     {
         "district": "Kaushambi",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Kendrapara",
-        "nitrogen": "1",
-        "organicCarbon": "0.5398",
-        "phosphorus": "0.5321",
-        "potassium": "0.2595"
+        "nitrogen": 1,
+        "organicCarbon": 0.5398,
+        "phosphorus": 0.5321,
+        "potassium": 0.2595
     },
     {
         "district": "Kendujhar",
-        "nitrogen": "1",
-        "organicCarbon": "0.7164",
-        "phosphorus": "0.9118",
-        "potassium": "0.8071"
+        "nitrogen": 1,
+        "organicCarbon": 0.7164,
+        "phosphorus": 0.9118,
+        "potassium": 0.8071
     },
     {
         "district": "Khagaria",
-        "nitrogen": "0.2252",
-        "organicCarbon": "0.0082",
-        "phosphorus": "0.0289",
-        "potassium": "0.134"
+        "nitrogen": 0.2252,
+        "organicCarbon": 0.0082,
+        "phosphorus": 0.0289,
+        "potassium": 0.134
     },
     {
         "district": "Khammam",
-        "nitrogen": "0.9967",
-        "organicCarbon": "0.9195",
-        "phosphorus": "0.2417",
-        "potassium": "0.0269"
+        "nitrogen": 0.9967,
+        "organicCarbon": 0.9195,
+        "phosphorus": 0.2417,
+        "potassium": 0.0269
     },
     {
         "district": "Khargone",
-        "nitrogen": "0.2647",
-        "organicCarbon": "0.0294",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 0.2647,
+        "organicCarbon": 0.0294,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Kheda",
-        "nitrogen": "1",
-        "organicCarbon": "0.5478",
-        "phosphorus": "0.0676",
-        "potassium": "0.0011"
+        "nitrogen": 1,
+        "organicCarbon": 0.5478,
+        "phosphorus": 0.0676,
+        "potassium": 0.0011
     },
     {
         "district": "Kheri",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0.3333"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0.3333
     },
     {
         "district": "Khordha",
-        "nitrogen": "0",
-        "organicCarbon": "0.0928",
-        "phosphorus": "0.6431",
-        "potassium": "0.3159"
+        "nitrogen": 0,
+        "organicCarbon": 0.0928,
+        "phosphorus": 0.6431,
+        "potassium": 0.3159
     },
     {
         "district": "Khowai",
-        "nitrogen": "0.6587",
-        "organicCarbon": "0.3135",
-        "phosphorus": "0.5396",
-        "potassium": "0.7342"
+        "nitrogen": 0.6587,
+        "organicCarbon": 0.3135,
+        "phosphorus": 0.5396,
+        "potassium": 0.7342
     },
     {
         "district": "Khunti",
-        "nitrogen": "0.1293",
-        "organicCarbon": "0.2586",
-        "phosphorus": "0.5259",
-        "potassium": "0.3793"
+        "nitrogen": 0.1293,
+        "organicCarbon": 0.2586,
+        "phosphorus": 0.5259,
+        "potassium": 0.3793
     },
     {
         "district": "Kinnaur",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0.5",
-        "potassium": "0.125"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0.5,
+        "potassium": 0.125
     },
     {
         "district": "Kiphire",
-        "nitrogen": "0.0579",
-        "organicCarbon": "0.0593",
-        "phosphorus": "1",
-        "potassium": "0.1103"
+        "nitrogen": 0.0579,
+        "organicCarbon": 0.0593,
+        "phosphorus": 1,
+        "potassium": 0.1103
     },
     {
         "district": "Kishanganj",
-        "nitrogen": "0.6766",
-        "organicCarbon": "0.3533",
-        "phosphorus": "0.2434",
-        "potassium": "0.2833"
+        "nitrogen": 0.6766,
+        "organicCarbon": 0.3533,
+        "phosphorus": 0.2434,
+        "potassium": 0.2833
     },
     {
         "district": "Kishtwar",
-        "nitrogen": "0.1447",
-        "organicCarbon": "0.0789",
-        "phosphorus": "0.5263",
-        "potassium": "0.0658"
+        "nitrogen": 0.1447,
+        "organicCarbon": 0.0789,
+        "phosphorus": 0.5263,
+        "potassium": 0.0658
     },
     {
         "district": "Kodagu",
-        "nitrogen": "0.5667",
-        "organicCarbon": "0.6004",
-        "phosphorus": "0.6004",
-        "potassium": "0.0455"
+        "nitrogen": 0.5667,
+        "organicCarbon": 0.6004,
+        "phosphorus": 0.6004,
+        "potassium": 0.0455
     },
     {
         "district": "Koderma",
-        "nitrogen": "0.6805",
-        "organicCarbon": "0.5931",
-        "phosphorus": "0.1931",
-        "potassium": "0.131"
+        "nitrogen": 0.6805,
+        "organicCarbon": 0.5931,
+        "phosphorus": 0.1931,
+        "potassium": 0.131
     },
     {
         "district": "Kohima",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Kokrajhar",
-        "nitrogen": "0.8658",
-        "organicCarbon": "0.8204",
-        "phosphorus": "0.8525",
-        "potassium": "0.8864"
+        "nitrogen": 0.8658,
+        "organicCarbon": 0.8204,
+        "phosphorus": 0.8525,
+        "potassium": 0.8864
     },
     {
         "district": "Kolar",
-        "nitrogen": "0.9818",
-        "organicCarbon": "0.9937",
-        "phosphorus": "0.3238",
-        "potassium": "0.2748"
+        "nitrogen": 0.9818,
+        "organicCarbon": 0.9937,
+        "phosphorus": 0.3238,
+        "potassium": 0.2748
     },
     {
         "district": "Kolasib",
-        "nitrogen": "0.169",
-        "organicCarbon": "0.3878",
-        "phosphorus": "0.9724",
-        "potassium": "0.1225"
+        "nitrogen": 0.169,
+        "organicCarbon": 0.3878,
+        "phosphorus": 0.9724,
+        "potassium": 0.1225
     },
     {
         "district": "Kolhapur",
-        "nitrogen": "0.2877",
-        "organicCarbon": "0.3496",
-        "phosphorus": "0.2677",
-        "potassium": "0.2838"
+        "nitrogen": 0.2877,
+        "organicCarbon": 0.3496,
+        "phosphorus": 0.2677,
+        "potassium": 0.2838
     },
     {
         "district": "Kollam",
-        "nitrogen": "0",
-        "organicCarbon": "0.0597",
-        "phosphorus": "0.005",
-        "potassium": "0.8508"
+        "nitrogen": 0,
+        "organicCarbon": 0.0597,
+        "phosphorus": 0.005,
+        "potassium": 0.8508
     },
     {
         "district": "Kondagaon",
-        "nitrogen": "0.6315",
-        "organicCarbon": "0.7368",
-        "phosphorus": "0.421",
-        "potassium": "0.2632"
+        "nitrogen": 0.6315,
+        "organicCarbon": 0.7368,
+        "phosphorus": 0.421,
+        "potassium": 0.2632
     },
     {
         "district": "Koppal",
-        "nitrogen": "1",
-        "organicCarbon": "0.9834",
-        "phosphorus": "0",
-        "potassium": "0.0041"
+        "nitrogen": 1,
+        "organicCarbon": 0.9834,
+        "phosphorus": 0,
+        "potassium": 0.0041
     },
     {
         "district": "Koraput",
-        "nitrogen": "0.8333",
-        "organicCarbon": "0.3448",
-        "phosphorus": "0.6242",
-        "potassium": "0.045"
+        "nitrogen": 0.8333,
+        "organicCarbon": 0.3448,
+        "phosphorus": 0.6242,
+        "potassium": 0.045
     },
     {
         "district": "Korba",
-        "nitrogen": "0.9831",
-        "organicCarbon": "0.2172",
-        "phosphorus": "0.3675",
-        "potassium": "0.0326"
+        "nitrogen": 0.9831,
+        "organicCarbon": 0.2172,
+        "phosphorus": 0.3675,
+        "potassium": 0.0326
     },
     {
         "district": "Korea",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0.5",
-        "potassium": "0.5"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0.5,
+        "potassium": 0.5
     },
     {
         "district": "Kota",
-        "nitrogen": "0",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Kottayam",
-        "nitrogen": "1",
-        "organicCarbon": "0.05",
-        "phosphorus": "0.4",
-        "potassium": "0.2"
+        "nitrogen": 1,
+        "organicCarbon": 0.05,
+        "phosphorus": 0.4,
+        "potassium": 0.2
     },
     {
         "district": "Kozhikode",
-        "nitrogen": "1",
-        "organicCarbon": "0.2543",
-        "phosphorus": "0.5316",
-        "potassium": "0.1521"
+        "nitrogen": 1,
+        "organicCarbon": 0.2543,
+        "phosphorus": 0.5316,
+        "potassium": 0.1521
     },
     {
         "district": "Kra Daadi",
-        "nitrogen": "0.0482",
-        "organicCarbon": "0.1068",
-        "phosphorus": "0.8635",
-        "potassium": "0.3103"
+        "nitrogen": 0.0482,
+        "organicCarbon": 0.1068,
+        "phosphorus": 0.8635,
+        "potassium": 0.3103
     },
     {
         "district": "Krishna",
-        "nitrogen": "1",
-        "organicCarbon": "0.25",
-        "phosphorus": "0",
-        "potassium": "0.25"
+        "nitrogen": 1,
+        "organicCarbon": 0.25,
+        "phosphorus": 0,
+        "potassium": 0.25
     },
     {
         "district": "Krishnagiri",
-        "nitrogen": "0.9909",
-        "organicCarbon": "0.9324",
-        "phosphorus": "0.4894",
-        "potassium": "0.3174"
+        "nitrogen": 0.9909,
+        "organicCarbon": 0.9324,
+        "phosphorus": 0.4894,
+        "potassium": 0.3174
     },
     {
         "district": "Kulgam",
-        "nitrogen": "0.3312",
-        "organicCarbon": "0.1423",
-        "phosphorus": "0.4912",
-        "potassium": "0.3891"
+        "nitrogen": 0.3312,
+        "organicCarbon": 0.1423,
+        "phosphorus": 0.4912,
+        "potassium": 0.3891
     },
     {
         "district": "Kullu",
-        "nitrogen": "0.8676",
-        "organicCarbon": "0.044",
-        "phosphorus": "0.1702",
-        "potassium": "0.1931"
+        "nitrogen": 0.8676,
+        "organicCarbon": 0.044,
+        "phosphorus": 0.1702,
+        "potassium": 0.1931
     },
     {
         "district": "Kupwara",
-        "nitrogen": "0.3792",
-        "organicCarbon": "0.0452",
-        "phosphorus": "0.9409",
-        "potassium": "0.1374"
+        "nitrogen": 0.3792,
+        "organicCarbon": 0.0452,
+        "phosphorus": 0.9409,
+        "potassium": 0.1374
     },
     {
         "district": "Kurnool",
-        "nitrogen": "0.9969",
-        "organicCarbon": "0.5639",
-        "phosphorus": "0.0885",
-        "potassium": "0.2949"
+        "nitrogen": 0.9969,
+        "organicCarbon": 0.5639,
+        "phosphorus": 0.0885,
+        "potassium": 0.2949
     },
     {
         "district": "Kurukshetra",
-        "nitrogen": "0",
-        "organicCarbon": "0.7073",
-        "phosphorus": "0.997",
-        "potassium": "0.0148"
+        "nitrogen": 0,
+        "organicCarbon": 0.7073,
+        "phosphorus": 0.997,
+        "potassium": 0.0148
     },
     {
         "district": "Kurung Kumey",
-        "nitrogen": "0.0137",
-        "organicCarbon": "0.0362",
-        "phosphorus": "0.9398",
-        "potassium": "0.1842"
+        "nitrogen": 0.0137,
+        "organicCarbon": 0.0362,
+        "phosphorus": 0.9398,
+        "potassium": 0.1842
     },
     {
         "district": "Kushi Nagar",
-        "nitrogen": "0.9974",
-        "organicCarbon": "0.9143",
-        "phosphorus": "0.8945",
-        "potassium": "0.3797"
+        "nitrogen": 0.9974,
+        "organicCarbon": 0.9143,
+        "phosphorus": 0.8945,
+        "potassium": 0.3797
     },
     {
         "district": "Lahul And Spiti",
-        "nitrogen": "0.5",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0.2"
+        "nitrogen": 0.5,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0.2
     },
     {
         "district": "Lakhimpur",
-        "nitrogen": "0.9147",
-        "organicCarbon": "0.5744",
-        "phosphorus": "0.7952",
-        "potassium": "0.613"
+        "nitrogen": 0.9147,
+        "organicCarbon": 0.5744,
+        "phosphorus": 0.7952,
+        "potassium": 0.613
     },
     {
         "district": "Lakhisarai",
-        "nitrogen": "0.2051",
-        "organicCarbon": "0.0653",
-        "phosphorus": "0.007",
-        "potassium": "0.0221"
+        "nitrogen": 0.2051,
+        "organicCarbon": 0.0653,
+        "phosphorus": 0.007,
+        "potassium": 0.0221
     },
     {
         "district": "Lalitpur",
-        "nitrogen": "0.7348",
-        "organicCarbon": "0.0352",
-        "phosphorus": "0.9315",
-        "potassium": "0.0021"
+        "nitrogen": 0.7348,
+        "organicCarbon": 0.0352,
+        "phosphorus": 0.9315,
+        "potassium": 0.0021
     },
     {
         "district": "Latehar",
-        "nitrogen": "0.5666",
-        "organicCarbon": "0.6232",
-        "phosphorus": "0.796",
-        "potassium": "0.068"
+        "nitrogen": 0.5666,
+        "organicCarbon": 0.6232,
+        "phosphorus": 0.796,
+        "potassium": 0.068
     },
     {
         "district": "Latur",
-        "nitrogen": "1",
-        "organicCarbon": "0.01",
-        "phosphorus": "0.0437",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.01,
+        "phosphorus": 0.0437,
+        "potassium": 0
     },
     {
         "district": "Lawngtlai",
-        "nitrogen": "0.2821",
-        "organicCarbon": "0.3964",
-        "phosphorus": "0.8823",
-        "potassium": "0.2795"
+        "nitrogen": 0.2821,
+        "organicCarbon": 0.3964,
+        "phosphorus": 0.8823,
+        "potassium": 0.2795
     },
     {
         "district": "Leh Ladakh",
-        "nitrogen": "0.0868",
-        "organicCarbon": "0.0279",
-        "phosphorus": "0.1682",
-        "potassium": "0.573"
+        "nitrogen": 0.0868,
+        "organicCarbon": 0.0279,
+        "phosphorus": 0.1682,
+        "potassium": 0.573
     },
     {
         "district": "Lohardaga",
-        "nitrogen": "0.5031",
-        "organicCarbon": "0.4213",
-        "phosphorus": "0.5912",
-        "potassium": "0.9434"
+        "nitrogen": 0.5031,
+        "organicCarbon": 0.4213,
+        "phosphorus": 0.5912,
+        "potassium": 0.9434
     },
     {
         "district": "Lohit",
-        "nitrogen": "0.036",
-        "organicCarbon": "0.0864",
-        "phosphorus": "0.7263",
-        "potassium": "0.126"
+        "nitrogen": 0.036,
+        "organicCarbon": 0.0864,
+        "phosphorus": 0.7263,
+        "potassium": 0.126
     },
     {
         "district": "Longleng",
-        "nitrogen": "0.1976",
-        "organicCarbon": "0.0527",
-        "phosphorus": "0.3817",
-        "potassium": "0.2619"
+        "nitrogen": 0.1976,
+        "organicCarbon": 0.0527,
+        "phosphorus": 0.3817,
+        "potassium": 0.2619
     },
     {
         "district": "Lower Dibang Valley",
-        "nitrogen": "0.0068",
-        "organicCarbon": "0.0081",
-        "phosphorus": "0.8815",
-        "potassium": "0.1717"
+        "nitrogen": 0.0068,
+        "organicCarbon": 0.0081,
+        "phosphorus": 0.8815,
+        "potassium": 0.1717
     },
     {
         "district": "Lower Subansiri",
-        "nitrogen": "0.5158",
-        "organicCarbon": "0.06",
-        "phosphorus": "0.5724",
-        "potassium": "0.4133"
+        "nitrogen": 0.5158,
+        "organicCarbon": 0.06,
+        "phosphorus": 0.5724,
+        "potassium": 0.4133
     },
     {
         "district": "Lucknow",
-        "nitrogen": "1",
-        "organicCarbon": "0.8485",
-        "phosphorus": "0.9705",
-        "potassium": "0.2058"
+        "nitrogen": 1,
+        "organicCarbon": 0.8485,
+        "phosphorus": 0.9705,
+        "potassium": 0.2058
     },
     {
         "district": "Ludhiana",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Lunglei",
-        "nitrogen": "0.3469",
-        "organicCarbon": "0.4202",
-        "phosphorus": "0.8385",
-        "potassium": "0.2536"
+        "nitrogen": 0.3469,
+        "organicCarbon": 0.4202,
+        "phosphorus": 0.8385,
+        "potassium": 0.2536
     },
     {
         "district": "Madhepura",
-        "nitrogen": "0.6049",
-        "organicCarbon": "0.5185",
-        "phosphorus": "0.181",
-        "potassium": "0.2757"
+        "nitrogen": 0.6049,
+        "organicCarbon": 0.5185,
+        "phosphorus": 0.181,
+        "potassium": 0.2757
     },
     {
         "district": "Madhubani",
-        "nitrogen": "0.5736",
-        "organicCarbon": "0.408",
-        "phosphorus": "0.136",
-        "potassium": "0.5004"
+        "nitrogen": 0.5736,
+        "organicCarbon": 0.408,
+        "phosphorus": 0.136,
+        "potassium": 0.5004
     },
     {
         "district": "Madurai",
-        "nitrogen": "0.9888",
-        "organicCarbon": "0.663",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0.9888,
+        "organicCarbon": 0.663,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Maharajganj",
-        "nitrogen": "1",
-        "organicCarbon": "0.6717",
-        "phosphorus": "0.4596",
-        "potassium": "0.2323"
+        "nitrogen": 1,
+        "organicCarbon": 0.6717,
+        "phosphorus": 0.4596,
+        "potassium": 0.2323
     },
     {
         "district": "Mahasamund",
-        "nitrogen": "0.6586",
-        "organicCarbon": "0.5237",
-        "phosphorus": "0.1853",
-        "potassium": "0.2085"
+        "nitrogen": 0.6586,
+        "organicCarbon": 0.5237,
+        "phosphorus": 0.1853,
+        "potassium": 0.2085
     },
     {
         "district": "Mahbubnagar",
-        "nitrogen": "0.3333",
-        "organicCarbon": "0",
-        "phosphorus": "0.6667",
-        "potassium": "0"
+        "nitrogen": 0.3333,
+        "organicCarbon": 0,
+        "phosphorus": 0.6667,
+        "potassium": 0
     },
     {
         "district": "Mahe",
-        "nitrogen": "0.9669",
-        "organicCarbon": "0",
-        "phosphorus": "0.991",
-        "potassium": "0.0421"
+        "nitrogen": 0.9669,
+        "organicCarbon": 0,
+        "phosphorus": 0.991,
+        "potassium": 0.0421
     },
     {
         "district": "Mahendragarh",
-        "nitrogen": "1",
-        "organicCarbon": "0.9005",
-        "phosphorus": "0.9991",
-        "potassium": "0.1696"
+        "nitrogen": 1,
+        "organicCarbon": 0.9005,
+        "phosphorus": 0.9991,
+        "potassium": 0.1696
     },
     {
         "district": "Mahesana",
-        "nitrogen": "0.6938",
-        "organicCarbon": "0.4906",
-        "phosphorus": "0.0344",
-        "potassium": "0.0063"
+        "nitrogen": 0.6938,
+        "organicCarbon": 0.4906,
+        "phosphorus": 0.0344,
+        "potassium": 0.0063
     },
     {
         "district": "Mahisagar",
-        "nitrogen": "1",
-        "organicCarbon": "0.3641",
-        "phosphorus": "0.1558",
-        "potassium": "0.0235"
+        "nitrogen": 1,
+        "organicCarbon": 0.3641,
+        "phosphorus": 0.1558,
+        "potassium": 0.0235
     },
     {
         "district": "Mahoba",
-        "nitrogen": "0.9983",
-        "organicCarbon": "0.9404",
-        "phosphorus": "0.9645",
-        "potassium": "0.0549"
+        "nitrogen": 0.9983,
+        "organicCarbon": 0.9404,
+        "phosphorus": 0.9645,
+        "potassium": 0.0549
     },
     {
         "district": "Mainpuri",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Majuli",
-        "nitrogen": "0.0268",
-        "organicCarbon": "0.0738",
-        "phosphorus": "0.7181",
-        "potassium": "0.7618"
+        "nitrogen": 0.0268,
+        "organicCarbon": 0.0738,
+        "phosphorus": 0.7181,
+        "potassium": 0.7618
     },
     {
         "district": "Malappuram",
-        "nitrogen": "1",
-        "organicCarbon": "0.2208",
-        "phosphorus": "0.4368",
-        "potassium": "0.2487"
+        "nitrogen": 1,
+        "organicCarbon": 0.2208,
+        "phosphorus": 0.4368,
+        "potassium": 0.2487
     },
     {
         "district": "Maldah",
-        "nitrogen": "0.2727",
-        "organicCarbon": "0.0909",
-        "phosphorus": "0.3636",
-        "potassium": "1"
+        "nitrogen": 0.2727,
+        "organicCarbon": 0.0909,
+        "phosphorus": 0.3636,
+        "potassium": 1
     },
     {
         "district": "Malkangiri",
-        "nitrogen": "1",
-        "organicCarbon": "0.9254",
-        "phosphorus": "0.3774",
-        "potassium": "0.2693"
+        "nitrogen": 1,
+        "organicCarbon": 0.9254,
+        "phosphorus": 0.3774,
+        "potassium": 0.2693
     },
     {
         "district": "Mamit",
-        "nitrogen": "0.0191",
-        "organicCarbon": "0.2219",
-        "phosphorus": "0.9982",
-        "potassium": "0.0736"
+        "nitrogen": 0.0191,
+        "organicCarbon": 0.2219,
+        "phosphorus": 0.9982,
+        "potassium": 0.0736
     },
     {
         "district": "Mandi",
-        "nitrogen": "0.8879",
-        "organicCarbon": "0.0365",
-        "phosphorus": "0.1553",
-        "potassium": "0.0849"
+        "nitrogen": 0.8879,
+        "organicCarbon": 0.0365,
+        "phosphorus": 0.1553,
+        "potassium": 0.0849
     },
     {
         "district": "Mandla",
-        "nitrogen": "0.4375",
-        "organicCarbon": "0.0469",
-        "phosphorus": "0.2969",
-        "potassium": "0"
+        "nitrogen": 0.4375,
+        "organicCarbon": 0.0469,
+        "phosphorus": 0.2969,
+        "potassium": 0
     },
     {
         "district": "Mandsaur",
-        "nitrogen": "0.3921",
-        "organicCarbon": "0.0392",
-        "phosphorus": "0.9804",
-        "potassium": "0.0196"
+        "nitrogen": 0.3921,
+        "organicCarbon": 0.0392,
+        "phosphorus": 0.9804,
+        "potassium": 0.0196
     },
     {
         "district": "Mandya",
-        "nitrogen": "0.9738",
-        "organicCarbon": "0.2009",
-        "phosphorus": "0.2767",
-        "potassium": "0.0674"
+        "nitrogen": 0.9738,
+        "organicCarbon": 0.2009,
+        "phosphorus": 0.2767,
+        "potassium": 0.0674
     },
     {
         "district": "Mansa",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Marigaon",
-        "nitrogen": "0.0068",
-        "organicCarbon": "0.0154",
-        "phosphorus": "0.4849",
-        "potassium": "0.6642"
+        "nitrogen": 0.0068,
+        "organicCarbon": 0.0154,
+        "phosphorus": 0.4849,
+        "potassium": 0.6642
     },
     {
         "district": "Mathura",
-        "nitrogen": "1",
-        "organicCarbon": "0.75",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.75,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Mayurbhanj",
-        "nitrogen": "0.0364",
-        "organicCarbon": "0.506",
-        "phosphorus": "0.984",
-        "potassium": "0.8523"
+        "nitrogen": 0.0364,
+        "organicCarbon": 0.506,
+        "phosphorus": 0.984,
+        "potassium": 0.8523
     },
     {
         "district": "Medak",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0.25"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0.25
     },
     {
         "district": "Medinipur East",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0.3333"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0.3333
     },
     {
         "district": "Medinipur West",
-        "nitrogen": "0.9526",
-        "organicCarbon": "0.3605",
-        "phosphorus": "0.0424",
-        "potassium": "0.0391"
+        "nitrogen": 0.9526,
+        "organicCarbon": 0.3605,
+        "phosphorus": 0.0424,
+        "potassium": 0.0391
     },
     {
         "district": "Mewat",
-        "nitrogen": "0.9995",
-        "organicCarbon": "0.9948",
-        "phosphorus": "0.6472",
-        "potassium": "0.4177"
+        "nitrogen": 0.9995,
+        "organicCarbon": 0.9948,
+        "phosphorus": 0.6472,
+        "potassium": 0.4177
     },
     {
         "district": "Moga",
-        "nitrogen": "1",
-        "organicCarbon": "0.9774",
-        "phosphorus": "0.7761",
-        "potassium": "0.3911"
+        "nitrogen": 1,
+        "organicCarbon": 0.9774,
+        "phosphorus": 0.7761,
+        "potassium": 0.3911
     },
     {
         "district": "Mokokchung",
-        "nitrogen": "0.0897",
-        "organicCarbon": "0.0116",
-        "phosphorus": "0.9145",
-        "potassium": "0.2637"
+        "nitrogen": 0.0897,
+        "organicCarbon": 0.0116,
+        "phosphorus": 0.9145,
+        "potassium": 0.2637
     },
     {
         "district": "Mon",
-        "nitrogen": "0.0277",
-        "organicCarbon": "0.0204",
-        "phosphorus": "0.8407",
-        "potassium": "0.1693"
+        "nitrogen": 0.0277,
+        "organicCarbon": 0.0204,
+        "phosphorus": 0.8407,
+        "potassium": 0.1693
     },
     {
         "district": "Morbi",
-        "nitrogen": "0.9998",
-        "organicCarbon": "0.4178",
-        "phosphorus": "0.1965",
-        "potassium": "0.0568"
+        "nitrogen": 0.9998,
+        "organicCarbon": 0.4178,
+        "phosphorus": 0.1965,
+        "potassium": 0.0568
     },
     {
         "district": "Morena",
-        "nitrogen": "0.4499",
-        "organicCarbon": "0.2699",
-        "phosphorus": "0.0173",
-        "potassium": "0.0184"
+        "nitrogen": 0.4499,
+        "organicCarbon": 0.2699,
+        "phosphorus": 0.0173,
+        "potassium": 0.0184
     },
     {
         "district": "Muktsar",
-        "nitrogen": "1",
-        "organicCarbon": "0.8721",
-        "phosphorus": "0.6143",
-        "potassium": "0.0802"
+        "nitrogen": 1,
+        "organicCarbon": 0.8721,
+        "phosphorus": 0.6143,
+        "potassium": 0.0802
     },
     {
         "district": "Mulugu",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Mungeli",
-        "nitrogen": "0.1429",
-        "organicCarbon": "0.4286",
-        "phosphorus": "0.7143",
-        "potassium": "0"
+        "nitrogen": 0.1429,
+        "organicCarbon": 0.4286,
+        "phosphorus": 0.7143,
+        "potassium": 0
     },
     {
         "district": "Munger",
-        "nitrogen": "0.423",
-        "organicCarbon": "0.3378",
-        "phosphorus": "0.0602",
-        "potassium": "0.0937"
+        "nitrogen": 0.423,
+        "organicCarbon": 0.3378,
+        "phosphorus": 0.0602,
+        "potassium": 0.0937
     },
     {
         "district": "Murshidabad",
-        "nitrogen": "0.1628",
-        "organicCarbon": "0.3948",
-        "phosphorus": "0.0062",
-        "potassium": "0.212"
+        "nitrogen": 0.1628,
+        "organicCarbon": 0.3948,
+        "phosphorus": 0.0062,
+        "potassium": 0.212
     },
     {
         "district": "Muzaffarpur",
-        "nitrogen": "0.9656",
-        "organicCarbon": "0.1778",
-        "phosphorus": "0.1879",
-        "potassium": "0.2303"
+        "nitrogen": 0.9656,
+        "organicCarbon": 0.1778,
+        "phosphorus": 0.1879,
+        "potassium": 0.2303
     },
     {
         "district": "Mysore",
-        "nitrogen": "0",
-        "organicCarbon": "0.3333",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0.3333,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Nabarangpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.8369",
-        "phosphorus": "0.1859",
-        "potassium": "0.0856"
+        "nitrogen": 1,
+        "organicCarbon": 0.8369,
+        "phosphorus": 0.1859,
+        "potassium": 0.0856
     },
     {
         "district": "Nadia",
-        "nitrogen": "0.3168",
-        "organicCarbon": "0.4145",
-        "phosphorus": "0.0066",
-        "potassium": "0.2357"
+        "nitrogen": 0.3168,
+        "organicCarbon": 0.4145,
+        "phosphorus": 0.0066,
+        "potassium": 0.2357
     },
     {
         "district": "Nagaon",
-        "nitrogen": "0.7628",
-        "organicCarbon": "0.2007",
-        "phosphorus": "0.958",
-        "potassium": "0.9425"
+        "nitrogen": 0.7628,
+        "organicCarbon": 0.2007,
+        "phosphorus": 0.958,
+        "potassium": 0.9425
     },
     {
         "district": "Nagapattinam",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 1
     },
     {
         "district": "Nagaur",
-        "nitrogen": "0",
-        "organicCarbon": "1",
-        "phosphorus": "0.2308",
-        "potassium": "0.033"
+        "nitrogen": 0,
+        "organicCarbon": 1,
+        "phosphorus": 0.2308,
+        "potassium": 0.033
     },
     {
         "district": "Nagpur",
-        "nitrogen": "0.8519",
-        "organicCarbon": "0.7284",
-        "phosphorus": "0",
-        "potassium": "0.7284"
+        "nitrogen": 0.8519,
+        "organicCarbon": 0.7284,
+        "phosphorus": 0,
+        "potassium": 0.7284
     },
     {
         "district": "Nainital",
-        "nitrogen": "0.9998",
-        "organicCarbon": "0.1166",
-        "phosphorus": "0.3441",
-        "potassium": "0.3217"
+        "nitrogen": 0.9998,
+        "organicCarbon": 0.1166,
+        "phosphorus": 0.3441,
+        "potassium": 0.3217
     },
     {
         "district": "Nalanda",
-        "nitrogen": "0.3484",
-        "organicCarbon": "0.5723",
-        "phosphorus": "0.621",
-        "potassium": "0.4451"
+        "nitrogen": 0.3484,
+        "organicCarbon": 0.5723,
+        "phosphorus": 0.621,
+        "potassium": 0.4451
     },
     {
         "district": "Nalbari",
-        "nitrogen": "0.937",
-        "organicCarbon": "0.6969",
-        "phosphorus": "0.7194",
-        "potassium": "0.8686"
+        "nitrogen": 0.937,
+        "organicCarbon": 0.6969,
+        "phosphorus": 0.7194,
+        "potassium": 0.8686
     },
     {
         "district": "Nalgonda",
-        "nitrogen": "0.9655",
-        "organicCarbon": "0.1897",
-        "phosphorus": "0.7931",
-        "potassium": "0.9483"
+        "nitrogen": 0.9655,
+        "organicCarbon": 0.1897,
+        "phosphorus": 0.7931,
+        "potassium": 0.9483
     },
     {
         "district": "Namakkal",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "NAMSAI",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0.0909",
-        "potassium": "0.2727"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0.0909,
+        "potassium": 0.2727
     },
     {
         "district": "Nanded",
-        "nitrogen": "0.9565",
-        "organicCarbon": "0.2668",
-        "phosphorus": "0.1585",
-        "potassium": "0.0045"
+        "nitrogen": 0.9565,
+        "organicCarbon": 0.2668,
+        "phosphorus": 0.1585,
+        "potassium": 0.0045
     },
     {
         "district": "Nandurbar",
-        "nitrogen": "0.9629",
-        "organicCarbon": "0.6667",
-        "phosphorus": "0.1852",
-        "potassium": "0"
+        "nitrogen": 0.9629,
+        "organicCarbon": 0.6667,
+        "phosphorus": 0.1852,
+        "potassium": 0
     },
     {
         "district": "NARAYANAPET",
-        "nitrogen": "0.8333",
-        "organicCarbon": "0.6667",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0.8333,
+        "organicCarbon": 0.6667,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Narayanpur",
-        "nitrogen": "0.9661",
-        "organicCarbon": "0.5887",
-        "phosphorus": "0.0105",
-        "potassium": "0.18"
+        "nitrogen": 0.9661,
+        "organicCarbon": 0.5887,
+        "phosphorus": 0.0105,
+        "potassium": 0.18
     },
     {
         "district": "Narmada",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0.5"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0.5
     },
     {
         "district": "Narsinghpur",
-        "nitrogen": "0.9921",
-        "organicCarbon": "0.3636",
-        "phosphorus": "0.598",
-        "potassium": "0.175"
+        "nitrogen": 0.9921,
+        "organicCarbon": 0.3636,
+        "phosphorus": 0.598,
+        "potassium": 0.175
     },
     {
         "district": "Nashik",
-        "nitrogen": "0.5304",
-        "organicCarbon": "0.2607",
-        "phosphorus": "0.1205",
-        "potassium": "0.032"
+        "nitrogen": 0.5304,
+        "organicCarbon": 0.2607,
+        "phosphorus": 0.1205,
+        "potassium": 0.032
     },
     {
         "district": "Navsari",
-        "nitrogen": "0.9883",
-        "organicCarbon": "0.5169",
-        "phosphorus": "0.1752",
-        "potassium": "0.0661"
+        "nitrogen": 0.9883,
+        "organicCarbon": 0.5169,
+        "phosphorus": 0.1752,
+        "potassium": 0.0661
     },
     {
         "district": "Nawada",
-        "nitrogen": "0.1187",
-        "organicCarbon": "0.3182",
-        "phosphorus": "0.306",
-        "potassium": "0.1233"
+        "nitrogen": 0.1187,
+        "organicCarbon": 0.3182,
+        "phosphorus": 0.306,
+        "potassium": 0.1233
     },
     {
         "district": "Nawanshahr (Sbs Nagar)",
-        "nitrogen": "0.9375",
-        "organicCarbon": "0.9688",
-        "phosphorus": "0.9071",
-        "potassium": "0.236"
+        "nitrogen": 0.9375,
+        "organicCarbon": 0.9688,
+        "phosphorus": 0.9071,
+        "potassium": 0.236
     },
     {
         "district": "Nayagarh",
-        "nitrogen": "1",
-        "organicCarbon": "0.8159",
-        "phosphorus": "0.9202",
-        "potassium": "0.302"
+        "nitrogen": 1,
+        "organicCarbon": 0.8159,
+        "phosphorus": 0.9202,
+        "potassium": 0.302
     },
     {
         "district": "Neemuch",
-        "nitrogen": "0.4671",
-        "organicCarbon": "0.0389",
-        "phosphorus": "0.9971",
-        "potassium": "0.0017"
+        "nitrogen": 0.4671,
+        "organicCarbon": 0.0389,
+        "phosphorus": 0.9971,
+        "potassium": 0.0017
     },
     {
         "district": "Nicobars",
-        "nitrogen": "0.9911",
-        "organicCarbon": "0.6596",
-        "phosphorus": "0.7816",
-        "potassium": "0.8989"
+        "nitrogen": 0.9911,
+        "organicCarbon": 0.6596,
+        "phosphorus": 0.7816,
+        "potassium": 0.8989
     },
     {
         "district": "Nizamabad",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 1
     },
     {
         "district": "North",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0.5"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0.5
     },
     {
         "district": "North And Middle Andaman",
-        "nitrogen": "0.9991",
-        "organicCarbon": "0.8585",
-        "phosphorus": "0.9835",
-        "potassium": "0.8505"
+        "nitrogen": 0.9991,
+        "organicCarbon": 0.8585,
+        "phosphorus": 0.9835,
+        "potassium": 0.8505
     },
     {
         "district": "North District",
-        "nitrogen": "0.3707",
-        "organicCarbon": "0.0015",
-        "phosphorus": "0.5411",
-        "potassium": "0.0135"
+        "nitrogen": 0.3707,
+        "organicCarbon": 0.0015,
+        "phosphorus": 0.5411,
+        "potassium": 0.0135
     },
     {
         "district": "North Garo Hills",
-        "nitrogen": "0",
-        "organicCarbon": "0.2655",
-        "phosphorus": "0.8479",
-        "potassium": "0.5672"
+        "nitrogen": 0,
+        "organicCarbon": 0.2655,
+        "phosphorus": 0.8479,
+        "potassium": 0.5672
     },
     {
         "district": "North Goa",
-        "nitrogen": "0.4747",
-        "organicCarbon": "0.3181",
-        "phosphorus": "0.664",
-        "potassium": "0.3171"
+        "nitrogen": 0.4747,
+        "organicCarbon": 0.3181,
+        "phosphorus": 0.664,
+        "potassium": 0.3171
     },
     {
         "district": "North Tripura",
-        "nitrogen": "0.5967",
-        "organicCarbon": "0.4032",
-        "phosphorus": "0.4677",
-        "potassium": "0.7742"
+        "nitrogen": 0.5967,
+        "organicCarbon": 0.4032,
+        "phosphorus": 0.4677,
+        "potassium": 0.7742
     },
     {
         "district": "North West",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Nuapada",
-        "nitrogen": "1",
-        "organicCarbon": "0.7694",
-        "phosphorus": "0.9176",
-        "potassium": "0.0347"
+        "nitrogen": 1,
+        "organicCarbon": 0.7694,
+        "phosphorus": 0.9176,
+        "potassium": 0.0347
     },
     {
         "district": "Osmanabad",
-        "nitrogen": "0.3333",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 0.3333,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Pakur",
-        "nitrogen": "0.8661",
-        "organicCarbon": "0.7082",
-        "phosphorus": "0.5814",
-        "potassium": "0.9546"
+        "nitrogen": 0.8661,
+        "organicCarbon": 0.7082,
+        "phosphorus": 0.5814,
+        "potassium": 0.9546
     },
     {
         "district": "Palakkad",
-        "nitrogen": "1",
-        "organicCarbon": "0.1255",
-        "phosphorus": "0.037",
-        "potassium": "0.3137"
+        "nitrogen": 1,
+        "organicCarbon": 0.1255,
+        "phosphorus": 0.037,
+        "potassium": 0.3137
     },
     {
         "district": "Palamu",
-        "nitrogen": "0.581",
-        "organicCarbon": "0.4932",
-        "phosphorus": "0.7433",
-        "potassium": "0.7162"
+        "nitrogen": 0.581,
+        "organicCarbon": 0.4932,
+        "phosphorus": 0.7433,
+        "potassium": 0.7162
     },
     {
         "district": "Palghar",
-        "nitrogen": "0.3871",
-        "organicCarbon": "0.4839",
-        "phosphorus": "0.3225",
-        "potassium": "0.0645"
+        "nitrogen": 0.3871,
+        "organicCarbon": 0.4839,
+        "phosphorus": 0.3225,
+        "potassium": 0.0645
     },
     {
         "district": "Pali",
-        "nitrogen": "0.8889",
-        "organicCarbon": "0.9136",
-        "phosphorus": "0.1682",
-        "potassium": "0.0128"
+        "nitrogen": 0.8889,
+        "organicCarbon": 0.9136,
+        "phosphorus": 0.1682,
+        "potassium": 0.0128
     },
     {
         "district": "Palwal",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "1",
-        "potassium": "0.001"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 1,
+        "potassium": 0.001
     },
     {
         "district": "Panch Mahals",
-        "nitrogen": "0.9999",
-        "organicCarbon": "0.2078",
-        "phosphorus": "0.1568",
-        "potassium": "0.173"
+        "nitrogen": 0.9999,
+        "organicCarbon": 0.2078,
+        "phosphorus": 0.1568,
+        "potassium": 0.173
     },
     {
         "district": "Panchkula",
-        "nitrogen": "0.9978",
-        "organicCarbon": "0.6791",
-        "phosphorus": "0.6197",
-        "potassium": "0.2087"
+        "nitrogen": 0.9978,
+        "organicCarbon": 0.6791,
+        "phosphorus": 0.6197,
+        "potassium": 0.2087
     },
     {
         "district": "Panipat",
-        "nitrogen": "0",
-        "organicCarbon": "0.9981",
-        "phosphorus": "0.748",
-        "potassium": "0.1928"
+        "nitrogen": 0,
+        "organicCarbon": 0.9981,
+        "phosphorus": 0.748,
+        "potassium": 0.1928
     },
     {
         "district": "Panna",
-        "nitrogen": "0.7551",
-        "organicCarbon": "0.051",
-        "phosphorus": "0.8163",
-        "potassium": "0.153"
+        "nitrogen": 0.7551,
+        "organicCarbon": 0.051,
+        "phosphorus": 0.8163,
+        "potassium": 0.153
     },
     {
         "district": "Papum Pare",
-        "nitrogen": "0.0111",
-        "organicCarbon": "0.032",
-        "phosphorus": "0.8056",
-        "potassium": "0.1094"
+        "nitrogen": 0.0111,
+        "organicCarbon": 0.032,
+        "phosphorus": 0.8056,
+        "potassium": 0.1094
     },
     {
         "district": "Parbhani",
-        "nitrogen": "0.9481",
-        "organicCarbon": "0.9259",
-        "phosphorus": "0.4",
-        "potassium": "0"
+        "nitrogen": 0.9481,
+        "organicCarbon": 0.9259,
+        "phosphorus": 0.4,
+        "potassium": 0
     },
     {
         "district": "Pashchim Champaran",
-        "nitrogen": "0.9904",
-        "organicCarbon": "0.5858",
-        "phosphorus": "0.02",
-        "potassium": "0.2073"
+        "nitrogen": 0.9904,
+        "organicCarbon": 0.5858,
+        "phosphorus": 0.02,
+        "potassium": 0.2073
     },
     {
         "district": "Patan",
-        "nitrogen": "0.8752",
-        "organicCarbon": "0.2762",
-        "phosphorus": "0.5549",
-        "potassium": "0.0426"
+        "nitrogen": 0.8752,
+        "organicCarbon": 0.2762,
+        "phosphorus": 0.5549,
+        "potassium": 0.0426
     },
     {
         "district": "Pathanamthitta",
-        "nitrogen": "0",
-        "organicCarbon": "0.0811",
-        "phosphorus": "0.1081",
-        "potassium": "0.2973"
+        "nitrogen": 0,
+        "organicCarbon": 0.0811,
+        "phosphorus": 0.1081,
+        "potassium": 0.2973
     },
     {
         "district": "Pathankot",
-        "nitrogen": "1",
-        "organicCarbon": "0.9753",
-        "phosphorus": "0.6077",
-        "potassium": "0.2204"
+        "nitrogen": 1,
+        "organicCarbon": 0.9753,
+        "phosphorus": 0.6077,
+        "potassium": 0.2204
     },
     {
         "district": "Patiala",
-        "nitrogen": "1",
-        "organicCarbon": "0.9264",
-        "phosphorus": "0.5872",
-        "potassium": "0.3435"
+        "nitrogen": 1,
+        "organicCarbon": 0.9264,
+        "phosphorus": 0.5872,
+        "potassium": 0.3435
     },
     {
         "district": "Patna",
-        "nitrogen": "0.1676",
-        "organicCarbon": "0.2952",
-        "phosphorus": "0.1888",
-        "potassium": "0.2675"
+        "nitrogen": 0.1676,
+        "organicCarbon": 0.2952,
+        "phosphorus": 0.1888,
+        "potassium": 0.2675
     },
     {
         "district": "Pauri Garhwal",
-        "nitrogen": "0.9565",
-        "organicCarbon": "0.1569",
-        "phosphorus": "0.0291",
-        "potassium": "0.0124"
+        "nitrogen": 0.9565,
+        "organicCarbon": 0.1569,
+        "phosphorus": 0.0291,
+        "potassium": 0.0124
     },
     {
         "district": "Perambalur",
-        "nitrogen": "0.9993",
-        "organicCarbon": "0.7707",
-        "phosphorus": "0.8773",
-        "potassium": "0.2122"
+        "nitrogen": 0.9993,
+        "organicCarbon": 0.7707,
+        "phosphorus": 0.8773,
+        "potassium": 0.2122
     },
     {
         "district": "Peren",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Phek",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Pithoragarh",
-        "nitrogen": "0",
-        "organicCarbon": "0.081",
-        "phosphorus": "0.1351",
-        "potassium": "0.0045"
+        "nitrogen": 0,
+        "organicCarbon": 0.081,
+        "phosphorus": 0.1351,
+        "potassium": 0.0045
     },
     {
         "district": "Pondicherry",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0.9803",
-        "potassium": "0.0421"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0.9803,
+        "potassium": 0.0421
     },
     {
         "district": "Poonch",
-        "nitrogen": "0.3492",
-        "organicCarbon": "0.2699",
-        "phosphorus": "0.2222",
-        "potassium": "0.1587"
+        "nitrogen": 0.3492,
+        "organicCarbon": 0.2699,
+        "phosphorus": 0.2222,
+        "potassium": 0.1587
     },
     {
         "district": "Porbandar",
-        "nitrogen": "0.9999",
-        "organicCarbon": "0.5737",
-        "phosphorus": "0.1044",
-        "potassium": "0.0122"
+        "nitrogen": 0.9999,
+        "organicCarbon": 0.5737,
+        "phosphorus": 0.1044,
+        "potassium": 0.0122
     },
     {
         "district": "Prakasam",
-        "nitrogen": "0.8334",
-        "organicCarbon": "0.3333",
-        "phosphorus": "0.1667",
-        "potassium": "0"
+        "nitrogen": 0.8334,
+        "organicCarbon": 0.3333,
+        "phosphorus": 0.1667,
+        "potassium": 0
     },
     {
         "district": "Pratapgarh",
-        "nitrogen": "0",
-        "organicCarbon": "0.6472",
-        "phosphorus": "0.0491",
-        "potassium": "0.0294"
+        "nitrogen": 0,
+        "organicCarbon": 0.6472,
+        "phosphorus": 0.0491,
+        "potassium": 0.0294
     },
     {
         "district": "Pudukkottai",
-        "nitrogen": "1",
-        "organicCarbon": "0.75",
-        "phosphorus": "0",
-        "potassium": "0.75"
+        "nitrogen": 1,
+        "organicCarbon": 0.75,
+        "phosphorus": 0,
+        "potassium": 0.75
     },
     {
         "district": "Pulwama",
-        "nitrogen": "0.1945",
-        "organicCarbon": "0.115",
-        "phosphorus": "0.0805",
-        "potassium": "0.3219"
+        "nitrogen": 0.1945,
+        "organicCarbon": 0.115,
+        "phosphorus": 0.0805,
+        "potassium": 0.3219
     },
     {
         "district": "Pune",
-        "nitrogen": "0.8077",
-        "organicCarbon": "0.098",
-        "phosphorus": "0.0385",
-        "potassium": "0.0192"
+        "nitrogen": 0.8077,
+        "organicCarbon": 0.098,
+        "phosphorus": 0.0385,
+        "potassium": 0.0192
     },
     {
         "district": "Purbi Champaran",
-        "nitrogen": "0.9486",
-        "organicCarbon": "0.3546",
-        "phosphorus": "0.1391",
-        "potassium": "0.2866"
+        "nitrogen": 0.9486,
+        "organicCarbon": 0.3546,
+        "phosphorus": 0.1391,
+        "potassium": 0.2866
     },
     {
         "district": "Puri",
-        "nitrogen": "0.875",
-        "organicCarbon": "0.3965",
-        "phosphorus": "0.877",
-        "potassium": "0.5243"
+        "nitrogen": 0.875,
+        "organicCarbon": 0.3965,
+        "phosphorus": 0.877,
+        "potassium": 0.5243
     },
     {
         "district": "Purnia",
-        "nitrogen": "0.8496",
-        "organicCarbon": "0.7256",
-        "phosphorus": "0.179",
-        "potassium": "0.4988"
+        "nitrogen": 0.8496,
+        "organicCarbon": 0.7256,
+        "phosphorus": 0.179,
+        "potassium": 0.4988
     },
     {
         "district": "Purulia",
-        "nitrogen": "0.5027",
-        "organicCarbon": "0.5029",
-        "phosphorus": "0.1125",
-        "potassium": "0.0259"
+        "nitrogen": 0.5027,
+        "organicCarbon": 0.5029,
+        "phosphorus": 0.1125,
+        "potassium": 0.0259
     },
     {
         "district": "Raichur",
-        "nitrogen": "0.5",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0.5,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Raigad",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0.6667",
-        "potassium": "0.3333"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0.6667,
+        "potassium": 0.3333
     },
     {
         "district": "Raigarh",
-        "nitrogen": "0.9301",
-        "organicCarbon": "0.9631",
-        "phosphorus": "0.5337",
-        "potassium": "0"
+        "nitrogen": 0.9301,
+        "organicCarbon": 0.9631,
+        "phosphorus": 0.5337,
+        "potassium": 0
     },
     {
         "district": "Raipur",
-        "nitrogen": "0.9059",
-        "organicCarbon": "0.3345",
-        "phosphorus": "0.3035",
-        "potassium": "0.1377"
+        "nitrogen": 0.9059,
+        "organicCarbon": 0.3345,
+        "phosphorus": 0.3035,
+        "potassium": 0.1377
     },
     {
         "district": "Raisen",
-        "nitrogen": "0.7334",
-        "organicCarbon": "0.5334",
-        "phosphorus": "0.6",
-        "potassium": "0.0667"
+        "nitrogen": 0.7334,
+        "organicCarbon": 0.5334,
+        "phosphorus": 0.6,
+        "potassium": 0.0667
     },
     {
         "district": "Rajauri",
-        "nitrogen": "0.5751",
-        "organicCarbon": "0.6144",
-        "phosphorus": "0.8627",
-        "potassium": "0.0654"
+        "nitrogen": 0.5751,
+        "organicCarbon": 0.6144,
+        "phosphorus": 0.8627,
+        "potassium": 0.0654
     },
     {
         "district": "Rajgarh",
-        "nitrogen": "0.7896",
-        "organicCarbon": "0.4257",
-        "phosphorus": "0.5165",
-        "potassium": "0.0459"
+        "nitrogen": 0.7896,
+        "organicCarbon": 0.4257,
+        "phosphorus": 0.5165,
+        "potassium": 0.0459
     },
     {
         "district": "Rajkot",
-        "nitrogen": "0.9982",
-        "organicCarbon": "0.4918",
-        "phosphorus": "0.3115",
-        "potassium": "0.0089"
+        "nitrogen": 0.9982,
+        "organicCarbon": 0.4918,
+        "phosphorus": 0.3115,
+        "potassium": 0.0089
     },
     {
         "district": "Rajnandgaon",
-        "nitrogen": "0.8451",
-        "organicCarbon": "0.7183",
-        "phosphorus": "0.3944",
-        "potassium": "0"
+        "nitrogen": 0.8451,
+        "organicCarbon": 0.7183,
+        "phosphorus": 0.3944,
+        "potassium": 0
     },
     {
         "district": "Rajsamand",
-        "nitrogen": "0",
-        "organicCarbon": "0.5597",
-        "phosphorus": "0.1952",
-        "potassium": "0.0401"
+        "nitrogen": 0,
+        "organicCarbon": 0.5597,
+        "phosphorus": 0.1952,
+        "potassium": 0.0401
     },
     {
         "district": "Ramanagara",
-        "nitrogen": "0.3189",
-        "organicCarbon": "0.7157",
-        "phosphorus": "0.1714",
-        "potassium": "0.8712"
+        "nitrogen": 0.3189,
+        "organicCarbon": 0.7157,
+        "phosphorus": 0.1714,
+        "potassium": 0.8712
     },
     {
         "district": "Ramanathapuram",
-        "nitrogen": "1",
-        "organicCarbon": "0.9722",
-        "phosphorus": "0.1667",
-        "potassium": "0.1019"
+        "nitrogen": 1,
+        "organicCarbon": 0.9722,
+        "phosphorus": 0.1667,
+        "potassium": 0.1019
     },
     {
         "district": "Ramban",
-        "nitrogen": "0.4229",
-        "organicCarbon": "0.4773",
-        "phosphorus": "0.4809",
-        "potassium": "0.5045"
+        "nitrogen": 0.4229,
+        "organicCarbon": 0.4773,
+        "phosphorus": 0.4809,
+        "potassium": 0.5045
     },
     {
         "district": "Ramgarh",
-        "nitrogen": "0.5",
-        "organicCarbon": "0.5",
-        "phosphorus": "1",
-        "potassium": "0.25"
+        "nitrogen": 0.5,
+        "organicCarbon": 0.5,
+        "phosphorus": 1,
+        "potassium": 0.25
     },
     {
         "district": "Ranchi",
-        "nitrogen": "0.1951",
-        "organicCarbon": "0.5122",
-        "phosphorus": "0.0244",
-        "potassium": "0.0976"
+        "nitrogen": 0.1951,
+        "organicCarbon": 0.5122,
+        "phosphorus": 0.0244,
+        "potassium": 0.0976
     },
     {
         "district": "Rangareddi",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Ratlam",
-        "nitrogen": "0.9683",
-        "organicCarbon": "0.6396",
-        "phosphorus": "0.9759",
-        "potassium": "0.0051"
+        "nitrogen": 0.9683,
+        "organicCarbon": 0.6396,
+        "phosphorus": 0.9759,
+        "potassium": 0.0051
     },
     {
         "district": "Ratnagiri",
-        "nitrogen": "0.203",
-        "organicCarbon": "0.0025",
-        "phosphorus": "0.5099",
-        "potassium": "0.255"
+        "nitrogen": 0.203,
+        "organicCarbon": 0.0025,
+        "phosphorus": 0.5099,
+        "potassium": 0.255
     },
     {
         "district": "Rayagada",
-        "nitrogen": "0.4899",
-        "organicCarbon": "0.6761",
-        "phosphorus": "0.6649",
-        "potassium": "0.164"
+        "nitrogen": 0.4899,
+        "organicCarbon": 0.6761,
+        "phosphorus": 0.6649,
+        "potassium": 0.164
     },
     {
         "district": "Reasi",
-        "nitrogen": "0.4762",
-        "organicCarbon": "0.4524",
-        "phosphorus": "0.6667",
-        "potassium": "0.2063"
+        "nitrogen": 0.4762,
+        "organicCarbon": 0.4524,
+        "phosphorus": 0.6667,
+        "potassium": 0.2063
     },
     {
         "district": "Rewa",
-        "nitrogen": "0.7565",
-        "organicCarbon": "0.2509",
-        "phosphorus": "0.9778",
-        "potassium": "0.0037"
+        "nitrogen": 0.7565,
+        "organicCarbon": 0.2509,
+        "phosphorus": 0.9778,
+        "potassium": 0.0037
     },
     {
         "district": "Rewari",
-        "nitrogen": "1",
-        "organicCarbon": "0.9643",
-        "phosphorus": "0.9182",
-        "potassium": "0.7457"
+        "nitrogen": 1,
+        "organicCarbon": 0.9643,
+        "phosphorus": 0.9182,
+        "potassium": 0.7457
     },
     {
         "district": "Ri Bhoi",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0.6667"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0.6667
     },
     {
         "district": "Rohtak",
-        "nitrogen": "0",
-        "organicCarbon": "0.9472",
-        "phosphorus": "0.9906",
-        "potassium": "0.0622"
+        "nitrogen": 0,
+        "organicCarbon": 0.9472,
+        "phosphorus": 0.9906,
+        "potassium": 0.0622
     },
     {
         "district": "Rohtas",
-        "nitrogen": "0.1318",
-        "organicCarbon": "0.2536",
-        "phosphorus": "0.0981",
-        "potassium": "0.0764"
+        "nitrogen": 0.1318,
+        "organicCarbon": 0.2536,
+        "phosphorus": 0.0981,
+        "potassium": 0.0764
     },
     {
         "district": "Rudra Prayag",
-        "nitrogen": "0.975",
-        "organicCarbon": "0.0685",
-        "phosphorus": "0.0116",
-        "potassium": "0.473"
+        "nitrogen": 0.975,
+        "organicCarbon": 0.0685,
+        "phosphorus": 0.0116,
+        "potassium": 0.473
     },
     {
         "district": "Rupnagar",
-        "nitrogen": "1",
-        "organicCarbon": "0.9242",
-        "phosphorus": "0.6477",
-        "potassium": "0.5106"
+        "nitrogen": 1,
+        "organicCarbon": 0.9242,
+        "phosphorus": 0.6477,
+        "potassium": 0.5106
     },
     {
         "district": "S.A.S Nagar",
-        "nitrogen": "0.0797",
-        "organicCarbon": "0.9282",
-        "phosphorus": "0.3247",
-        "potassium": "0.3646"
+        "nitrogen": 0.0797,
+        "organicCarbon": 0.9282,
+        "phosphorus": 0.3247,
+        "potassium": 0.3646
     },
     {
         "district": "Sabar Kantha",
-        "nitrogen": "0.9998",
-        "organicCarbon": "0.3558",
-        "phosphorus": "0.257",
-        "potassium": "0.1794"
+        "nitrogen": 0.9998,
+        "organicCarbon": 0.3558,
+        "phosphorus": 0.257,
+        "potassium": 0.1794
     },
     {
         "district": "Sagar",
-        "nitrogen": "0.1333",
-        "organicCarbon": "0.1334",
-        "phosphorus": "1",
-        "potassium": "0.4667"
+        "nitrogen": 0.1333,
+        "organicCarbon": 0.1334,
+        "phosphorus": 1,
+        "potassium": 0.4667
     },
     {
         "district": "Saharsa",
-        "nitrogen": "0.2226",
-        "organicCarbon": "0.0177",
-        "phosphorus": "0.0177",
-        "potassium": "0.5053"
+        "nitrogen": 0.2226,
+        "organicCarbon": 0.0177,
+        "phosphorus": 0.0177,
+        "potassium": 0.5053
     },
     {
         "district": "Sahebganj",
-        "nitrogen": "0.1838",
-        "organicCarbon": "0.0074",
-        "phosphorus": "0.9338",
-        "potassium": "0.6912"
+        "nitrogen": 0.1838,
+        "organicCarbon": 0.0074,
+        "phosphorus": 0.9338,
+        "potassium": 0.6912
     },
     {
         "district": "Saiha",
-        "nitrogen": "0.4334",
-        "organicCarbon": "0.3753",
-        "phosphorus": "0.8789",
-        "potassium": "0.3051"
+        "nitrogen": 0.4334,
+        "organicCarbon": 0.3753,
+        "phosphorus": 0.8789,
+        "potassium": 0.3051
     },
     {
         "district": "Salem",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0.5086",
-        "potassium": "0.0019"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0.5086,
+        "potassium": 0.0019
     },
     {
         "district": "Samastipur",
-        "nitrogen": "0.985",
-        "organicCarbon": "0.0692",
-        "phosphorus": "0.1454",
-        "potassium": "0.0213"
+        "nitrogen": 0.985,
+        "organicCarbon": 0.0692,
+        "phosphorus": 0.1454,
+        "potassium": 0.0213
     },
     {
         "district": "Samba",
-        "nitrogen": "0.5835",
-        "organicCarbon": "0.7223",
-        "phosphorus": "0.8349",
-        "potassium": "0.3189"
+        "nitrogen": 0.5835,
+        "organicCarbon": 0.7223,
+        "phosphorus": 0.8349,
+        "potassium": 0.3189
     },
     {
         "district": "Sambalpur",
-        "nitrogen": "0.2311",
-        "organicCarbon": "0.9516",
-        "phosphorus": "0.773",
-        "potassium": "0.3032"
+        "nitrogen": 0.2311,
+        "organicCarbon": 0.9516,
+        "phosphorus": 0.773,
+        "potassium": 0.3032
     },
     {
         "district": "Sangli",
-        "nitrogen": "1",
-        "organicCarbon": "0.5509",
-        "phosphorus": "0.5808",
-        "potassium": "0.2515"
+        "nitrogen": 1,
+        "organicCarbon": 0.5509,
+        "phosphorus": 0.5808,
+        "potassium": 0.2515
     },
     {
         "district": "Sangrur",
-        "nitrogen": "1",
-        "organicCarbon": "0.9528",
-        "phosphorus": "0.5497",
-        "potassium": "0.0616"
+        "nitrogen": 1,
+        "organicCarbon": 0.9528,
+        "phosphorus": 0.5497,
+        "potassium": 0.0616
     },
     {
         "district": "Saraikela Kharsawan",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Saran",
-        "nitrogen": "0.9842",
-        "organicCarbon": "0.4442",
-        "phosphorus": "0.0199",
-        "potassium": "0.0045"
+        "nitrogen": 0.9842,
+        "organicCarbon": 0.4442,
+        "phosphorus": 0.0199,
+        "potassium": 0.0045
     },
     {
         "district": "Satara",
-        "nitrogen": "0.2392",
-        "organicCarbon": "0.3769",
-        "phosphorus": "0.0848",
-        "potassium": "0.0566"
+        "nitrogen": 0.2392,
+        "organicCarbon": 0.3769,
+        "phosphorus": 0.0848,
+        "potassium": 0.0566
     },
     {
         "district": "Satna",
-        "nitrogen": "0.9204",
-        "organicCarbon": "0.5771",
-        "phosphorus": "0.08",
-        "potassium": "0.445"
+        "nitrogen": 0.9204,
+        "organicCarbon": 0.5771,
+        "phosphorus": 0.08,
+        "potassium": 0.445
     },
     {
         "district": "Sawai Madhopur",
-        "nitrogen": "0",
-        "organicCarbon": "0.9447",
-        "phosphorus": "0.3906",
-        "potassium": "0.0176"
+        "nitrogen": 0,
+        "organicCarbon": 0.9447,
+        "phosphorus": 0.3906,
+        "potassium": 0.0176
     },
     {
         "district": "Sehore",
-        "nitrogen": "0.5",
-        "organicCarbon": "0.3333",
-        "phosphorus": "0.5",
-        "potassium": "0.3333"
+        "nitrogen": 0.5,
+        "organicCarbon": 0.3333,
+        "phosphorus": 0.5,
+        "potassium": 0.3333
     },
     {
         "district": "Senapati",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Seoni",
-        "nitrogen": "0.5397",
-        "organicCarbon": "0.5079",
-        "phosphorus": "0.9841",
-        "potassium": "0"
+        "nitrogen": 0.5397,
+        "organicCarbon": 0.5079,
+        "phosphorus": 0.9841,
+        "potassium": 0
     },
     {
         "district": "Sepahijala",
-        "nitrogen": "0.8083",
-        "organicCarbon": "0.5427",
-        "phosphorus": "0.2739",
-        "potassium": "0.503"
+        "nitrogen": 0.8083,
+        "organicCarbon": 0.5427,
+        "phosphorus": 0.2739,
+        "potassium": 0.503
     },
     {
         "district": "Serchhip",
-        "nitrogen": "0.5",
-        "organicCarbon": "0.5",
-        "phosphorus": "0",
-        "potassium": "1"
+        "nitrogen": 0.5,
+        "organicCarbon": 0.5,
+        "phosphorus": 0,
+        "potassium": 1
     },
     {
         "district": "SHAHDARA",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0.6667"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0.6667
     },
     {
         "district": "Shahdol",
-        "nitrogen": "0.4286",
-        "organicCarbon": "0.2244",
-        "phosphorus": "0.9264",
-        "potassium": "0.0791"
+        "nitrogen": 0.4286,
+        "organicCarbon": 0.2244,
+        "phosphorus": 0.9264,
+        "potassium": 0.0791
     },
     {
         "district": "Shajapur",
-        "nitrogen": "1",
-        "organicCarbon": "0.5",
-        "phosphorus": "0",
-        "potassium": "0.5"
+        "nitrogen": 1,
+        "organicCarbon": 0.5,
+        "phosphorus": 0,
+        "potassium": 0.5
     },
     {
         "district": "Sheikhpura",
-        "nitrogen": "0.9945",
-        "organicCarbon": "0.1436",
-        "phosphorus": "0.7072",
-        "potassium": "0.5027"
+        "nitrogen": 0.9945,
+        "organicCarbon": 0.1436,
+        "phosphorus": 0.7072,
+        "potassium": 0.5027
     },
     {
         "district": "Sheohar",
-        "nitrogen": "0.1111",
-        "organicCarbon": "0",
-        "phosphorus": "0.0635",
-        "potassium": "0.6667"
+        "nitrogen": 0.1111,
+        "organicCarbon": 0,
+        "phosphorus": 0.0635,
+        "potassium": 0.6667
     },
     {
         "district": "Sheopur",
-        "nitrogen": "0.9622",
-        "organicCarbon": "0.5566",
-        "phosphorus": "0.9276",
-        "potassium": "0.1635"
+        "nitrogen": 0.9622,
+        "organicCarbon": 0.5566,
+        "phosphorus": 0.9276,
+        "potassium": 0.1635
     },
     {
         "district": "Shimla",
-        "nitrogen": "0.6915",
-        "organicCarbon": "0.1102",
-        "phosphorus": "0.3742",
-        "potassium": "0.1766"
+        "nitrogen": 0.6915,
+        "organicCarbon": 0.1102,
+        "phosphorus": 0.3742,
+        "potassium": 0.1766
     },
     {
         "district": "Shimoga",
-        "nitrogen": "0.5644",
-        "organicCarbon": "0.2638",
-        "phosphorus": "0.3866",
-        "potassium": "0.2477"
+        "nitrogen": 0.5644,
+        "organicCarbon": 0.2638,
+        "phosphorus": 0.3866,
+        "potassium": 0.2477
     },
     {
         "district": "Shivpuri",
-        "nitrogen": "0.8587",
-        "organicCarbon": "0.8044",
-        "phosphorus": "0.087",
-        "potassium": "0.0544"
+        "nitrogen": 0.8587,
+        "organicCarbon": 0.8044,
+        "phosphorus": 0.087,
+        "potassium": 0.0544
     },
     {
         "district": "Shopian",
-        "nitrogen": "0.3333",
-        "organicCarbon": "0.0075",
-        "phosphorus": "0.0161",
-        "potassium": "0.1942"
+        "nitrogen": 0.3333,
+        "organicCarbon": 0.0075,
+        "phosphorus": 0.0161,
+        "potassium": 0.1942
     },
     {
         "district": "Sidhi",
-        "nitrogen": "0.4428",
-        "organicCarbon": "0.56",
-        "phosphorus": "0.0313",
-        "potassium": "0.0259"
+        "nitrogen": 0.4428,
+        "organicCarbon": 0.56,
+        "phosphorus": 0.0313,
+        "potassium": 0.0259
     },
     {
         "district": "Sikar",
-        "nitrogen": "0",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Simdega",
-        "nitrogen": "0.6728",
-        "organicCarbon": "0.4098",
-        "phosphorus": "0.5622",
-        "potassium": "0.5092"
+        "nitrogen": 0.6728,
+        "organicCarbon": 0.4098,
+        "phosphorus": 0.5622,
+        "potassium": 0.5092
     },
     {
         "district": "Sindhudurg",
-        "nitrogen": "0.0929",
-        "organicCarbon": "0.0263",
-        "phosphorus": "0.4009",
-        "potassium": "0.2173"
+        "nitrogen": 0.0929,
+        "organicCarbon": 0.0263,
+        "phosphorus": 0.4009,
+        "potassium": 0.2173
     },
     {
         "district": "Singrauli",
-        "nitrogen": "0.9334",
-        "organicCarbon": "0.8",
-        "phosphorus": "0.2",
-        "potassium": "0.6"
+        "nitrogen": 0.9334,
+        "organicCarbon": 0.8,
+        "phosphorus": 0.2,
+        "potassium": 0.6
     },
     {
         "district": "Sirmaur",
-        "nitrogen": "0.3621",
-        "organicCarbon": "0.0529",
-        "phosphorus": "0.0589",
-        "potassium": "0.0527"
+        "nitrogen": 0.3621,
+        "organicCarbon": 0.0529,
+        "phosphorus": 0.0589,
+        "potassium": 0.0527
     },
     {
         "district": "Sirohi",
-        "nitrogen": "1",
-        "organicCarbon": "0.7347",
-        "phosphorus": "0.0432",
-        "potassium": "0.0137"
+        "nitrogen": 1,
+        "organicCarbon": 0.7347,
+        "phosphorus": 0.0432,
+        "potassium": 0.0137
     },
     {
         "district": "Sirsa",
-        "nitrogen": "0.999",
-        "organicCarbon": "0.9921",
-        "phosphorus": "0.8825",
-        "potassium": "0.223"
+        "nitrogen": 0.999,
+        "organicCarbon": 0.9921,
+        "phosphorus": 0.8825,
+        "potassium": 0.223
     },
     {
         "district": "Sitamarhi",
-        "nitrogen": "0.2509",
-        "organicCarbon": "0.17",
-        "phosphorus": "0.3752",
-        "potassium": "0.5748"
+        "nitrogen": 0.2509,
+        "organicCarbon": 0.17,
+        "phosphorus": 0.3752,
+        "potassium": 0.5748
     },
     {
         "district": "Sivaganga",
-        "nitrogen": "1",
-        "organicCarbon": "0.9865",
-        "phosphorus": "0.1141",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.9865,
+        "phosphorus": 0.1141,
+        "potassium": 0
     },
     {
         "district": "Sivasagar",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Siwan",
-        "nitrogen": "0.9744",
-        "organicCarbon": "0.4872",
-        "phosphorus": "0.1026",
-        "potassium": "0.2051"
+        "nitrogen": 0.9744,
+        "organicCarbon": 0.4872,
+        "phosphorus": 0.1026,
+        "potassium": 0.2051
     },
     {
         "district": "Solan",
-        "nitrogen": "0.6667",
-        "organicCarbon": "0.0244",
-        "phosphorus": "0.4146",
-        "potassium": "0.0854"
+        "nitrogen": 0.6667,
+        "organicCarbon": 0.0244,
+        "phosphorus": 0.4146,
+        "potassium": 0.0854
     },
     {
         "district": "Solapur",
-        "nitrogen": "0.9891",
-        "organicCarbon": "0.4321",
-        "phosphorus": "0.3195",
-        "potassium": "0.0438"
+        "nitrogen": 0.9891,
+        "organicCarbon": 0.4321,
+        "phosphorus": 0.3195,
+        "potassium": 0.0438
     },
     {
         "district": "Sonepur",
-        "nitrogen": "0",
-        "organicCarbon": "0.7647",
-        "phosphorus": "0.6471",
-        "potassium": "0.4706"
+        "nitrogen": 0,
+        "organicCarbon": 0.7647,
+        "phosphorus": 0.6471,
+        "potassium": 0.4706
     },
     {
         "district": "Sonipat",
-        "nitrogen": "0",
-        "organicCarbon": "0.9424",
-        "phosphorus": "0.9938",
-        "potassium": "0.0653"
+        "nitrogen": 0,
+        "organicCarbon": 0.9424,
+        "phosphorus": 0.9938,
+        "potassium": 0.0653
     },
     {
         "district": "Sonitpur",
-        "nitrogen": "0.1905",
-        "organicCarbon": "0.4286",
-        "phosphorus": "1",
-        "potassium": "0.4762"
+        "nitrogen": 0.1905,
+        "organicCarbon": 0.4286,
+        "phosphorus": 1,
+        "potassium": 0.4762
     },
     {
         "district": "South Andamans",
-        "nitrogen": "0.9858",
-        "organicCarbon": "0.7405",
-        "phosphorus": "0.9181",
-        "potassium": "0.8786"
+        "nitrogen": 0.9858,
+        "organicCarbon": 0.7405,
+        "phosphorus": 0.9181,
+        "potassium": 0.8786
     },
     {
         "district": "South District",
-        "nitrogen": "0.8176",
-        "organicCarbon": "0.0154",
-        "phosphorus": "0.2879",
-        "potassium": "0.169"
+        "nitrogen": 0.8176,
+        "organicCarbon": 0.0154,
+        "phosphorus": 0.2879,
+        "potassium": 0.169
     },
     {
         "district": "South Garo Hills",
-        "nitrogen": "0",
-        "organicCarbon": "0.0049",
-        "phosphorus": "1",
-        "potassium": "0.8529"
+        "nitrogen": 0,
+        "organicCarbon": 0.0049,
+        "phosphorus": 1,
+        "potassium": 0.8529
     },
     {
         "district": "South Goa",
-        "nitrogen": "0.2177",
-        "organicCarbon": "0.0943",
-        "phosphorus": "0.7646",
-        "potassium": "0.5221"
+        "nitrogen": 0.2177,
+        "organicCarbon": 0.0943,
+        "phosphorus": 0.7646,
+        "potassium": 0.5221
     },
     {
         "district": "SOUTH SALMARA MANCACHAR",
-        "nitrogen": "0.0058",
-        "organicCarbon": "0.0627",
-        "phosphorus": "0.1952",
-        "potassium": "0.8001"
+        "nitrogen": 0.0058,
+        "organicCarbon": 0.0627,
+        "phosphorus": 0.1952,
+        "potassium": 0.8001
     },
     {
         "district": "South Tripura",
-        "nitrogen": "0.7119",
-        "organicCarbon": "0.3927",
-        "phosphorus": "0.2706",
-        "potassium": "0.5941"
+        "nitrogen": 0.7119,
+        "organicCarbon": 0.3927,
+        "phosphorus": 0.2706,
+        "potassium": 0.5941
     },
     {
         "district": "South West",
-        "nitrogen": "0.8108",
-        "organicCarbon": "0.7118",
-        "phosphorus": "0.4955",
-        "potassium": "0.1351"
+        "nitrogen": 0.8108,
+        "organicCarbon": 0.7118,
+        "phosphorus": 0.4955,
+        "potassium": 0.1351
     },
     {
         "district": "South West Garo Hills",
-        "nitrogen": "1",
-        "organicCarbon": "0.155",
-        "phosphorus": "0.9432",
-        "potassium": "0.9063"
+        "nitrogen": 1,
+        "organicCarbon": 0.155,
+        "phosphorus": 0.9432,
+        "potassium": 0.9063
     },
     {
         "district": "South West Khasi Hills",
-        "nitrogen": "0.8",
-        "organicCarbon": "0.01",
-        "phosphorus": "0.6608",
-        "potassium": "0.8355"
+        "nitrogen": 0.8,
+        "organicCarbon": 0.01,
+        "phosphorus": 0.6608,
+        "potassium": 0.8355
     },
     {
         "district": "Spsr Nellore",
-        "nitrogen": "0.9347",
-        "organicCarbon": "0.2458",
-        "phosphorus": "0.1011",
-        "potassium": "0.5858"
+        "nitrogen": 0.9347,
+        "organicCarbon": 0.2458,
+        "phosphorus": 0.1011,
+        "potassium": 0.5858
     },
     {
         "district": "Srikakulam",
-        "nitrogen": "0.8852",
-        "organicCarbon": "0.2953",
-        "phosphorus": "0.4262",
-        "potassium": "0.2391"
+        "nitrogen": 0.8852,
+        "organicCarbon": 0.2953,
+        "phosphorus": 0.4262,
+        "potassium": 0.2391
     },
     {
         "district": "Srinagar",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "0.1011",
-        "potassium": "0.0056"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 0.1011,
+        "potassium": 0.0056
     },
     {
         "district": "Sukma",
-        "nitrogen": "0.7282",
-        "organicCarbon": "0.4248",
-        "phosphorus": "0.139",
-        "potassium": "0.4877"
+        "nitrogen": 0.7282,
+        "organicCarbon": 0.4248,
+        "phosphorus": 0.139,
+        "potassium": 0.4877
     },
     {
         "district": "Sundargarh",
-        "nitrogen": "0.9989",
-        "organicCarbon": "0.4387",
-        "phosphorus": "0.4535",
-        "potassium": "0.4306"
+        "nitrogen": 0.9989,
+        "organicCarbon": 0.4387,
+        "phosphorus": 0.4535,
+        "potassium": 0.4306
     },
     {
         "district": "Supaul",
-        "nitrogen": "0.658",
-        "organicCarbon": "0.4578",
-        "phosphorus": "0.1721",
-        "potassium": "0.1297"
+        "nitrogen": 0.658,
+        "organicCarbon": 0.4578,
+        "phosphorus": 0.1721,
+        "potassium": 0.1297
     },
     {
         "district": "Surajpur",
-        "nitrogen": "1",
-        "organicCarbon": "0.5",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.5,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Surat",
-        "nitrogen": "0.995",
-        "organicCarbon": "0.4777",
-        "phosphorus": "0.1869",
-        "potassium": "0.0609"
+        "nitrogen": 0.995,
+        "organicCarbon": 0.4777,
+        "phosphorus": 0.1869,
+        "potassium": 0.0609
     },
     {
         "district": "Surendranagar",
-        "nitrogen": "0.9978",
-        "organicCarbon": "0.4636",
-        "phosphorus": "0.39",
-        "potassium": "0.0724"
+        "nitrogen": 0.9978,
+        "organicCarbon": 0.4636,
+        "phosphorus": 0.39,
+        "potassium": 0.0724
     },
     {
         "district": "Surguja",
-        "nitrogen": "0.8889",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "0.1111"
+        "nitrogen": 0.8889,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 0.1111
     },
     {
         "district": "Tamenglong",
-        "nitrogen": "1",
-        "organicCarbon": "0.5862",
-        "phosphorus": "0.1724",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 0.5862,
+        "phosphorus": 0.1724,
+        "potassium": 1
     },
     {
         "district": "Tapi",
-        "nitrogen": "0.9977",
-        "organicCarbon": "0.5269",
-        "phosphorus": "0.0857",
-        "potassium": "0.0655"
+        "nitrogen": 0.9977,
+        "organicCarbon": 0.5269,
+        "phosphorus": 0.0857,
+        "potassium": 0.0655
     },
     {
         "district": "Tarn Taran",
-        "nitrogen": "1",
-        "organicCarbon": "0.9291",
-        "phosphorus": "0.5877",
-        "potassium": "0.2985"
+        "nitrogen": 1,
+        "organicCarbon": 0.9291,
+        "phosphorus": 0.5877,
+        "potassium": 0.2985
     },
     {
         "district": "Tawang",
-        "nitrogen": "0.0508",
-        "organicCarbon": "0.0946",
-        "phosphorus": "0.8287",
-        "potassium": "0.0811"
+        "nitrogen": 0.0508,
+        "organicCarbon": 0.0946,
+        "phosphorus": 0.8287,
+        "potassium": 0.0811
     },
     {
         "district": "Tehri Garhwal",
-        "nitrogen": "0.9667",
-        "organicCarbon": "0.2033",
-        "phosphorus": "0.2708",
-        "potassium": "0.2096"
+        "nitrogen": 0.9667,
+        "organicCarbon": 0.2033,
+        "phosphorus": 0.2708,
+        "potassium": 0.2096
     },
     {
         "district": "Thane",
-        "nitrogen": "0.0474",
-        "organicCarbon": "0.0574",
-        "phosphorus": "0.1651",
-        "potassium": "0.1033"
+        "nitrogen": 0.0474,
+        "organicCarbon": 0.0574,
+        "phosphorus": 0.1651,
+        "potassium": 0.1033
     },
     {
         "district": "Thanjavur",
-        "nitrogen": "0.98",
-        "organicCarbon": "0.6709",
-        "phosphorus": "0.0659",
-        "potassium": "0.5464"
+        "nitrogen": 0.98,
+        "organicCarbon": 0.6709,
+        "phosphorus": 0.0659,
+        "potassium": 0.5464
     },
     {
         "district": "The Nilgiris",
-        "nitrogen": "0.9406",
-        "organicCarbon": "0.1684",
-        "phosphorus": "0.1782",
-        "potassium": "0.0669"
+        "nitrogen": 0.9406,
+        "organicCarbon": 0.1684,
+        "phosphorus": 0.1782,
+        "potassium": 0.0669
     },
     {
         "district": "Theni",
-        "nitrogen": "1",
-        "organicCarbon": "0.9007",
-        "phosphorus": "0.7573",
-        "potassium": "0.0051"
+        "nitrogen": 1,
+        "organicCarbon": 0.9007,
+        "phosphorus": 0.7573,
+        "potassium": 0.0051
     },
     {
         "district": "Thiruvallur",
-        "nitrogen": "0.9906",
-        "organicCarbon": "0.5327",
-        "phosphorus": "0.1869",
-        "potassium": "0.8412"
+        "nitrogen": 0.9906,
+        "organicCarbon": 0.5327,
+        "phosphorus": 0.1869,
+        "potassium": 0.8412
     },
     {
         "district": "Thiruvananthapuram",
-        "nitrogen": "0",
-        "organicCarbon": "0.8406",
-        "phosphorus": "0.1739",
-        "potassium": "0.5797"
+        "nitrogen": 0,
+        "organicCarbon": 0.8406,
+        "phosphorus": 0.1739,
+        "potassium": 0.5797
     },
     {
         "district": "Thiruvarur",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Thoubal",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 1
     },
     {
         "district": "Thrissur",
-        "nitrogen": "0",
-        "organicCarbon": "0.1035",
-        "phosphorus": "0.0138",
-        "potassium": "0.0276"
+        "nitrogen": 0,
+        "organicCarbon": 0.1035,
+        "phosphorus": 0.0138,
+        "potassium": 0.0276
     },
     {
         "district": "Tikamgarh",
-        "nitrogen": "0.1464",
-        "organicCarbon": "0.5506",
-        "phosphorus": "0.2177",
-        "potassium": "0.0201"
+        "nitrogen": 0.1464,
+        "organicCarbon": 0.5506,
+        "phosphorus": 0.2177,
+        "potassium": 0.0201
     },
     {
         "district": "Tinsukia",
-        "nitrogen": "0.7293",
-        "organicCarbon": "0.3839",
-        "phosphorus": "0.9752",
-        "potassium": "0.9858"
+        "nitrogen": 0.7293,
+        "organicCarbon": 0.3839,
+        "phosphorus": 0.9752,
+        "potassium": 0.9858
     },
     {
         "district": "Tirap",
-        "nitrogen": "0.0017",
-        "organicCarbon": "0",
-        "phosphorus": "0.39",
-        "potassium": "0.1867"
+        "nitrogen": 0.0017,
+        "organicCarbon": 0,
+        "phosphorus": 0.39,
+        "potassium": 0.1867
     },
     {
         "district": "Tiruchirappalli",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0.8462",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0.8462,
+        "potassium": 0
     },
     {
         "district": "Tirunelveli",
-        "nitrogen": "0.994",
-        "organicCarbon": "0.9879",
-        "phosphorus": "0.0303",
-        "potassium": "0.1273"
+        "nitrogen": 0.994,
+        "organicCarbon": 0.9879,
+        "phosphorus": 0.0303,
+        "potassium": 0.1273
     },
     {
         "district": "Tiruppur",
-        "nitrogen": "1",
-        "organicCarbon": "0.5",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 0.5,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "Tiruvannamalai",
-        "nitrogen": "0.9451",
-        "organicCarbon": "0.8804",
-        "phosphorus": "0.6407",
-        "potassium": "0.6189"
+        "nitrogen": 0.9451,
+        "organicCarbon": 0.8804,
+        "phosphorus": 0.6407,
+        "potassium": 0.6189
     },
     {
         "district": "Tonk",
-        "nitrogen": "1",
-        "organicCarbon": "0.9153",
-        "phosphorus": "0.0406",
-        "potassium": "0.0829"
+        "nitrogen": 1,
+        "organicCarbon": 0.9153,
+        "phosphorus": 0.0406,
+        "potassium": 0.0829
     },
     {
         "district": "Tuensang",
-        "nitrogen": "0.0687",
-        "organicCarbon": "0.0878",
-        "phosphorus": "0.879",
-        "potassium": "0.1508"
+        "nitrogen": 0.0687,
+        "organicCarbon": 0.0878,
+        "phosphorus": 0.879,
+        "potassium": 0.1508
     },
     {
         "district": "Tumkur",
-        "nitrogen": "0",
-        "organicCarbon": "0.5748",
-        "phosphorus": "0.2907",
-        "potassium": "0.3538"
+        "nitrogen": 0,
+        "organicCarbon": 0.5748,
+        "phosphorus": 0.2907,
+        "potassium": 0.3538
     },
     {
         "district": "Tuticorin",
-        "nitrogen": "0.9993",
-        "organicCarbon": "0.775",
-        "phosphorus": "0.7404",
-        "potassium": "0.0848"
+        "nitrogen": 0.9993,
+        "organicCarbon": 0.775,
+        "phosphorus": 0.7404,
+        "potassium": 0.0848
     },
     {
         "district": "Udaipur",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Udalguri",
-        "nitrogen": "0.0028",
-        "organicCarbon": "0.0075",
-        "phosphorus": "0.0585",
-        "potassium": "0.6797"
+        "nitrogen": 0.0028,
+        "organicCarbon": 0.0075,
+        "phosphorus": 0.0585,
+        "potassium": 0.6797
     },
     {
         "district": "Udam Singh Nagar",
-        "nitrogen": "0.9938",
-        "organicCarbon": "0.703",
-        "phosphorus": "0.6008",
-        "potassium": "0.4828"
+        "nitrogen": 0.9938,
+        "organicCarbon": 0.703,
+        "phosphorus": 0.6008,
+        "potassium": 0.4828
     },
     {
         "district": "Udhampur",
-        "nitrogen": "0.0349",
-        "organicCarbon": "0.0437",
-        "phosphorus": "0.4178",
-        "potassium": "0.1695"
+        "nitrogen": 0.0349,
+        "organicCarbon": 0.0437,
+        "phosphorus": 0.4178,
+        "potassium": 0.1695
     },
     {
         "district": "Udupi",
-        "nitrogen": "0.345",
-        "organicCarbon": "0.2365",
-        "phosphorus": "0.0572",
-        "potassium": "0.6939"
+        "nitrogen": 0.345,
+        "organicCarbon": 0.2365,
+        "phosphorus": 0.0572,
+        "potassium": 0.6939
     },
     {
         "district": "Ujjain",
-        "nitrogen": "0.9762",
-        "organicCarbon": "0.2917",
-        "phosphorus": "0.2024",
-        "potassium": "0.0179"
+        "nitrogen": 0.9762,
+        "organicCarbon": 0.2917,
+        "phosphorus": 0.2024,
+        "potassium": 0.0179
     },
     {
         "district": "Ukhrul",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0.5926"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0.5926
     },
     {
         "district": "Umaria",
-        "nitrogen": "0.7183",
-        "organicCarbon": "0.6972",
-        "phosphorus": "1",
-        "potassium": "0.007"
+        "nitrogen": 0.7183,
+        "organicCarbon": 0.6972,
+        "phosphorus": 1,
+        "potassium": 0.007
     },
     {
         "district": "Una",
-        "nitrogen": "0.2931",
-        "organicCarbon": "0.3344",
-        "phosphorus": "0.1814",
-        "potassium": "0.2583"
+        "nitrogen": 0.2931,
+        "organicCarbon": 0.3344,
+        "phosphorus": 0.1814,
+        "potassium": 0.2583
     },
     {
         "district": "Unakoti",
-        "nitrogen": "0.9205",
-        "organicCarbon": "0.6534",
-        "phosphorus": "0.233",
-        "potassium": "0.7841"
+        "nitrogen": 0.9205,
+        "organicCarbon": 0.6534,
+        "phosphorus": 0.233,
+        "potassium": 0.7841
     },
     {
         "district": "Upper Siang",
-        "nitrogen": "0.0413",
-        "organicCarbon": "0.1384",
-        "phosphorus": "0.9686",
-        "potassium": "0.1683"
+        "nitrogen": 0.0413,
+        "organicCarbon": 0.1384,
+        "phosphorus": 0.9686,
+        "potassium": 0.1683
     },
     {
         "district": "Upper Subansiri",
-        "nitrogen": "0.0088",
-        "organicCarbon": "0.2312",
-        "phosphorus": "0.8447",
-        "potassium": "0.3308"
+        "nitrogen": 0.0088,
+        "organicCarbon": 0.2312,
+        "phosphorus": 0.8447,
+        "potassium": 0.3308
     },
     {
         "district": "Uttar Kannad",
-        "nitrogen": "0.9522",
-        "organicCarbon": "0.1197",
-        "phosphorus": "0.3262",
-        "potassium": "0.6895"
+        "nitrogen": 0.9522,
+        "organicCarbon": 0.1197,
+        "phosphorus": 0.3262,
+        "potassium": 0.6895
     },
     {
         "district": "Uttar Kashi",
-        "nitrogen": "1",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "1"
+        "nitrogen": 1,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 1
     },
     {
         "district": "Vadodara",
-        "nitrogen": "0.8333",
-        "organicCarbon": "0.8333",
-        "phosphorus": "0",
-        "potassium": "0.3333"
+        "nitrogen": 0.8333,
+        "organicCarbon": 0.8333,
+        "phosphorus": 0,
+        "potassium": 0.3333
     },
     {
         "district": "Vaishali",
-        "nitrogen": "0.9831",
-        "organicCarbon": "0.2788",
-        "phosphorus": "0.3141",
-        "potassium": "0.1679"
+        "nitrogen": 0.9831,
+        "organicCarbon": 0.2788,
+        "phosphorus": 0.3141,
+        "potassium": 0.1679
     },
     {
         "district": "Valsad",
-        "nitrogen": "0.9656",
-        "organicCarbon": "0.5548",
-        "phosphorus": "0.2529",
-        "potassium": "0.0326"
+        "nitrogen": 0.9656,
+        "organicCarbon": 0.5548,
+        "phosphorus": 0.2529,
+        "potassium": 0.0326
     },
     {
         "district": "Vellore",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Vidisha",
-        "nitrogen": "0.974",
-        "organicCarbon": "0.1786",
-        "phosphorus": "0.78",
-        "potassium": "0.021"
+        "nitrogen": 0.974,
+        "organicCarbon": 0.1786,
+        "phosphorus": 0.78,
+        "potassium": 0.021
     },
     {
         "district": "Villupuram",
-        "nitrogen": "0.75",
-        "organicCarbon": "0.5",
-        "phosphorus": "0",
-        "potassium": "0.5"
+        "nitrogen": 0.75,
+        "organicCarbon": 0.5,
+        "phosphorus": 0,
+        "potassium": 0.5
     },
     {
         "district": "Virudhunagar",
-        "nitrogen": "0.9908",
-        "organicCarbon": "0.891",
-        "phosphorus": "0.7353",
-        "potassium": "0.1459"
+        "nitrogen": 0.9908,
+        "organicCarbon": 0.891,
+        "phosphorus": 0.7353,
+        "potassium": 0.1459
     },
     {
         "district": "Visakhapatanam",
-        "nitrogen": "0.8898",
-        "organicCarbon": "0.2207",
-        "phosphorus": "0.1441",
-        "potassium": "0.5142"
+        "nitrogen": 0.8898,
+        "organicCarbon": 0.2207,
+        "phosphorus": 0.1441,
+        "potassium": 0.5142
     },
     {
         "district": "Vizianagaram",
-        "nitrogen": "1",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 1,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Warangal",
-        "nitrogen": "0.9643",
-        "organicCarbon": "0.75",
-        "phosphorus": "0.1785",
-        "potassium": "0"
+        "nitrogen": 0.9643,
+        "organicCarbon": 0.75,
+        "phosphorus": 0.1785,
+        "potassium": 0
     },
     {
         "district": "Wardha",
-        "nitrogen": "0.1757",
-        "organicCarbon": "0.2517",
-        "phosphorus": "0.2314",
-        "potassium": "0.007"
+        "nitrogen": 0.1757,
+        "organicCarbon": 0.2517,
+        "phosphorus": 0.2314,
+        "potassium": 0.007
     },
     {
         "district": "Washim",
-        "nitrogen": "0",
-        "organicCarbon": "1",
-        "phosphorus": "0",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 1,
+        "phosphorus": 0,
+        "potassium": 0
     },
     {
         "district": "Wayanad",
-        "nitrogen": "1",
-        "organicCarbon": "0.067",
-        "phosphorus": "0.5674",
-        "potassium": "0.0756"
+        "nitrogen": 1,
+        "organicCarbon": 0.067,
+        "phosphorus": 0.5674,
+        "potassium": 0.0756
     },
     {
         "district": "West",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0",
-        "potassium": "1"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0,
+        "potassium": 1
     },
     {
         "district": "West District",
-        "nitrogen": "0.7895",
-        "organicCarbon": "0.3684",
-        "phosphorus": "0.0175",
-        "potassium": "0.0351"
+        "nitrogen": 0.7895,
+        "organicCarbon": 0.3684,
+        "phosphorus": 0.0175,
+        "potassium": 0.0351
     },
     {
         "district": "West Garo Hills",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "1",
-        "potassium": "0"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 1,
+        "potassium": 0
     },
     {
         "district": "West Godavari",
-        "nitrogen": "0.8725",
-        "organicCarbon": "0.3302",
-        "phosphorus": "0.0341",
-        "potassium": "0.5653"
+        "nitrogen": 0.8725,
+        "organicCarbon": 0.3302,
+        "phosphorus": 0.0341,
+        "potassium": 0.5653
     },
     {
         "district": "West Jaintia Hills",
-        "nitrogen": "0",
-        "organicCarbon": "0.5775",
-        "phosphorus": "0.5815",
-        "potassium": "0.2545"
+        "nitrogen": 0,
+        "organicCarbon": 0.5775,
+        "phosphorus": 0.5815,
+        "potassium": 0.2545
     },
     {
         "district": "West Kameng",
-        "nitrogen": "0.0631",
-        "organicCarbon": "0.1294",
-        "phosphorus": "0.9905",
-        "potassium": "0.0773"
+        "nitrogen": 0.0631,
+        "organicCarbon": 0.1294,
+        "phosphorus": 0.9905,
+        "potassium": 0.0773
     },
     {
         "district": "West Khasi Hills",
-        "nitrogen": "0",
-        "organicCarbon": "0",
-        "phosphorus": "0.7434",
-        "potassium": "0.4907"
+        "nitrogen": 0,
+        "organicCarbon": 0,
+        "phosphorus": 0.7434,
+        "potassium": 0.4907
     },
     {
         "district": "West Siang",
-        "nitrogen": "0.0028",
-        "organicCarbon": "0.0014",
-        "phosphorus": "0.9426",
-        "potassium": "0.1873"
+        "nitrogen": 0.0028,
+        "organicCarbon": 0.0014,
+        "phosphorus": 0.9426,
+        "potassium": 0.1873
     },
     {
         "district": "West Singhbhum",
-        "nitrogen": "0.4417",
-        "organicCarbon": "0.2665",
-        "phosphorus": "0.5715",
-        "potassium": "0.8423"
+        "nitrogen": 0.4417,
+        "organicCarbon": 0.2665,
+        "phosphorus": 0.5715,
+        "potassium": 0.8423
     },
     {
         "district": "West Tripura",
-        "nitrogen": "0.712",
-        "organicCarbon": "0.3527",
-        "phosphorus": "0.3018",
-        "potassium": "0.5704"
+        "nitrogen": 0.712,
+        "organicCarbon": 0.3527,
+        "phosphorus": 0.3018,
+        "potassium": 0.5704
     },
     {
         "district": "Wokha",
-        "nitrogen": "0.2667",
-        "organicCarbon": "0.2",
-        "phosphorus": "0.2222",
-        "potassium": "0.1778"
+        "nitrogen": 0.2667,
+        "organicCarbon": 0.2,
+        "phosphorus": 0.2222,
+        "potassium": 0.1778
     },
     {
         "district": "Y.S.R.",
-        "nitrogen": "0.9859",
-        "organicCarbon": "0.6367",
-        "phosphorus": "0.1979",
-        "potassium": "0.2843"
+        "nitrogen": 0.9859,
+        "organicCarbon": 0.6367,
+        "phosphorus": 0.1979,
+        "potassium": 0.2843
     },
     {
         "district": "Yadgir",
-        "nitrogen": "1",
-        "organicCarbon": "0.25",
-        "phosphorus": "0.75",
-        "potassium": "0.5"
+        "nitrogen": 1,
+        "organicCarbon": 0.25,
+        "phosphorus": 0.75,
+        "potassium": 0.5
     },
     {
         "district": "Yamunanagar",
-        "nitrogen": "1",
-        "organicCarbon": "0.9805",
-        "phosphorus": "0.8112",
-        "potassium": "0.7428"
+        "nitrogen": 1,
+        "organicCarbon": 0.9805,
+        "phosphorus": 0.8112,
+        "potassium": 0.7428
     },
     {
         "district": "Yavatmal",
-        "nitrogen": "0.4286",
-        "organicCarbon": "0.7143",
-        "phosphorus": "0.4286",
-        "potassium": "0"
+        "nitrogen": 0.4286,
+        "organicCarbon": 0.7143,
+        "phosphorus": 0.4286,
+        "potassium": 0
     },
     {
         "district": "Zunheboto",
-        "nitrogen": "0.0047",
-        "organicCarbon": "0.0037",
-        "phosphorus": "0.9461",
-        "potassium": "0.2025"
+        "nitrogen": 0.0047,
+        "organicCarbon": 0.0037,
+        "phosphorus": 0.9461,
+        "potassium": 0.2025
     }
 ]
