@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:kissan_mitra/classes/language.dart';
-import 'package:kissan_mitra/localization/language_constants.dart';
 
+import '../../classes/language.dart';
 import '../../constants.dart';
+import '../../localization/language_constants.dart';
 import '../../main.dart';
 import '../analysis_screen/analysis_screen.dart';
+import 'weather.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({Key key}) : super(key: key);
@@ -19,6 +20,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     Locale _locale = await setLocale(language.languageCode);
     App.setLocale(context, _locale);
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,9 +57,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       // ),
       // body: SafeArea(
       body: SingleChildScrollView(
-
         child: Column(
-
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Stack(
@@ -82,6 +82,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   children: <Widget>[
                     // _notificationCard(),
                     // _nextAppointmentText(),
+                    _weatherCard(),
                     _appoinmentCard(),
                     _areaSpecialistsText(),
                     _specialistsCardInfo(),
@@ -126,11 +127,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
       height: 260.0,
       decoration: BoxDecoration(
         gradient: LinearGradient(
-            begin: Alignment.topRight,
-            end: Alignment.bottomLeft,
-            colors: [Colors.green[300], Colors.green],
+          begin: Alignment.topRight,
+          end: Alignment.bottomLeft,
+          colors: [Colors.green[300], Colors.green],
         ),
-        borderRadius: BorderRadius.only(bottomLeft: Radius.circular(40),
+        borderRadius: BorderRadius.only(
+          bottomLeft: Radius.circular(40),
           bottomRight: Radius.circular(40),
         ),
       ),
@@ -169,6 +171,25 @@ class _DashboardScreenState extends State<DashboardScreen> {
     );
   }
 
+  Widget _weatherCard() {
+    return RaisedButton(
+      color: Colors.green,
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => WeatherApp()),
+        );
+      },
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
+      padding: const EdgeInsets.all(5.0),
+      child: const Text(
+        'Weather Report',
+        style: TextStyle(
+            fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
+      ),
+    );
+  }
+
   Widget _appoinmentCard() {
     return RaisedButton(
       color: Colors.green,
@@ -179,14 +200,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
         );
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-      // padding: const EdgeInsets.all(0.0),
-      child: const Padding(
-        padding: EdgeInsets.all(15.0),
-        child: Text(
-          'Start Analysis',
-          style: TextStyle(
-              fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
-        ),
+      padding: const EdgeInsets.all(5.0),
+      child: const Text(
+        'Start Analysis',
+        style: TextStyle(
+            fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
       ),
     );
   }
