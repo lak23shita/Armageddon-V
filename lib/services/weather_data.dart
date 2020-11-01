@@ -13,7 +13,8 @@ class WeatherData {
       "https://history.openweathermap.org/data/2.5/aggregated/month?month=$month&lat=$lat&lon=$lon&appid=$WEATHER_KEY",
     );
     final data = jsonDecode(res.body);
-    return data["result"]["precipitation"]["mean"];
+    print(data);
+    // return data["result"]["precipitation"]["mean"];
   }
 
   Future<List<double>> getRainFallData() async {

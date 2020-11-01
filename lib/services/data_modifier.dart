@@ -27,9 +27,9 @@ class DataModifier {
 
     res[0] = _mapping.getState(state).toDouble();
     res[1] = (await _mapping.getDistrictIndex(district)).toDouble();
-    res[2] = analysis[InputEnum.season];
-    res[3] = analysis[InputEnum.area];
-    res[4] = analysis[InputEnum.production];
+    res[2] = analysis[InputEnum.season].toDouble();
+    res[3] = analysis[InputEnum.area].toDouble();
+    res[4] = analysis[InputEnum.production].toDouble();
     final rain = await locator<WeatherData>().getRainFallData();
     for (int i = 5; i <= 8; i++) res[i] = rain[i - 5];
 
