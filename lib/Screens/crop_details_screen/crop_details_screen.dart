@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kissan_mitra/localization/language_constants.dart';
 
 import '../../classes/crop_details/crop_details.dart';
 import '../../utils/get_it_init.dart';

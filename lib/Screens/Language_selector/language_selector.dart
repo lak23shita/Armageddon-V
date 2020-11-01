@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 import 'package:kissan_mitra/classes/language.dart';
 import 'package:kissan_mitra/localization/language_constants.dart';
@@ -24,12 +25,24 @@ class _LanguagepageState extends State<Languagepage> {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Scaffold(
 
       body: Column(
         key: _key,
         mainAxisAlignment: MainAxisAlignment.center,
         children:<Widget>[
+          Text(
+            getTranslated(context, "welcome"),
+            textAlign: TextAlign.center,
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
+          ),
+          SizedBox(height: size.height * 0.05),
+          SvgPicture.asset(
+            "assets/images/farmer.svg",
+            height: size.height * 0.45,
+          ),
+          SizedBox(height: size.height * 0.05),
           Container(
             child: Center(
                 child: DropdownButton<Language>(

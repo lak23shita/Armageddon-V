@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';
+import '../../localization/language_constants.dart';
 import '../analysis_screen/analysis_screen.dart';
+import 'weather.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({Key key}) : super(key: key);
@@ -14,8 +16,38 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // body: SafeArea(
       backgroundColor: mainBgColor,
+      // appBar: AppBar(
+      //   actions: <Widget>[
+      //     Padding(
+      //       padding: const EdgeInsets.all(8.0),
+      //       child: DropdownButton<Language>(
+      //         underline: SizedBox(),
+      //         icon: Icon(
+      //           Icons.language,
+      //           color: Colors.white,
+      //         ),
+      //         onChanged: (Language language) {
+      //           _changeLanguage(language);
+      //         },
+      //         items: Language.languageList()
+      //             .map<DropdownMenuItem<Language>>(
+      //               (e) => DropdownMenuItem<Language>(
+      //             value: e,
+      //             child: Row(
+      //               mainAxisAlignment: MainAxisAlignment.spaceAround,
+      //               children: <Widget>[
+      //                 Text(e.name)
+      //               ],
+      //             ),
+      //           ),
+      //         )
+      //             .toList(),
+      //       ),
+      //     ),
+      //   ],
+      // ),
+      // body: SafeArea(
       body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -27,11 +59,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
               children: <Widget>[
                 _backBgCover(),
                 _greetings(),
-                _moodsHolder(),
+                // _moodsHolder(),
               ],
-            ),
-            SizedBox(
-              height: 50.0,
             ),
             SingleChildScrollView(
               scrollDirection: Axis.vertical,
@@ -42,11 +71,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   children: <Widget>[
                     // _notificationCard(),
                     // _nextAppointmentText(),
+                    _weatherCard(),
+                    SizedBox(
+                      height: 20.0,
+                    ),
                     _appoinmentCard(),
-                    _areaSpecialistsText(),
-                    _specialistsCardInfo(),
-                    _specialistsCardInfo(),
-                    _specialistsCardInfo(),
+                    // _areaSpecialistsText(),
+                    // _specialistsCardInfo(),
+                    // _specialistsCardInfo(),
+                    // _specialistsCardInfo(),
 
                     //_specialistsCardInfo(),
                   ],
@@ -76,7 +109,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 blurRadius: 5.5,
               )
             ]),
-        // child: MoodsSelector(),
+        child: _weatherCard(),
       ),
     );
   }
@@ -86,9 +119,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
       height: 260.0,
       decoration: BoxDecoration(
         gradient: LinearGradient(
-            begin: Alignment.topRight,
-            end: Alignment.bottomLeft,
-            colors: [Colors.green[300], Colors.green]),
+          begin: Alignment.topRight,
+          end: Alignment.bottomLeft,
+          colors: [Colors.green[300], Colors.green],
+        ),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(40),
           bottomRight: Radius.circular(40),
@@ -106,7 +140,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            'Welcome Kissan Name!!!',
+            getTranslated(context, "kissan_name"),
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.w500,
@@ -117,7 +151,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             height: 15,
           ),
           Text(
-            'Weather Details..',
+            getTranslated(context, "weather"),
             style: TextStyle(
               fontSize: 25,
               fontWeight: FontWeight.w400,
@@ -125,6 +159,27 @@ class _DashboardScreenState extends State<DashboardScreen> {
             ),
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _weatherCard() {
+    return RaisedButton(
+      color: Colors.green,
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => WeatherApp()),
+        );
+      },
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
+      child: Padding(
+        padding: const EdgeInsets.all(15.0),
+        child: const Text(
+          'Weather Report',
+          style: TextStyle(
+              fontWeight: FontWeight.w500, fontSize: 35, color: Colors.white),
+        ),
       ),
     );
   }
@@ -139,13 +194,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
         );
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-      // padding: const EdgeInsets.all(0.0),
-      child: const Padding(
-        padding: EdgeInsets.all(15.0),
-        child: Text(
+      child: Padding(
+        padding: const EdgeInsets.all(15.0),
+        child: const Text(
           'Start Analysis',
           style: TextStyle(
-              fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
+            fontWeight: FontWeight.w500,
+            fontSize: 40,
+            color: Colors.white,
+          ),
         ),
       ),
     );
@@ -181,7 +238,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text(
-            'Previous Crop Prediction',
+            getTranslated(context, "previous_crop"),
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w700,
@@ -231,7 +288,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 children: <Widget>[
                   RichText(
                     text: TextSpan(
-                      text: 'Rice\n',
+                      text: "\nRice",
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 15,
@@ -240,7 +297,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       ),
                       children: <TextSpan>[
                         TextSpan(
-                          text: 'rabi',
+                          text: "\nRabi",
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 16,
@@ -248,7 +305,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           ),
                         ),
                         TextSpan(
-                          text: '\nDrip Irrigation',
+                          text: "\nDrip Irrigation",
                           style: TextStyle(
                             color: Colors.black45,
                             fontWeight: FontWeight.w400,
