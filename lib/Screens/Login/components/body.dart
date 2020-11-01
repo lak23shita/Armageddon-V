@@ -2,13 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 
-import '../../../classes/language.dart';
 import '../../../components/already_have_an_account_acheck.dart';
 import '../../../components/rounded_button.dart';
 import '../../../components/rounded_input_field.dart';
 import '../../../components/rounded_password_field.dart';
 import '../../../localization/language_constants.dart';
-import '../../../main.dart';
 import '../../../providers/auth_provider.dart';
 import '../../Signup/signup_screen.dart';
 import '../../dashboard/dashboard_screen.dart';
@@ -26,10 +24,6 @@ class Body extends StatefulWidget {
 
 class _BodyState extends State<Body> {
   final GlobalKey<FormState> _key = GlobalKey<FormState>();
-  void _changeLanguage(Language language) async {
-    Locale _locale = await setLocale(language.languageCode);
-    App.setLocale(context, _locale);
-  }
 
   String email, password;
   @override

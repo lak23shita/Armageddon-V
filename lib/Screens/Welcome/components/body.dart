@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:kissan_mitra/classes/language.dart';
-import 'package:kissan_mitra/localization/language_constants.dart';
 
 import '../../../components/rounded_button.dart';
 import '../../../constants.dart';
-import '../../../main.dart';
+import '../../../localization/language_constants.dart';
 import '../../Login/login_screen.dart';
 import '../../Signup/signup_screen.dart';
 import 'background.dart';
@@ -16,11 +14,6 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> {
-  final GlobalKey<FormState> _key = GlobalKey<FormState>();
-  void _changeLanguage(Language language) async {
-    Locale _locale = await setLocale(language.languageCode);
-    App.setLocale(context, _locale);
-  }
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -42,7 +35,7 @@ class _BodyState extends State<Body> {
             ),
             SizedBox(height: size.height * 0.05),
             RoundedButton(
-              text:getTranslated(context, "login_page"),
+              text: getTranslated(context, "login_page"),
               press: () {
                 Navigator.push(
                   context,

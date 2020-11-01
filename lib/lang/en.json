@@ -6,9 +6,9 @@
   "email_hint": "Enter your email",
   "password": "Password",
   "account": "Already have a Account ?",
-  "sign_in":"Sign In",
+  "sign_in": "Sign In",
   "already": "Don't have an Account ?",
-  "sign__up":"Sign Up",
+  "sign__up": "Sign Up",
   "change_language": "Change Language",
   "on_bording": "Next",
   "planting": "Planting",
@@ -20,7 +20,7 @@
   "welcome": "WELCOME TO KISSAN MITRA",
   "analysis": "Analysis",
   "alternative": "Alternate Crops",
-  "kissan_name": "Welcome Kissan Name!!!",
+  "kissan_name": "Welcome to Kissan mitra!!!",
   "weather": "Weather Details..",
   "analysis_start": "Start Analysis",
   "previous_crop": "Previous Crop Prediction",
@@ -51,6 +51,4 @@
   "rice": "\n\nRice",
   "rabi": "\nRabi",
   "drip_irrigation": "\nDrip Irrigation"
-
-
 }

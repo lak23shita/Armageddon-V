@@ -1,9 +1,7 @@
-import 'package:kissan_mitra/services/weather_data.dart';
-import 'package:kissan_mitra/utils/location_service.dart';
-
 import '../constants.dart';
 import '../enums/input_enum.dart';
 import '../utils/get_it_init.dart';
+import '../utils/location_service.dart';
 import '../utils/mapping.dart';
 
 class DataModifier {

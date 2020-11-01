@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kissan_mitra/classes/language.dart';
-import 'package:kissan_mitra/localization/language_constants.dart';
 
 import '../constants.dart';
-import '../main.dart';
+import '../localization/language_constants.dart';
 import 'text_field_container.dart';
 
 class RoundedPasswordField extends StatefulWidget {
@@ -19,10 +17,6 @@ class RoundedPasswordField extends StatefulWidget {
 
 class _RoundedPasswordFieldState extends State<RoundedPasswordField> {
   final GlobalKey<FormState> _key = GlobalKey<FormState>();
-  void _changeLanguage(Language language) async {
-    Locale _locale = await setLocale(language.languageCode);
-    App.setLocale(context, _locale);
-  }
   @override
   Widget build(BuildContext context) {
     return TextFieldContainer(
@@ -32,7 +26,7 @@ class _RoundedPasswordFieldState extends State<RoundedPasswordField> {
         onChanged: widget.onChanged,
         cursorColor: kPrimaryColor,
         decoration: InputDecoration(
-          hintText:getTranslated(context, 'password'),
+          hintText: getTranslated(context, 'password'),
           icon: Icon(
             Icons.lock,
             color: kPrimaryColor,

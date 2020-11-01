@@ -16,7 +16,7 @@ class _WeatherAppState extends State<WeatherApp> {
   int temperature;
   var minTemperatureForecast = new List(7);
   var maxTemperatureForecast = new List(7);
-  String location = 'Mumbai';
+  String location = 'Sindhudurg';
   int woeid = 12586539;
   String weather = 'clear';
   String abbreviation = 'c';
@@ -26,7 +26,6 @@ class _WeatherAppState extends State<WeatherApp> {
   final Geolocator geolocator = Geolocator();
 
   Position _currentPosition;
-  String _currentAddress;
 
   String searchApiUrl =
       'https://www.metaweather.com/api/location/search/?query=';

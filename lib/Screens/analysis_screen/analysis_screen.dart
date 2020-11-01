@@ -54,7 +54,7 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
   }
 
   setCrops() async {
-    _crops = await locator<Mapping>().crops;
+    _crops = locator<Mapping>().crops;
     _prevKharif = _prevRabi = _prevSummer = _crops[0];
   }
 

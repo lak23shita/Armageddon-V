@@ -14,7 +14,7 @@ class WeatherData {
     );
     final data = jsonDecode(res.body);
     print(data);
-    // return data["result"]["precipitation"]["mean"];
+    return data["result"]["precipitation"]["mean"];
   }
 
   Future<List<double>> getRainFallData() async {

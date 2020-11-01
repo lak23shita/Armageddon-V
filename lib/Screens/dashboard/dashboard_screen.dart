@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:kissan_mitra/classes/language.dart';
+import 'package:provider/provider.dart';
 
 import '../../constants.dart';
 import '../../localization/language_constants.dart';
+import '../../main.dart';
+import '../../providers/auth_provider.dart';
 import '../analysis_screen/analysis_screen.dart';
 import 'weather.dart';
 
@@ -15,39 +20,13 @@ class DashboardScreen extends StatefulWidget {
 class _DashboardScreenState extends State<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
+    void _changeLanguage(Language language) async {
+      Locale _locale = await setLocale(language.languageCode);
+      App.setLocale(context, _locale);
+    }
+
     return Scaffold(
       backgroundColor: mainBgColor,
-      // appBar: AppBar(
-      //   actions: <Widget>[
-      //     Padding(
-      //       padding: const EdgeInsets.all(8.0),
-      //       child: DropdownButton<Language>(
-      //         underline: SizedBox(),
-      //         icon: Icon(
-      //           Icons.language,
-      //           color: Colors.white,
-      //         ),
-      //         onChanged: (Language language) {
-      //           _changeLanguage(language);
-      //         },
-      //         items: Language.languageList()
-      //             .map<DropdownMenuItem<Language>>(
-      //               (e) => DropdownMenuItem<Language>(
-      //             value: e,
-      //             child: Row(
-      //               mainAxisAlignment: MainAxisAlignment.spaceAround,
-      //               children: <Widget>[
-      //                 Text(e.name)
-      //               ],
-      //             ),
-      //           ),
-      //         )
-      //             .toList(),
-      //       ),
-      //     ),
-      //   ],
-      // ),
-      // body: SafeArea(
       body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -59,6 +38,45 @@ class _DashboardScreenState extends State<DashboardScreen> {
               children: <Widget>[
                 _backBgCover(),
                 _greetings(),
+                Positioned(
+                  top: 15,
+                  right: 60,
+                  child: DropdownButton<Language>(
+                    underline: SizedBox(),
+                    icon: Icon(
+                      Icons.language,
+                      color: Colors.white,
+                    ),
+                    onChanged: (Language language) {
+                      _changeLanguage(language);
+                    },
+                    items: Language.languageList()
+                        .map<DropdownMenuItem<Language>>(
+                          (e) => DropdownMenuItem<Language>(
+                            value: e,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: <Widget>[Text(e.name)],
+                            ),
+                          ),
+                        )
+                        .toList(),
+                  ),
+                ),
+                Positioned(
+                  top: 15,
+                  right: 0.9,
+                  child: new IconButton(
+                    icon: Icon(
+                      Icons.exit_to_app,
+                      color: Colors.white,
+                    ),
+                    onPressed: () {
+                      Provider.of<AuthProvider>(context, listen: false)
+                          .signOut();
+                    },
+                  ),
+                ),
                 // _moodsHolder(),
               ],
             ),
@@ -76,40 +94,13 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       height: 20.0,
                     ),
                     _appoinmentCard(),
-                    // _areaSpecialistsText(),
-                    // _specialistsCardInfo(),
-                    // _specialistsCardInfo(),
-                    // _specialistsCardInfo(),
-
-                    //_specialistsCardInfo(),
+                    _picture(),
                   ],
                 ),
               ),
             ),
           ],
         ),
-      ),
-    );
-  }
-
-  Positioned _moodsHolder() {
-    return Positioned(
-      bottom: -45,
-      child: Container(
-        height: 120.0,
-        width: MediaQuery.of(context).size.width - 40,
-        padding: EdgeInsets.all(10),
-        decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.all(Radius.circular(28)),
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black12,
-                spreadRadius: 5.5,
-                blurRadius: 5.5,
-              )
-            ]),
-        child: _weatherCard(),
       ),
     );
   }
@@ -149,14 +140,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ),
           SizedBox(
             height: 15,
-          ),
-          Text(
-            getTranslated(context, "weather"),
-            style: TextStyle(
-              fontSize: 25,
-              fontWeight: FontWeight.w400,
-              color: Colors.black,
-            ),
           ),
         ],
       ),
@@ -231,101 +214,20 @@ class _DashboardScreenState extends State<DashboardScreen> {
     );
   }
 
-  Widget _areaSpecialistsText() {
-    return Container(
-      margin: EdgeInsets.only(top: 20.0, bottom: 20.0),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: <Widget>[
-          Text(
-            getTranslated(context, "previous_crop"),
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.w700,
-              color: Colors.black,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _specialistsCardInfo() {
+  Widget _picture() {
+    Size size = MediaQuery.of(context).size;
     return Container(
       padding: EdgeInsets.symmetric(vertical: 14.0, horizontal: 18.0),
       margin: EdgeInsets.only(
         bottom: 20.0,
       ),
-      decoration: BoxDecoration(
-          color: Colors.green[300],
-          borderRadius: BorderRadius.circular(12.0),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.grey.withOpacity(0.2),
-              spreadRadius: 1.0,
-              blurRadius: 6.0,
-            ),
-          ]),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              CircleAvatar(
-                backgroundColor: Color(0xFFD9D9D9),
-                backgroundImage: NetworkImage(USER_IMAGE),
-                radius: 36.0,
-              ),
-              SizedBox(
-                width: 10.0,
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  RichText(
-                    text: TextSpan(
-                      text: "\nRice",
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w400,
-                        height: 1.3,
-                      ),
-                      children: <TextSpan>[
-                        TextSpan(
-                          text: "\nRabi",
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 16,
-                            fontWeight: FontWeight.w600,
-                          ),
-                        ),
-                        TextSpan(
-                          text: "\nDrip Irrigation",
-                          style: TextStyle(
-                            color: Colors.black45,
-                            fontWeight: FontWeight.w400,
-                            fontSize: 15,
-                          ),
-                        ),
-                        TextSpan(
-                          text: '\n100/kg ',
-                          style: TextStyle(
-                            color: Colors.black38,
-                            fontWeight: FontWeight.w400,
-                            fontSize: 14,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ],
+          SvgPicture.asset(
+            "assets/icons/sprout.svg",
+            height: size.height * 0.45,
           ),
         ],
       ),

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
-import '../classes/language.dart';
 import '../localization/language_constants.dart';
-import '../main.dart';
 import '../utils/get_it_init.dart';
 import '../utils/location_service.dart';
 import 'Welcome/welcome_screen.dart';
@@ -17,22 +15,10 @@ class OnBoardingPage extends StatefulWidget {
 
 class _OnBoardingPageState extends State<OnBoardingPage> {
   final introKey = GlobalKey<IntroductionScreenState>();
-  final GlobalKey<FormState> _key = GlobalKey<FormState>();
-  void _changeLanguage(Language language) async {
-    Locale _locale = await setLocale(language.languageCode);
-    App.setLocale(context, _locale);
-  }
 
   void _onIntroEnd(context) {
     Navigator.of(context).push(
       MaterialPageRoute(builder: (_) => WelcomeScreen()),
-    );
-  }
-
-  Widget _buildImage(String assetName) {
-    return Align(
-      child: Image.asset('assets/images/$assetName.jpg'),
-      alignment: Alignment.bottomCenter,
     );
   }
 
@@ -44,15 +30,6 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
 
   @override
   Widget build(BuildContext context) {
-    const bodyStyle = TextStyle(fontSize: 19.0);
-    const pageDecoration = PageDecoration(
-      titleTextStyle: TextStyle(fontSize: 28.0, fontWeight: FontWeight.w700),
-      bodyTextStyle: bodyStyle,
-      descriptionPadding: EdgeInsets.fromLTRB(16.0, 40.0, 16.0, 16.0),
-      pageColor: Colors.white,
-      imagePadding: EdgeInsets.zero,
-    );
-
     return IntroductionScreen(
       key: introKey,
       pages: [
