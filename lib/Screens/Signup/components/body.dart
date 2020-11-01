@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:kissan_mitra/classes/language.dart';
-import 'package:kissan_mitra/localization/language_constants.dart';
 import 'package:provider/provider.dart';
 
+import '../../../classes/language.dart';
 import '../../../components/already_have_an_account_acheck.dart';
 import '../../../components/rounded_button.dart';
 import '../../../components/rounded_input_field.dart';
 import '../../../components/rounded_password_field.dart';
+import '../../../localization/language_constants.dart';
 import '../../../main.dart';
 import '../../../providers/auth_provider.dart';
 import '../../Login/login_screen.dart';
-import '../../analysis_screen/analysis_screen.dart';
+import '../../dashboard/dashboard_screen.dart';
 import 'background.dart';
 
 class Body extends StatefulWidget {
@@ -25,6 +25,7 @@ class _BodyState extends State<Body> {
     Locale _locale = await setLocale(language.languageCode);
     App.setLocale(context, _locale);
   }
+
   String name, email, password;
 
   @override
@@ -67,7 +68,7 @@ class _BodyState extends State<Body> {
                     if (value != null)
                       return Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (_) => AnalysisScreen()),
+                        MaterialPageRoute(builder: (_) => DashboardScreen()),
                       );
                   },
                   onError: (e) {

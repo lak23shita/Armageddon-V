@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:kissan_mitra/classes/language.dart';
-import 'package:kissan_mitra/localization/language_constants.dart';
 import 'package:provider/provider.dart';
 
+import '../../../classes/language.dart';
 import '../../../components/already_have_an_account_acheck.dart';
 import '../../../components/rounded_button.dart';
 import '../../../components/rounded_input_field.dart';
 import '../../../components/rounded_password_field.dart';
+import '../../../localization/language_constants.dart';
 import '../../../main.dart';
 import '../../../providers/auth_provider.dart';
 import '../../Signup/signup_screen.dart';
-import '../../analysis_screen/analysis_screen.dart';
+import '../../dashboard/dashboard_screen.dart';
 import '../components/background.dart';
 import 'background.dart';
 
@@ -30,6 +30,7 @@ class _BodyState extends State<Body> {
     Locale _locale = await setLocale(language.languageCode);
     App.setLocale(context, _locale);
   }
+
   String email, password;
   @override
   Widget build(BuildContext context) {
@@ -48,7 +49,7 @@ class _BodyState extends State<Body> {
             ),
             SizedBox(height: size.height * 0.03),
             RoundedInputField(
-              hintText:  getTranslated(context, 'email_hint'),
+              hintText: getTranslated(context, 'email_hint'),
               onChanged: (value) {
                 email = value;
               },
@@ -59,14 +60,14 @@ class _BodyState extends State<Body> {
               },
             ),
             RoundedButton(
-              text:  getTranslated(context, 'login_page'),
+              text: getTranslated(context, 'login_page'),
               press: () {
                 _auth.signInWithEmailAndPassword(email, password).then(
                   (value) {
                     if (value != null)
                       return Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (_) => AnalysisScreen()),
+                        MaterialPageRoute(builder: (_) => DashboardScreen()),
                       );
                   },
                   onError: (e) {
