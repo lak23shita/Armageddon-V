@@ -89,9 +89,9 @@ class _WeatherAppState extends State<WeatherApp> {
   }
 
   void onTextFieldSubmitted(String input) async {
-    await fetchSearch(input);
-    await fetchLocation();
-    await fetchLocationDay();
+    fetchSearch(input);
+    fetchLocation();
+    fetchLocationDay();
   }
 
   _getCurrentLocation() {

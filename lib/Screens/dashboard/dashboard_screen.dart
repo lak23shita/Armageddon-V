@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../classes/language.dart';
 import '../../constants.dart';
 import '../../localization/language_constants.dart';
-import '../../main.dart';
 import '../analysis_screen/analysis_screen.dart';
 import 'weather.dart';
 
@@ -15,12 +13,6 @@ class DashboardScreen extends StatefulWidget {
 }
 
 class _DashboardScreenState extends State<DashboardScreen> {
-  final GlobalKey<FormState> _key = GlobalKey<FormState>();
-  void _changeLanguage(Language language) async {
-    Locale _locale = await setLocale(language.languageCode);
-    App.setLocale(context, _locale);
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -67,11 +59,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
               children: <Widget>[
                 _backBgCover(),
                 _greetings(),
-                _moodsHolder(),
+                // _moodsHolder(),
               ],
-            ),
-            SizedBox(
-              height: 50.0,
             ),
             SingleChildScrollView(
               scrollDirection: Axis.vertical,
@@ -83,11 +72,14 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     // _notificationCard(),
                     // _nextAppointmentText(),
                     _weatherCard(),
+                    SizedBox(
+                      height: 20.0,
+                    ),
                     _appoinmentCard(),
-                    _areaSpecialistsText(),
-                    _specialistsCardInfo(),
-                    _specialistsCardInfo(),
-                    _specialistsCardInfo(),
+                    // _areaSpecialistsText(),
+                    // _specialistsCardInfo(),
+                    // _specialistsCardInfo(),
+                    // _specialistsCardInfo(),
 
                     //_specialistsCardInfo(),
                   ],
@@ -117,7 +109,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 blurRadius: 5.5,
               )
             ]),
-        // child: MoodsSelector(),
+        child: _weatherCard(),
       ),
     );
   }
@@ -181,11 +173,13 @@ class _DashboardScreenState extends State<DashboardScreen> {
         );
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-      padding: const EdgeInsets.all(5.0),
-      child: const Text(
-        'Weather Report',
-        style: TextStyle(
-            fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
+      child: Padding(
+        padding: const EdgeInsets.all(15.0),
+        child: const Text(
+          'Weather Report',
+          style: TextStyle(
+              fontWeight: FontWeight.w500, fontSize: 35, color: Colors.white),
+        ),
       ),
     );
   }
@@ -200,11 +194,16 @@ class _DashboardScreenState extends State<DashboardScreen> {
         );
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-      padding: const EdgeInsets.all(5.0),
-      child: const Text(
-        'Start Analysis',
-        style: TextStyle(
-            fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
+      child: Padding(
+        padding: const EdgeInsets.all(15.0),
+        child: const Text(
+          'Start Analysis',
+          style: TextStyle(
+            fontWeight: FontWeight.w500,
+            fontSize: 40,
+            color: Colors.white,
+          ),
+        ),
       ),
     );
   }
