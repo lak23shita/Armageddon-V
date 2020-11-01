@@ -24,11 +24,11 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
   FlareControls _controller;
 
   static const para = [
-    "Season",
-    "Area",
-    "Last Year production",
-    "Depth of tubewell",
-    "Energy source"
+    "season",
+    "area",
+    "last_year",
+    "depth",
+    "energy"
   ];
 
   @override
@@ -49,7 +49,7 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
           children: <Widget>[
             const SizedBox(height: 25),
             Text(
-              para[index],
+              getTranslated(context,para[index]),
               textAlign: TextAlign.center,
               style: TextStyle(color: Colors.white, fontSize: 40),
             ),

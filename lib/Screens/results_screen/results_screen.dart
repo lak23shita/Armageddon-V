@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:kissan_mitra/Screens/crop_details_screen/crop_details_screen.dart';
+import 'package:kissan_mitra/localization/language_constants.dart';
 
 class ResultsScreen extends StatelessWidget {
   const ResultsScreen({Key key, this.result}) : super(key: key);
@@ -41,7 +42,7 @@ class ResultsScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: Text(
-                  "Alternate Crops",
+                  getTranslated(context, "alternative"),
                   style: TextStyle(
                     fontSize: 50,
                     color: Colors.white,

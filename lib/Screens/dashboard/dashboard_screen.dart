@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:kissan_mitra/classes/language.dart';
+import 'package:kissan_mitra/localization/language_constants.dart';
 
 import '../../constants.dart';
+import '../../main.dart';
 import '../analysis_screen/analysis_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
@@ -11,13 +14,50 @@ class DashboardScreen extends StatefulWidget {
 }
 
 class _DashboardScreenState extends State<DashboardScreen> {
+  final GlobalKey<FormState> _key = GlobalKey<FormState>();
+  void _changeLanguage(Language language) async {
+    Locale _locale = await setLocale(language.languageCode);
+    App.setLocale(context, _locale);
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // body: SafeArea(
       backgroundColor: mainBgColor,
+      // appBar: AppBar(
+      //   actions: <Widget>[
+      //     Padding(
+      //       padding: const EdgeInsets.all(8.0),
+      //       child: DropdownButton<Language>(
+      //         underline: SizedBox(),
+      //         icon: Icon(
+      //           Icons.language,
+      //           color: Colors.white,
+      //         ),
+      //         onChanged: (Language language) {
+      //           _changeLanguage(language);
+      //         },
+      //         items: Language.languageList()
+      //             .map<DropdownMenuItem<Language>>(
+      //               (e) => DropdownMenuItem<Language>(
+      //             value: e,
+      //             child: Row(
+      //               mainAxisAlignment: MainAxisAlignment.spaceAround,
+      //               children: <Widget>[
+      //                 Text(e.name)
+      //               ],
+      //             ),
+      //           ),
+      //         )
+      //             .toList(),
+      //       ),
+      //     ),
+      //   ],
+      // ),
+      // body: SafeArea(
       body: SingleChildScrollView(
+
         child: Column(
+
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Stack(
@@ -88,9 +128,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
         gradient: LinearGradient(
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
-            colors: [Colors.green[300], Colors.green]),
-        borderRadius: BorderRadius.only(
-          bottomLeft: Radius.circular(40),
+            colors: [Colors.green[300], Colors.green],
+        ),
+        borderRadius: BorderRadius.only(bottomLeft: Radius.circular(40),
           bottomRight: Radius.circular(40),
         ),
       ),
@@ -106,7 +146,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            'Welcome Kissan Name!!!',
+            getTranslated(context, "kissan_name"),
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.w500,
@@ -117,7 +157,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             height: 15,
           ),
           Text(
-            'Weather Details..',
+            getTranslated(context, "weather"),
             style: TextStyle(
               fontSize: 25,
               fontWeight: FontWeight.w400,
@@ -181,7 +221,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text(
-            'Previous Crop Prediction',
+            getTranslated(context, "previous_crop"),
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w700,
@@ -231,7 +271,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 children: <Widget>[
                   RichText(
                     text: TextSpan(
-                      text: 'Rice\n',
+                      text: "\nRice",
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 15,
@@ -240,7 +280,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       ),
                       children: <TextSpan>[
                         TextSpan(
-                          text: 'rabi',
+                          text: "\nRabi",
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 16,
@@ -248,7 +288,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           ),
                         ),
                         TextSpan(
-                          text: '\nDrip Irrigation',
+                          text: "\nDrip Irrigation",
                           style: TextStyle(
                             color: Colors.black45,
                             fontWeight: FontWeight.w400,
