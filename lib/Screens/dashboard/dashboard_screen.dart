@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-
-import '../../constants.dart';
-import '../analysis_screen/analysis_screen.dart';
+import 'package:kissan_mitra/Screens/analysis_screen/analysis_screen.dart';
+import 'package:kissan_mitra/Screens/dashboard/weather.dart';
+import 'package:kissan_mitra/constants.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({Key key}) : super(key: key);
@@ -42,6 +42,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   children: <Widget>[
                     // _notificationCard(),
                     // _nextAppointmentText(),
+                    _weatherCard(),
                     _appoinmentCard(),
                     _areaSpecialistsText(),
                     _specialistsCardInfo(),
@@ -129,6 +130,25 @@ class _DashboardScreenState extends State<DashboardScreen> {
     );
   }
 
+  Widget _weatherCard() {
+    return RaisedButton(
+      color: Colors.green,
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => WeatherApp()),
+        );
+      },
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
+      padding: const EdgeInsets.all(5.0),
+      child: const Text(
+        'Weather Report',
+        style: TextStyle(
+            fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
+      ),
+    );
+  }
+
   Widget _appoinmentCard() {
     return RaisedButton(
       color: Colors.green,
@@ -139,14 +159,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
         );
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-      // padding: const EdgeInsets.all(0.0),
-      child: const Padding(
-        padding: EdgeInsets.all(15.0),
-        child: Text(
-          'Start Analysis',
-          style: TextStyle(
-              fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
-        ),
+      padding: const EdgeInsets.all(5.0),
+      child: const Text(
+        'Start Analysis',
+        style: TextStyle(
+            fontWeight: FontWeight.w500, fontSize: 25, color: Colors.white),
       ),
     );
   }
