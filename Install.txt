@@ -1,0 +1,10 @@
+Install Python 3.6 +
+Create an account with AWS
+Run the machine learning model with Amazon SageMaker
+Create Lambda function with AWS Lambda
+Edit the Lambda function in accordance to the problem statement
+Link Lambda function to the End Point of the ML model
+Create REST API
+Test the REST API with Postman
+Integrate the REST API with the app
+Get I/P from the end-user
